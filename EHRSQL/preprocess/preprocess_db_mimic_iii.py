@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 from collections import Counter
+import pymysql
 import sqlite3
 
 import warnings
@@ -47,7 +48,10 @@ class Build_MIMIC_III(Sampler):
             self.time_span = time_span
             self.current_time = current_time
 
-        self.conn = sqlite3.connect(os.path.join(self.out_dir, db_name + ".sqlite"))
+        # self.conn = sqlite3.connect(os.path.join(self.out_dir, db_name + ".sqlite"))
+            
+        self.conn = pymysql.connect(os.path.join(self.out_dir, db_name + ".sqlite"))
+            
         self.cur = self.conn.cursor()
         with open(os.path.join(self.out_dir, db_name + ".sql"), "r") as sql_file:
             sql_script = sql_file.read()
