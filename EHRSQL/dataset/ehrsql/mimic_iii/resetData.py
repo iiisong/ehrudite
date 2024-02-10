@@ -9,42 +9,34 @@ import shutil
 
 
 def reset() :
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\cost.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\D_ICD_DIAGNOSES.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\D_ICD_PROCEDURES.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\D_ITEMS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\D_LABITEMS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\DIAGNOSES_ICD.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\ICUSTAYS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\INPUTEVENTS_CV.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\LABEVENTS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\MICROBIOLOGYEVENTS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\OUTPUTEVENTS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\PRESCRIPTIONS.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\PROCEDURES_ICD.csv")
-    os.remove("EHRSQL\dataset\ehrsql\mimic_iii\TRANSFERS.csv")
+    files = ["PATIENTS.csv",
+             "ADMISSIONS.csv",
+             "CHARTEVENTS.csv",
+             "cost.csv", 
+             "D_ICD_DIAGNOSES.csv", 
+             "D_ICD_PROCEDURES.csv", 
+             "D_ITEMS.csv", 
+             "D_LABITEMS.csv", 
+             "DIAGNOSES_ICD.csv", 
+             "ICUSTAYS.csv", 
+             "INPUTEVENTS_CV.csv", 
+             "LABEVENTS.csv", 
+             "MICROBIOLOGYEVENTS.csv", 
+             "OUTPUTEVENTS.csv", 
+             "PRESCRIPTIONS.csv", 
+             "PROCEDURES_ICD.csv", 
+             "TRANSFERS.csv"]
+    
+    for file in files:
+        if os.path.exists("EHRSQL\dataset\ehrsql\mimic_iii\originalData\\" + file):
+            print("Resetting " + file + " to original data.")
+            os.remove("EHRSQL\dataset\ehrsql\mimic_iii\\" + file)
+            shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\\" + file, "EHRSQL\dataset\ehrsql\mimic_iii\\" + file)
+        else:
+            print("Error: " + file + " does not exist in originalData folder. Adding new.")
+            shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\\" + file, "EHRSQL\dataset\ehrsql\mimic_iii\\" + file)
 
 
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\PATIENTS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\ADMISSIONS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\CHARTEVENTS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\cost.csv", "EHRSQL\dataset\ehrsql\mimic_iii\cost.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\D_ICD_DIAGNOSES.csv", "EHRSQL\dataset\ehrsql\mimic_iii\D_ICD_DIAGNOSES.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\D_ICD_PROCEDURES.csv", "EHRSQL\dataset\ehrsql\mimic_iii\D_ICD_PROCEDURES.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\D_ITEMS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\D_ITEMS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\D_LABITEMS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\D_LABITEMS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\DIAGNOSES_ICD.csv", "EHRSQL\dataset\ehrsql\mimic_iii\DIAGNOSES_ICD.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\ICUSTAYS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\ICUSTAYS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\INPUTEVENTS_CV.csv", "EHRSQL\dataset\ehrsql\mimic_iii\INPUTEVENTS_CV.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\LABEVENTS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\LABEVENTS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\MICROBIOLOGYEVENTS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\MICROBIOLOGYEVENTS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\OUTPUTEVENTS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\OUTPUTEVENTS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\PRESCRIPTIONS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\PRESCRIPTIONS.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\PROCEDURES_ICD.csv", "EHRSQL\dataset\ehrsql\mimic_iii\PROCEDURES_ICD.csv")
-    shutil.copy("EHRSQL\dataset\ehrsql\mimic_iii\originalData\TRANSFERS.csv", "EHRSQL\dataset\ehrsql\mimic_iii\TRANSFERS.csv")
 
     print("Sucessfully reset all .csv files to original data.")
     print("===============================================")
