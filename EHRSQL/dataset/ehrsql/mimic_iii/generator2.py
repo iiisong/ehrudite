@@ -4,7 +4,12 @@ import pandas as pd
 
 
 
+
+
 # Useful data and variables
+
+
+maxNumAdmissions = 7
 
 files = ["PATIENTS.csv",
          "ADMISSIONS.csv",
@@ -124,72 +129,157 @@ def generateData_patients(num) :
 
 
 
+
         #insert calls for other table connections here
+        randTemp = random.randint(1, maxNumAdmissions)
+        for i in range(0, randTemp) :
+            admitTime = str(random.randint(0, 23)) + ':' + str(random.randint(0, 59))
+            dischTime = str(random.randint(0, 23)) + ':' + str(random.randint(0, 59))
+
+            origBirthYear = birthyear
+
+            birthyear += random.randint(1, 20)
+            birthMonth = random.randint(1, 12)
+            birthDay = random.randint(1, 28)
+
+            admit = str(birthyear) + '-' + str(birthMonth) + '-' + str(birthDay) + " " + admitTime
+            
+
+            birthMonth += random.randint(0,3)
+            birthDay += random.randint(0, 20)
+            if (birthDay > 28) :
+                birthMonth += 1
+                if (birthMonth > 12) : 
+                    birthMonth = 1
+                    birthyear += 1
+                
+                birthDay %= 28
+
+            discharge = str(birthyear) + '-' + str(birthMonth) + '-' + str(birthDay) + " " + dischTime
+
+
+            admissionTypes = ['emergency',
+                              'emergency',
+                              'elective',
+                              'urgent',
+                              'urgent']
+            admissionLocation = ['emergency room admit', 
+                                 'emergency room admit', 
+                                 'emergency room admit', 
+                                 'transfer from hosp/extram', 
+                                 'phys referral/normal deli', 
+                                 'phys referral/normal deli', 
+                                 'clinic referral/premature', 
+                                 'clinic referral/premature']
+            dischargeLocation = ['home health care',
+                                 'snf',
+                                 'rehab/distinct part hosp',
+                                 'home',
+                                 'hospice-home',
+                                 'disch-tran to psych hosp',
+                                 'home with home iv providr',
+                                 'long term care hospital',
+                                 'icf']
+            insurance = ['Medicare',
+                         'Medicaid',
+                         'Private',
+                         'Self Pay']
+            languages = ['ENGL',
+                         'SPAN',
+                         'RUSS',
+                         'PTUN',
+                         'CANT',
+                         'MAND',
+                         'ARAB',
+                         'VIET',
+                         'PORT',
+                         'HAIT',
+                         'ITAL',
+                         'GREE',
+                         'PERS',
+                         'CAMB',
+                         'POLI',
+                         'GERM',
+                         'DUTC',
+                         'ALBA',
+                         'FREN',
+                         'HIND',
+                         'URDU',
+                         'SERB',
+                         'HMNG',
+                         'LAOT',
+                         'THAI',
+                         'BURM',
+                         'JAPN',
+                         'KORE',
+                         'CHIN']
+            maritalStatus = ['MARRIED',
+                             'SINGLE',
+                             'DIVORCED',
+                             'WIDOWED'
+                             'SEPARATED']
+            ethinicity = ['WHITE',
+                          'BLACK/AFRICAN AMERICAN',
+                          'HISPANIC OR LATINO',
+                          'ASIAN',
+                          'AMERICAN INDIAN/ALASKA NATIVE',
+                          'OTHER']
 
 
 
-def generateData_admissions(num, startRow, potIds) :
+            generateData_admissions(additionalData['subject_id'][0], 
+                                    admit, discharge, 
+                                    random.choice(admissionTypes), 
+                                    random.choice(admissionLocation), 
+                                    ('dead/expired' if i == randTemp and random.choice(True, False, False, False) else random.choice(dischargeLocation)), 
+                                    random.choice(insurance), 
+                                    ('' if random.randint(0, 10) < 7 else random.choice(languages)), 
+                                    random.choice(maritalStatus), 
+                                    random.choice(ethinicity), 
+                                    origBirthYear - birthyear)
+
+
+
+def generateData_admissions(subjId, 
+                            admitTime, 
+                            dischTime, 
+                            admissionType, 
+                            admissionLocation, 
+                            dischargeLocation, 
+                            insurance, 
+                            language, 
+                            maritalStatus,
+                            ethinicity, 
+                            age) :
     
     additionalData = {
-        'row_id': [],
-        'subject_id': [],
+        'row_id': [startRow['admissions']],
+        'subject_id': [subjId],
         'hadm_id': [],
-        'admittime': [],
-        'dischtime': [],
-        'admission_type': [],
-        'admission_location': [],
-        'discharge_location': [],
-        'insurance': [],
-        'language': [],
-        'marital_status': [],
-        'ethnicity': [],
-        'AGE': []
+        'admittime': [admitTime],
+        'dischtime': [dischTime],
+        'admission_type': [admissionType],
+        'admission_location': [admissionLocation],
+        'discharge_location': [dischargeLocation],
+        'insurance': [insurance],
+        'language': [language],
+        'marital_status': [maritalStatus],
+        'ethnicity': [ethinicity],
+        'AGE': [age]
     }
-
-    currentNo = 44228
-
+    startRow['admissions'] += 1
     admissions = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv")
 
-    # generate hadm_ids
-    hadmPot = ()
-    while(len(hadmPot) < num) :
-        temp = random.randint(100376, 420000)
-        if (temp not in hadmPot and temp not in admissions['hadm_id']) :
-            hadmPot = hadmPot + (temp,)
-
-    # # for future potential data consistency
-    # startYear = 2106
-    # startMonth = 1
-    # startDay = 1
 
 
-    for i in range(0, num) :
-
-        additionalData['row_id'].append(startRow)
-        additionalData['subject_id'].append(potIds[int(len(potIds)*(i/num))]) # approximate randomness achieved
-        additionalData['hadm_id'].append(hadmPot[i])
-
-        admitYear = (random.randint(2010,2100))
-        admitMonth = (random.randomint(1,12))
-        admitDay = (random.randomint(1,28))
+    # generate hadm_id
+    hadmPot = random.randint(100376, 420000)
+    while(hadmPot in admissions['hadm_id']) :
+        hadmPot = random.randint(100376, 420000)
         
-        admitDate = str(admitYear) + '-' + str(admitMonth) + '-' + str(admitDay) + " " + random.randint(0,23) + ':' + random.randint(0,59)
-        additionalData['admittime'].append(admitDate)
-
-        
+    additionalData['hadm_id'].append(hadmPot)
 
 
-
-        if (random.choice([True, False])) :
-            death = str(birthyear + random.randint(30,100)) + '-' + str(random.randint(1,12)) + '-' + str(random.randint(1,28))
-            death += " 00:00"
-            additionalData['dod'].append(death)
-        else :
-            additionalData['dod'].append('')
-
-        startRow += 1
-
-    return additionalData
 
 
 

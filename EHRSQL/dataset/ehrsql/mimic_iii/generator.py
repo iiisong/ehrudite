@@ -121,68 +121,68 @@ def generateData_patients(num, startRow) :
 
     return additionalData
 
-def generateData_admissions(num, startRow, potIds) :
+# def generateData_admissions(num, startRow, potIds) :
     
-    additionalData = {
-        'row_id': [],
-        'subject_id': [],
-        'hadm_id': [],
-        'admittime': [],
-        'dischtime': [],
-        'admission_type': [],
-        'admission_location': [],
-        'discharge_location': [],
-        'insurance': [],
-        'language': [],
-        'marital_status': [],
-        'ethnicity': [],
-        'AGE': []
-    }
+#     additionalData = {
+#         'row_id': [],
+#         'subject_id': [],
+#         'hadm_id': [],
+#         'admittime': [],
+#         'dischtime': [],
+#         'admission_type': [],
+#         'admission_location': [],
+#         'discharge_location': [],
+#         'insurance': [],
+#         'language': [],
+#         'marital_status': [],
+#         'ethnicity': [],
+#         'AGE': []
+#     }
 
-    currentNo = 44228
+#     currentNo = 44228
 
-    admissions = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv")
+#     admissions = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv")
 
-    # generate hadm_ids
-    hadmPot = ()
-    while(len(hadmPot) < num) :
-        temp = random.randint(100376, 420000)
-        if (temp not in hadmPot and temp not in admissions['hadm_id']) :
-            hadmPot = hadmPot + (temp,)
+#     # generate hadm_ids
+#     hadmPot = ()
+#     while(len(hadmPot) < num) :
+#         temp = random.randint(100376, 420000)
+#         if (temp not in hadmPot and temp not in admissions['hadm_id']) :
+#             hadmPot = hadmPot + (temp,)
 
-    # # for future potential data consistency
-    # startYear = 2106
-    # startMonth = 1
-    # startDay = 1
+#     # # for future potential data consistency
+#     # startYear = 2106
+#     # startMonth = 1
+#     # startDay = 1
 
 
-    for i in range(0, num) :
+#     for i in range(0, num) :
 
-        additionalData['row_id'].append(startRow)
-        additionalData['subject_id'].append(potIds[int(len(potIds)*(i/num))]) # approximate randomness achieved
-        additionalData['hadm_id'].append(hadmPot[i])
+#         additionalData['row_id'].append(startRow)
+#         additionalData['subject_id'].append(potIds[int(len(potIds)*(i/num))]) # approximate randomness achieved
+#         additionalData['hadm_id'].append(hadmPot[i])
 
-        admitYear = (random.randint(2010,2100))
-        admitMonth = (random.randomint(1,12))
-        admitDay = (random.randomint(1,28))
+#         admitYear = (random.randint(2010,2100))
+#         admitMonth = (random.randomint(1,12))
+#         admitDay = (random.randomint(1,28))
         
-        admitDate = str(admitYear) + '-' + str(admitMonth) + '-' + str(admitDay) + " " + random.randint(0,23) + ':' + random.randint(0,59)
-        additionalData['admittime'].append(admitDate)
+#         admitDate = str(admitYear) + '-' + str(admitMonth) + '-' + str(admitDay) + " " + random.randint(0,23) + ':' + random.randint(0,59)
+#         additionalData['admittime'].append(admitDate)
 
         
 
 
 
-        if (random.choice([True, False])) :
-            death = str(birthyear + random.randint(30,100)) + '-' + str(random.randint(1,12)) + '-' + str(random.randint(1,28))
-            death += " 00:00"
-            additionalData['dod'].append(death)
-        else :
-            additionalData['dod'].append('')
+#         if (random.choice([True, False])) :
+#             death = str(birthyear + random.randint(30,100)) + '-' + str(random.randint(1,12)) + '-' + str(random.randint(1,28))
+#             death += " 00:00"
+#             additionalData['dod'].append(death)
+#         else :
+#             additionalData['dod'].append('')
 
-        startRow += 1
+#         startRow += 1
 
-    return additionalData
+#     return additionalData
 
 
 
