@@ -38,7 +38,7 @@ def reset() :
 
 
 
-    print("Sucessfully reset all .csv files to original data.")
+    print("\nSucessfully reset all .csv files to original data.")
     print("===============================================")
 
 

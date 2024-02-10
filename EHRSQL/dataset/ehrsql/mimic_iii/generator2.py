@@ -27,7 +27,7 @@ files = ["PATIENTS.csv",
 
 numGenerate = {
     'patients': 300,
-    'admissions': 400,
+    'admissions': 0,
     'chartEvents': 0,
     'cost': 0,
     'd_icd_diag': 0,
@@ -87,20 +87,21 @@ startRow = {
 
 
 
-def generateData_patients(num, startRow) :
-    
-    additionalData = {
-        'row_id': [],
-        'subject_id': [],
-        'gender': [],
-        'dob': [],
-        'dod': []
-    }
-
+def generateData_patients(num) :
     currentNo = 44228
 
     for i in range(0, num) :
-        additionalData['row_id'].append(startRow)
+        additionalData = {
+            'row_id': [],
+            'subject_id': [],
+            'gender': [],
+            'dob': [],
+            'dod': []
+        }
+
+        additionalData['row_id'].append(startRow['patients'])
+        startRow['patients'] += 1
+
         additionalData['subject_id'].append(currentNo + int(random.uniform(0, 100)))
         additionalData['gender'].append(random.choice(['m', 'f']))
         # additionalData['dob'].append('1990-01-01')
@@ -110,16 +111,22 @@ def generateData_patients(num, startRow) :
         birth += " 00:00"
         additionalData['dob'].append(birth)
 
-        if (random.choice([True, False])) :
+        if (random.choice([True, False, False])) :
             death = str(birthyear + random.randint(30,100)) + '-' + str(random.randint(1,12)) + '-' + str(random.randint(1,28))
             death += " 00:00"
             additionalData['dod'].append(death)
         else :
             additionalData['dod'].append('')
 
-        startRow += 1
 
-    return additionalData
+        newData_patients = pd.DataFrame(additionalData)
+        newData_patients.to_csv("EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv", mode='a', header=False, index=False)
+
+
+
+        #insert calls for other table connections here
+
+
 
 def generateData_admissions(num, startRow, potIds) :
     
@@ -186,29 +193,20 @@ def generateData_admissions(num, startRow, potIds) :
 
 
 
-
+# generate patient
+# calls generate admission at least once
+# each admission has a HADM_ID which calls multiple CHARTEVENTS
 
 
 
 import resetData
 
-
-
-# startRow = len(patients.index) # number of rows already there -- row counter starts at 0
-# print(len(patients.index))
-
-
-newData_patients = pd.DataFrame(generateData_patients(numGenerate['patients'], startRow['patients']))
-
-print(newData_patients)
-# print(generateData(10,1))
-
+generateData_patients(numGenerate['patients'])
 
 
 
 
 # accesssing existing data 
-patients = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv")
 # admissions = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv")
 # chartEvents = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv")
 # cost = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\cost.csv")
@@ -228,8 +226,9 @@ patients = pd.read_csv("EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv")
 
 
 
-newData_patients.to_csv("EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv", mode='a', header=False, index=False)
+# print("Sucessfully added " + str(numGenerate) + " rows to PATIENTS.csv")
 
+print("Sucessfully added " + str(numGenerate['patients']) + " patients")
 
-
-print("Sucessfully added " + str(numGenerate) + " rows to PATIENTS.csv")
+print("\nDetails about addition:")
+print(numGenerate)
