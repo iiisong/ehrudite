@@ -5,11 +5,33 @@ import pandas as pd
 
 
 
+# ===========================================================
+# ||||||||         Useful data and variables         ||||||||
+# ===========================================================
 
-# Useful data and variables
+maxNumAdmissionsPerPatient = 3
+
+numGenerate = {
+    'patients': 50, # all other values are used to count the number of additions
+    'admissions': 0,
+    'chartEvents': 0,
+    'cost': 0,
+    'd_icd_diag': 0,
+    'd_icd_proce': 0,
+    'd_items': 0,
+    'd_labItems': 0,
+    'diagnoses_icd': 0,
+    'icuStays': 0,
+    'inputEvents': 0,
+    'labEvents': 0,
+    'microbiologyEvents': 0,
+    'outputEvents': 0,
+    'prescriptions': 0,
+    'procedures_icd': 0,
+    'transfers': 0
+}
 
 
-maxNumAdmissions = 7
 
 files = ["PATIENTS.csv",
          "ADMISSIONS.csv",
@@ -30,32 +52,14 @@ files = ["PATIENTS.csv",
          "TRANSFERS.csv"]
 
 
-numGenerate = {
-    'patients': 300,
-    'admissions': 0,
-    'chartEvents': 0,
-    'cost': 0,
-    'd_icd_diag': 0,
-    'd_icd_proce': 0,
-    'd_items': 0,
-    'd_labItems': 0,
-    'diagnoses_icd': 0,
-    'icuStays': 0,
-    'inputEvents': 0,
-    'labEvents': 0,
-    'microbiologyEvents': 0,
-    'outputEvents': 0,
-    'prescriptions': 0,
-    'procedures_icd': 0,
-    'transfers': 0
-}
+
 
 
 startRow = {
-    'patients': 50,
+    'patients': 100,
     'admissions': 124,
     'chartEvents': 237004,
-    'cost': 0,
+    'cost': 61181,
     'd_icd_diag': 0,
     'd_icd_proce': 0,
     'd_items': 0,
@@ -66,16 +70,16 @@ startRow = {
     'labEvents': 0,
     'microbiologyEvents': 0,
     'outputEvents': 0,
-    'prescriptions': 0,
+    'prescriptions': 8658,
     'procedures_icd': 0,
     'transfers': 0
 }
 
 # Completed 
 # [x] generateData patients 
-# [ ] generateData admissions
-# [ ] generateData charterEvents
-# [ ] generateData cost
+# [x] generateData admissions
+# [x] generateData chartEvents
+# [x] generateData cost
 # [ ] generateData d_icd_diag
 # [ ] generateData d_icd_proce
 # [ ] generateData d_items
@@ -86,7 +90,7 @@ startRow = {
 # [ ] generateData labEvents
 # [ ] generateData microbiologyEvents
 # [ ] generateData outputEvents
-# [ ] generateData prescriptions
+# [x] generateData prescriptions
 # [ ] generateData procedures_icd
 # [ ] generateData transfers
 
@@ -126,6 +130,7 @@ def generateData_patients(num) :
 
         newData_patients = pd.DataFrame(additionalData)
         newData_patients.to_csv("EHRSQL\dataset\ehrsql\mimic_iii\PATIENTS.csv", mode='a', header=False, index=False)
+        print("successfully added patient at row ", i, " no. ", additionalData['subject_id'][0])
 
 
 
@@ -198,7 +203,7 @@ def generateData_patients(num) :
                         'AMERICAN INDIAN/ALASKA NATIVE',
                         'OTHER']
 
-        randTemp = random.randint(1, maxNumAdmissions)
+        randTemp = random.randint(1, maxNumAdmissionsPerPatient)
         for i in range(0, randTemp) :
             admitTime = str(random.randint(0, 23)) + ':' + str(random.randint(0, 59))
             dischTime = str(random.randint(0, 23)) + ':' + str(random.randint(0, 59))
@@ -222,6 +227,12 @@ def generateData_patients(num) :
                 
                 birthDay %= 28
 
+
+            if (birthMonth > 12) : 
+                birthMonth %= 12
+                birthyear += 1
+                
+
             discharge = str(birthyear) + '-' + str(birthMonth) + '-' + str(birthDay) + " " + dischTime
             
 
@@ -234,6 +245,11 @@ def generateData_patients(num) :
                     birthyear += 1
                 
                 birthDay %= 28
+
+            if (birthMonth > 12) : 
+                birthMonth %= 12
+                birthyear += 1
+                
             altDischTime = str(birthyear) + '-' + str(birthMonth) + '-' + str(birthDay) + " 00:00"
 
 
@@ -247,7 +263,8 @@ def generateData_patients(num) :
                                     ('' if random.randint(0, 10) < 7 else random.choice(languages)), 
                                     random.choice(maritalStatus), 
                                     random.choice(ethinicity), 
-                                    origBirthYear - birthyear
+                                    origBirthYear - birthyear,
+                                    altDischTime
                                     )
 
 def generateData_admissions(subjId, 
@@ -294,10 +311,14 @@ def generateData_admissions(subjId,
     # add data
     newData_admissions = pd.DataFrame(additionalData)
     newData_admissions.to_csv("EHRSQL\dataset\ehrsql\mimic_iii\ADMISSIONS.csv", mode='a', header=False, index=False)
-
+    numGenerate['admissions'] += 1
+    print("successfully added admission ", numGenerate['admissions'])
 
 
     #insert calls for other table connections here
+
+
+    # perscriptions
     drugsAndDoses = [
                 ['mirtazapine','15', 'mg','po/ng'],
                 ['0.9% sodium chloride','100', 'ml','iv drip'],
@@ -1537,19 +1558,21 @@ def generateData_admissions(subjId,
                 ['tocopheryl','400', 'unit','po']
         ]
 
-    for i in range(0, random.randint(0,2) + random.randint(0,7)) :
+    for i in range(0, random.randint(0,3)) :
         drugChoice = random.choice(drugsAndDoses)
-        generateData_chartEvents(subjId, 
+        print("drugchoice:\t",drugChoice)
+        generateData_prescriptions(subjId, 
                                  additionalData['hadm_id'][0], 
                                  dischTime,
                                  altDischTime,
-                                 random.choice(drugChoice)[0],
-                                 random.choice(drugChoice)[1],
-                                 random.choice(drugChoice)[2],
-                                 random.choice(drugChoice)[3])
+                                 drugChoice[0],
+                                 drugChoice[1],
+                                 drugChoice[2],
+                                 drugChoice[3])
 
 
     # Transfer
+    # chartevents
     # Cost
     # Procedures ICD
     # Lab Events
@@ -1558,11 +1581,8 @@ def generateData_admissions(subjId,
     # ice stays
     # microbiologyevents
     # diagnosis icd
-    # perscriptions
 
-
-
-def generateData_chartEvents(subjId, 
+def generateData_prescriptions(subjId, 
                              hadm_id, 
                              startDate,
                              endDate,
@@ -1586,14 +1606,22 @@ def generateData_chartEvents(subjId,
     df = pd.DataFrame(additionalData)
     df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv', mode='a', header=False, index=False)
     print("Sucessfully added row to CHARTEVENTS.csv")
-
+    numGenerate['prescriptions'] += 1
 
 
 
     # call cost
-    generateData_cost(subjId, hadm_id, 'prescriptions', startRow['prescriptions'], startDate, round(random.uniform(1.00,18.00), 2))
+    generateData_cost(subjId, hadm_id, 'prescriptions', eventTypeCounter['prescriptions'], startDate, round(random.uniform(1.00,18.00), 2))
+    eventTypeCounter['prescriptions'] += 1
 
 
+
+originalEventTypeCounter = {
+    'diagnoses_icd':1598, 
+    'labevents': 50446,
+    'procedures_icd': 479,
+    'prescriptions': 8658
+}
 
 eventTypeCounter = {
     'diagnoses_icd':1598, 
@@ -1622,6 +1650,7 @@ def generateData_cost(subjId,
     df = pd.DataFrame(additionalData)
     df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\cost.csv', mode='a', header=False, index=False)
     print("Sucessfully added row to cost.csv")
+    numGenerate['cost'] += 1
 
 
 
@@ -1671,3 +1700,11 @@ print("Sucessfully added " + str(numGenerate['patients']) + " patients")
 
 print("\nDetails about addition:")
 print(numGenerate)
+
+print("\nDetails about cost:")
+
+print("diagnoses_icd:\t", eventTypeCounter['diagnoses_icd'] - originalEventTypeCounter['diagnoses_icd'])
+print("labevents:\t", eventTypeCounter['labevents'] - originalEventTypeCounter['labevents'])
+print("procedures_icd:\t", eventTypeCounter['procedures_icd'] - originalEventTypeCounter['procedures_icd'])
+print("prescriptions:\t", eventTypeCounter['prescriptions'] - originalEventTypeCounter['prescriptions'])
+   
