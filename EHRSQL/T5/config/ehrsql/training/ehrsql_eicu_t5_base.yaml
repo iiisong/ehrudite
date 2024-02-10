@@ -1,0 +1,18 @@
+dataset: ehrsql
+db_id: eicu
+train_data_path : dataset/ehrsql/eicu/train.json
+valid_data_path : dataset/ehrsql/eicu/valid.json
+
+exp_name : ehrsql_eicu_t5_base
+mode: train
+load_model_path: 
+train_batch_size: 4
+accumulation_steps: 8
+eval_batch_size: 8
+
+tables_path: 
+add_schema: false
+shuffle_schema: false
+
+# use_wandb: true
+# wandb_project: ehr-semantic-parsing
