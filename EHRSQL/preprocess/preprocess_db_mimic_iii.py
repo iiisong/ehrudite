@@ -595,7 +595,7 @@ class Build_MIMIC_III(Sampler):
         rows = read_csv(self.out_dir, "PRESCRIPTIONS.csv")
         rows.to_sql("PRESCRIPTIONS", self.conn, if_exists="append", index=False)
 
-        rows = read_csv(self.out_dir, "cost.csv")
+        rows = read_csv(self.out_dir, "COST.csv")
         rows.to_sql("COST", self.conn, if_exists="append", index=False)
 
         rows = read_csv(self.out_dir, "CHARTEVENTS.csv")
