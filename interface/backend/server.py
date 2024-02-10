@@ -13,7 +13,7 @@ def process_data():
     return jsonify({'processed_text': processed_text})
 
 def process_text(text):
-    response_text = codex.run_engine(text)
+    response_text = codex.run_prev_engine(text)
     #is result valid query
         #loop below if returned rerun or 5 trials
             #call next function

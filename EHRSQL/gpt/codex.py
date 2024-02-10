@@ -19,11 +19,11 @@ def parse_args():
     args.add_argument('--output_file', default='prediction.json', type=str, help='outnput file name')
     return args.parse_args()
 
-def run_engine(prompt):
+def run_prev_engine(prompt):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     print(prompt)
     response = client.chat.completions.create(model="gpt-3.5-turbo-0125",
-    messages=[{"role": "user", "content": prompt}],
+    messages=[{"role": "user", "content": 'Return a sql structure:' + prompt}],
     temperature=0,
     max_tokens=512,
     top_p=1.0,
@@ -41,9 +41,6 @@ if __name__ == '__main__':
 
     with open(args.api_key_path) as f:
         OPENAI_API_KEY = json.load(f)
-    
-
-    client = OpenAI(api_key=OPENAI_API_KEY["API_KEY"])
 
     if args.prompt_path == '':
         prompt = ''
@@ -74,3 +71,43 @@ if __name__ == '__main__':
     out_file = os.path.join(args.inference_result_path, args.output_file)
     with open(out_file, 'w') as f:
         json.dump(result, f)
+
+def run_engine(prompt):
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    assistant = client.beta.assistants.create(
+        name="SQL Bot",
+        instructions="You simply output an SQL query or if more information is needed. For example, Given the question 'what is the intake method of lidocaine 5% ointment?' I would expect the response 'select distinct prescriptions.route from prescriptions where prescriptions.drug = 'lidocaine 5% ointment''",
+        model="gpt-3.5-turbo-0125"
+    )
+    thread = client.beta.threads.create()
+    message = client.beta.threads.messages.create(
+        thread_id=thread.id,
+        role="user",
+        content=prompt
+    )
+    run = client.beta.threads.runs.create(
+        thread_id=thread.id,
+        assistant_id=assistant.id,
+        instructions="Answer the question in SQL format."
+    )
+    run = client.beta.threads.runs.retrieve(
+        thread_id=thread.id,
+        run_id=run.id
+    )
+    messages = client.beta.threads.messages.list(
+        thread_id=thread.id
+    )
+    print(messages)
+    response = client.chat.completions.create(model="gpt-3.5-turbo-0125",
+    messages=[{"role": "user", "content": prompt}],
+    temperature=0,
+    max_tokens=512,
+    top_p=1.0,
+    frequency_penalty=0.0,
+    presence_penalty=0.0,
+    stop=["#", ";"])
+    print()
+    text = messages
+    text = f'{text}'
+    print(text)
+    return text

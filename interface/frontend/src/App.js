@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div>
+      <h1>What health information do you need?</h1>
       <form id="myForm" onSubmit={handleSubmit}>
         <input
           type="text"
