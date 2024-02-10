@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import json
 import time
@@ -18,9 +20,10 @@ def parse_args():
     return args.parse_args()
 
 def run_engine(prompt):
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     print(prompt)
     response = client.chat.completions.create(model="gpt-3.5-turbo-0125",
-    messages=[{"role": "user", "content": prompt}],
+    messages=[{"role": "user", "content": 'Return a sql query:' + prompt}],
     temperature=0,
     max_tokens=512,
     top_p=1.0,
@@ -29,7 +32,7 @@ def run_engine(prompt):
     stop=["#", ";"])
     print()
     text = response.choices[0].message.content
-    text = f'select{text}'
+    text = f'{text}'
     print(text)
     return text
 
@@ -38,9 +41,6 @@ if __name__ == '__main__':
 
     with open(args.api_key_path) as f:
         OPENAI_API_KEY = json.load(f)
-    
-
-    client = OpenAI(api_key=OPENAI_API_KEY["API_KEY"])
 
     if args.prompt_path == '':
         prompt = ''
