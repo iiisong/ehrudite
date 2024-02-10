@@ -1537,8 +1537,6 @@ def generateData_admissions(subjId,
                 ['tocopheryl','400', 'unit','po']
         ]
 
-
-
     for i in range(0, random.randint(0,2) + random.randint(0,7)) :
         drugChoice = random.choice(drugsAndDoses)
         generateData_chartEvents(subjId, 
@@ -1589,7 +1587,43 @@ def generateData_chartEvents(subjId,
     df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv', mode='a', header=False, index=False)
     print("Sucessfully added row to CHARTEVENTS.csv")
 
-    
+
+
+
+    # call cost
+    generateData_cost(subjId, hadm_id, 'prescriptions', startRow['prescriptions'], startDate, round(random.uniform(1.00,18.00), 2))
+
+
+
+eventTypeCounter = {
+    'diagnoses_icd':1598, 
+    'labevents': 50446,
+    'procedures_icd': 479,
+    'prescriptions': 8658
+}
+
+def generateData_cost(subjId, 
+                      hadm_id,
+                      eventType, 
+                      eventId, 
+                      chargeTime,
+                      cost) :
+    additionalData = {
+        'row_id': [startRow['cost']],
+        'subject_id': [subjId],
+        'hadm_id': [hadm_id],
+        'event_type':[eventType],
+        'event_id': [eventId],
+        'chargetime': [chargeTime],
+        'cost': [cost],
+    }
+    startRow['cost'] += 1
+
+    df = pd.DataFrame(additionalData)
+    df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\cost.csv', mode='a', header=False, index=False)
+    print("Sucessfully added row to cost.csv")
+
+
 
 
 
