@@ -1,49 +1,35 @@
-// Filename - App.js
-
-// Importing modules
-import React, { useState, useEffect } from "react";
-import "./App.css";
+import React, { useState } from 'react';
+import axios from 'axios';
 
 function App() {
-	// usestate for setting a javascript
-	// object for storing and using data
-	const [data, setdata] = useState({
-		name: "",
-		age: 0,
-		date: "",
-		programming: "",
-	});
+  const [text, setText] = useState('');
+  const [processedText, setProcessedText] = useState('');
 
-	// Using useEffect for single rendering
-	useEffect(() => {
-		// Using fetch to fetch the api from 
-		// flask server it will be redirected to proxy
-		fetch("/data").then((res) =>
-			res.json().then((data) => {
-				// Setting a data from api
-				setdata({
-					name: data.Name,
-					age: data.Age,
-					date: data.Date,
-					programming: data.programming,
-				});
-			})
-		);
-	}, []);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('/data', { text });
+      setProcessedText(response.data.processed_text);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
-	return (
-		<div className="App">
-			<header className="App-header">
-				<h1>React and flask</h1>
-				{/* Calling a data from setdata for showing */}
-				<p>{data.name}</p>
-				<p>{data.age}</p>
-				<p>{data.date}</p>
-				<p>{data.programming}</p>
-
-			</header>
-		</div>
-	);
+  return (
+    <div>
+      <form id="myForm" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          id="textInput"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          placeholder="Enter text"
+        />
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="output">{processedText && <p>{processedText}</p>}</div>
+    </div>
+  );
 }
 
 export default App;

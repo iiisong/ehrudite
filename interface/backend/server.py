@@ -1,28 +1,13 @@
-# Filename - server.py
+from flask import Flask, request, jsonify
 
-# Import flask and datetime module for showing date and time
-from flask import Flask
-import datetime
-
-x = datetime.datetime.now()
-
-# Initializing flask app
 app = Flask(__name__)
 
+@app.route('/data', methods=['POST'])
+def process_data():
+    data = request.get_json()
+    text = data['text']
+    processed_text = text.upper()
+    return jsonify({'processed_text': processed_text})
 
-# Route for seeing a data
-@app.route('/data')
-def get_time():
-
-	# Returning an api for showing in reactjs
-	return {
-		'Name':"geek", 
-		"Age":"22",
-		"Date":x, 
-		"programming":"python"
-		}
-
-	
-# Running app
 if __name__ == '__main__':
-	app.run(debug=True)
+    app.run(debug=True)
