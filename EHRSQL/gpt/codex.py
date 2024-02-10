@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import json
 import time
@@ -18,6 +20,7 @@ def parse_args():
     return args.parse_args()
 
 def run_engine(prompt):
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     print(prompt)
     response = client.chat.completions.create(model="gpt-3.5-turbo-0125",
     messages=[{"role": "user", "content": prompt}],
@@ -29,7 +32,7 @@ def run_engine(prompt):
     stop=["#", ";"])
     print()
     text = response.choices[0].message.content
-    text = f'select{text}'
+    text = f'{text}'
     print(text)
     return text
 
