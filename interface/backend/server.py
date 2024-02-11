@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sys
 import requests
 sys.path.append('../../')
-from EHRSQL.gpt import codex
+from genai import basic_wrap
 
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def process_data():
     return jsonify({'processed_text': processed_text})
 
 def process_text(text):
-    response_text = codex.run_engine(text)
+    response_text = basic_wrap.run_engine(text)
     #is result valid query
         #loop below if returned rerun or 5 trials
             #call next function
