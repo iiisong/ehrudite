@@ -3,6 +3,10 @@ import sys
 import requests
 sys.path.append('../../')
 from genai import basic_wrap
+from dotenv import load_dotenv
+load_dotenv()
+import os
+import mysql.connector
 
 app = Flask(__name__)
 
@@ -26,14 +30,19 @@ def process_text(text):
         response.raise_for_status()
     except requests.RequestException as e:
         print('Error making POST request:', e)
+    response_text = query(response_text)
     return response_text
 
-# def next():
-    # query database
-    #success?
-        #return 
-    #else
-        #return 'rerun'
+def query(script):
+    connection = mysql.connector.connect(
+        host= os.getenv("DB_HOST"),
+        user=os.getenv("DB_USERNAME"),
+        passwd= os.getenv("DB_PASSWORD"),
+        db= os.getenv("DB_NAME")
+    )
+    cursor = connection.cursor()
+    cursor.execute(script)
+    return cursor.fetchone()
 
 if __name__ == '__main__':
     app.run(debug=True)
