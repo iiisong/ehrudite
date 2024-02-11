@@ -12,6 +12,16 @@ warnings.filterwarnings("ignore")
 
 from preprocess_utils import Sampler, adjust_time, read_csv
 
+from sqlalchemy import create_engine, text
+import mysql.connector
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+host = os.getenv("DB_HOST")
+user = os.getenv("DB_USERNAME")
+password = os.getenv("DB_PASSWORD")
+database = os.getenv("DB_NAME")
 
 class Build_MIMIC_III(Sampler):
     def __init__(
@@ -47,11 +57,17 @@ class Build_MIMIC_III(Sampler):
             self.time_span = time_span
             self.current_time = current_time
 
-        self.conn = sqlite3.connect(os.path.join(self.out_dir, db_name + ".sqlite"))
-        self.cur = self.conn.cursor()
-        with open(os.path.join(self.out_dir, db_name + ".sql"), "r") as sql_file:
-            sql_script = sql_file.read()
-        self.cur.executescript(sql_script)
+
+        # self.conn = sqlite3.connect(os.path.join(self.out_dir, db_name + ".sqlite"))
+        # self.cur = self.conn.cursor()
+        # with open(os.path.join(self.out_dir, db_name + ".sql"), "r") as sql_file:
+        #     sql_script = sql_file.read()
+        # self.cur.executescript(sql_script)
+
+
+        conn_string = f'mysql+mysqlconnector://{user}:{password}@{host}/{database}'
+        engine = create_engine(conn_string, echo=True)
+        self.conn = engine.connect()
 
         self.chartevent2itemid = {
             "Temperature C (calc)".lower(): "677",  # body temperature
@@ -71,7 +87,7 @@ class Build_MIMIC_III(Sampler):
 
         # read patients
         PATIENTS_table = read_csv(self.data_dir, "PATIENTS.csv", columns=["row_id", "subject_id", "gender", "dob", "dod"], lower=True)
-        print(PATIENTS_table)
+        # print(PATIENTS_table)
         subjectid2dob = {pid: dob for pid, dob in zip(PATIENTS_table["subject_id"].values, PATIENTS_table["dob"].values)}
 
         # read admissions
@@ -464,7 +480,7 @@ class Build_MIMIC_III(Sampler):
         data_filter.append(temp)
 
         cost_table = pd.concat(data_filter, ignore_index=True)
-        cost_table.to_csv(os.path.join(self.out_dir, "cost.csv"), index=False)
+        cost_table.to_csv(os.path.join(self.out_dir, "COST.csv"), index=False)
         print(f"cost processed (took {round(time.time() - start_time, 4)} secs)")
 
     def build_chartevent_table(self):
@@ -565,6 +581,7 @@ class Build_MIMIC_III(Sampler):
         print(f"MICROBIOLOGYEVENTS processed (took {round(time.time() - start_time, 4)} secs)")
 
     def generate_db(self):
+        return
         rows = read_csv(self.out_dir, "PATIENTS.csv")
         rows.to_sql("PATIENTS", self.conn, if_exists="append", index=False)
 
@@ -595,7 +612,7 @@ class Build_MIMIC_III(Sampler):
         rows = read_csv(self.out_dir, "PRESCRIPTIONS.csv")
         rows.to_sql("PRESCRIPTIONS", self.conn, if_exists="append", index=False)
 
-        rows = read_csv(self.out_dir, "cost.csv")
+        rows = read_csv(self.out_dir, "COST.csv")
         rows.to_sql("COST", self.conn, if_exists="append", index=False)
 
         rows = read_csv(self.out_dir, "CHARTEVENTS.csv")
@@ -617,4 +634,4 @@ class Build_MIMIC_III(Sampler):
         rows.to_sql("TRANSFERS", self.conn, if_exists="append", index=False)
 
         query = "SELECT * FROM sqlite_master WHERE type='table'"
-        print(pd.read_sql_query(query, self.conn)["name"])  # 17 tables
+        # print(pd.read_sql_query(query, self.conn)["name"])  # 17 tables
