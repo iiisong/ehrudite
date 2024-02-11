@@ -6,9 +6,8 @@ function App() {
   const [text, setText] = useState('');
   const [processedText, setProcessedText] = useState('');
   const [messages, setMessages] = useState([]);
-  const [query, setQuery] = useState([]);
+  const [query, setQuery] = useState('');
   const [relqs, setRelqs] = useState([]);
-  const [headers, setHeaders] = useState([]);
 
   const fetchMessages = async () => {
     try {
@@ -29,8 +28,8 @@ function App() {
       fetchMessages();
       const response = await axios.post('/data', { text });
       setProcessedText(response.data.results);
-      setHeaders(response.data.results[0] ? response.data.results[0].map((_, index) => `Column ${index + 1}`) : [])
       setText('');
+      setQuery(response.data.query);
       setRelqs(response.data.sim_questions)
     } catch (error) {
       console.error('Error:', error);
@@ -41,7 +40,7 @@ function App() {
     e.preventDefault();
     try {
       fetchMessages();
-      const response = await axios.post('/data-query', { text });
+      const response = await axios.post('/data', { text });
       setProcessedText(response.data.results);
       setQuery('');
     } catch (error) {
