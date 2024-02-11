@@ -1,0 +1,125 @@
+row_id,subject_id,hadm_id,admittime,dischtime,admission_type,admission_location,discharge_location,insurance,language,marital_status,ethnicity,AGE
+0,10006,142345,2104-11-07 21:09:00,2104-11-16 17:15:00,emergency,emergency room admit,home health care,medicare,,separated,black/african american,70
+1,10011,105331,2102-08-20 22:32:00,2102-09-03 18:59:00,emergency,transfer from hosp/extram,dead/expired,private,,single,unknown/not specified,36
+2,10013,165520,2100-10-10 23:36:00,2100-10-13 15:13:00,emergency,transfer from hosp/extram,dead/expired,medicare,,,unknown/not specified,87
+3,10017,199207,2100-06-07 17:19:00,2100-06-15 18:42:00,emergency,emergency room admit,snf,medicare,,divorced,white,73
+4,10019,177759,2105-05-28 20:43:00,2105-05-29 12:00:00,emergency,transfer from hosp/extram,dead/expired,medicare,,divorced,white,48
+5,10026,103770,2105-06-08 07:39:00,2105-06-15 11:45:00,emergency,emergency room admit,rehab/distinct part hosp,medicare,,,white,299
+6,10027,199395,2104-08-03 07:15:00,2104-08-15 14:00:00,elective,phys referral/normal deli,snf,medicare,,married,white,82
+7,10029,132349,2105-09-30 10:58:00,2105-10-10 14:29:00,emergency,emergency room admit,snf,medicare,,divorced,white,78
+8,10032,140372,2104-04-10 19:52:00,2104-04-23 14:35:00,emergency,emergency room admit,rehab/distinct part hosp,medicare,,widowed,white,88
+9,10033,157235,2105-12-12 02:46:00,2105-12-15 15:15:00,emergency,emergency room admit,snf,medicare,poli,married,white,81
+10,10035,110244,2105-03-09 16:06:00,2105-03-13 18:19:00,elective,phys referral/normal deli,home,medicare,,married,white,75
+11,10036,189483,2100-04-14 16:56:00,2100-04-16 09:15:00,emergency,emergency room admit,dead/expired,medicare,,married,white,299
+12,10038,111115,2105-02-18 17:53:00,2105-03-02 13:30:00,emergency,emergency room admit,snf,medicare,engl,widowed,white,88
+13,10040,157839,2100-03-06 11:43:00,2100-03-10 16:19:00,emergency,transfer from hosp/extram,rehab/distinct part hosp,medicare,,,unknown/not specified,85
+14,10042,148562,2105-02-16 12:38:00,2105-02-27 19:00:00,emergency,transfer from hosp/extram,home health care,medicare,,,white,70
+15,10043,168674,2102-05-05 00:23:00,2102-05-17 18:20:00,emergency,emergency room admit,snf,medicare,,,white,76
+16,10044,124073,2105-10-14 16:24:00,2105-10-23 15:42:00,emergency,emergency room admit,home,medicare,,unknown (default),unknown/not specified,81
+17,10045,126949,2104-11-30 00:31:00,2104-12-07 01:45:00,emergency,emergency room admit,dead/expired,medicare,,married,white,68
+18,10046,133110,2103-08-18 23:43:00,2103-08-29 15:12:00,emergency,emergency room admit,rehab/distinct part hosp,medicaid,,single,white,53
+19,10056,100375,2103-05-09 00:12:00,2103-05-13 13:40:00,emergency,transfer from hosp/extram,snf,medicare,,unknown (default),white,83
+20,10059,142582,2100-08-19 21:40:00,2100-08-25 11:33:00,emergency,transfer from hosp/extram,home,medicare,,married,white,69
+21,10059,122098,2100-09-03 17:33:00,2100-09-10 18:20:00,emergency,emergency room admit,dead/expired,medicare,,married,white,69
+22,10061,145203,2101-01-17 11:33:00,2101-02-11 11:30:00,emergency,transfer from hosp/extram,rehab/distinct part hosp,medicare,,widowed,white,75
+23,10064,111761,2104-03-24 14:39:00,2104-03-24 18:09:00,emergency,emergency room admit,dead/expired,medicare,,,white,68
+24,10065,183314,2104-09-29 07:15:00,2104-10-11 14:00:00,elective,phys referral/normal deli,snf,private,engl,single,white,78
+25,10067,160442,2104-10-12 01:34:00,2104-10-12 02:29:00,emergency,emergency room admit,dead/expired,private,,,other,29
+26,10069,146672,2103-03-01 11:15:00,2103-03-20 18:41:00,emergency,emergency room admit,dead/expired,medicaid,,,unknown/not specified,41
+27,10074,170119,2105-02-26 22:10:00,2105-03-06 15:30:00,emergency,emergency room admit,home,medicare,,married,white,85
+28,10076,198503,2105-03-21 21:16:00,2105-03-30 12:00:00,emergency,emergency room admit,dead/expired,medicare,mand,married,asian,68
+29,10083,134993,2104-12-12 04:34:00,2104-12-29 16:30:00,emergency,emergency room admit,hospice-home,medicare,,married,white,82
+30,10088,169938,2104-01-05 11:59:00,2104-01-12 15:45:00,emergency,emergency room admit,snf,medicare,,unknown (default),white,77
+31,10088,168233,2104-01-30 04:00:00,2104-02-11 12:00:00,emergency,emergency room admit,snf,medicare,,unknown (default),white,77
+32,10088,149044,2104-05-12 18:00:00,2104-05-18 13:30:00,emergency,transfer from hosp/extram,snf,private,,unknown (default),white,77
+33,10089,190301,2104-08-12 18:48:00,2104-08-15 02:15:00,emergency,emergency room admit,dead/expired,medicare,,,white,86
+34,10090,176805,2103-01-17 14:26:00,2103-01-19 19:00:00,emergency,emergency room admit,disch-tran to psych hosp,private,engl,single,white,27
+35,10093,165393,2101-02-04 08:35:00,2101-02-05 03:05:00,emergency,emergency room admit,dead/expired,medicare,,widowed,white,87
+36,10094,168074,2105-03-19 18:54:00,2105-03-29 17:35:00,emergency,emergency room admit,snf,medicare,,,black/african american,299
+37,10094,122928,2105-04-03 22:35:00,2105-04-08 18:00:00,emergency,emergency room admit,dead/expired,medicare,,,black/african american,300
+38,10098,180685,2104-12-18 23:24:00,2104-12-19 15:55:00,emergency,emergency room admit,dead/expired,private,,,other,19
+39,10101,142539,2103-03-29 17:37:00,2103-03-31 19:00:00,emergency,emergency room admit,dead/expired,government,,married,white,72
+40,10102,164869,2104-05-29 18:18:00,2104-06-11 02:20:00,emergency,clinic referral/premature,dead/expired,medicare,,married,white,70
+41,10104,177678,2105-08-28 17:39:00,2105-09-04 13:12:00,emergency,emergency room admit,snf,medicare,,married,asian,70
+42,10106,133283,2105-09-28 22:22:00,2105-10-03 17:00:00,emergency,emergency room admit,home with home iv providr,private,,married,white,63
+43,10111,174739,2103-02-02 18:42:00,2103-02-20 17:17:00,emergency,emergency room admit,dead/expired,medicare,,widowed,black/african american,82
+44,10112,188574,2104-01-24 22:32:00,2104-01-30 15:03:00,urgent,transfer from hosp/extram,dead/expired,medicare,,divorced,white,78
+45,10114,167957,2103-11-16 19:03:00,2103-11-23 14:59:00,urgent,transfer from hosp/extram,home health care,private,,married,unknown/not specified,72
+46,10117,187023,2104-06-13 17:23:00,2104-06-19 10:16:00,emergency,emergency room admit,home,private,,single,unknown/not specified,66
+47,10117,105150,2104-11-17 18:08:00,2104-11-26 23:13:00,emergency,emergency room admit,dead/expired,private,,single,unknown/not specified,66
+48,10119,157466,2103-08-09 18:27:00,2103-08-23 16:15:00,emergency,emergency room admit,rehab/distinct part hosp,medicare,engl,married,white,81
+49,10119,165436,2103-08-25 06:58:00,2103-08-30 13:00:00,emergency,emergency room admit,rehab/distinct part hosp,medicare,engl,married,white,81
+50,10120,193924,2103-05-15 14:52:00,2103-05-18 02:15:00,emergency,transfer from hosp/extram,dead/expired,medicaid,,single,unknown/not specified,27
+51,10124,182664,2105-04-17 15:30:00,2105-04-27 14:21:00,emergency,emergency room admit,snf,medicare,russ,widowed,white,83
+52,10124,170883,2105-05-08 20:57:00,2105-06-06 19:28:00,emergency,emergency room admit,dead/expired,medicare,russ,widowed,white,83
+53,10126,160445,2102-07-29 06:02:00,2102-09-02 12:00:00,emergency,phys referral/normal deli,dead/expired,private,,single,white,44
+54,10127,182839,2104-07-21 05:34:00,2104-08-12 14:56:00,emergency,emergency room admit,rehab/distinct part hosp,private,,,white,17
+55,10130,156668,2101-02-14 16:26:00,2101-03-06 14:05:00,emergency,emergency room admit,home health care,private,,married,unknown/not specified,51
+56,10132,197611,2105-08-27 20:00:00,2105-09-21 14:00:00,emergency,emergency room admit,home health care,medicare,,married,white,65
+57,40124,126179,2105-02-10 02:26:00,2105-02-16 17:39:00,emergency,emergency room admit,snf,medicare,engl,single,white,66
+58,40124,146893,2105-08-18 05:49:00,2105-08-24 15:30:00,emergency,emergency room admit,snf,medicare,engl,single,white,67
+59,40177,198480,2102-05-23 23:16:00,2102-05-29 08:54:00,emergency,transfer from hosp/extram,dead/expired,medicare,engl,married,white,86
+60,40204,175237,2105-12-28 16:20:00,,emergency,emergency room admit,,medicare,engl,married,black/african american,76
+61,40277,127703,2101-08-25 02:23:00,2101-08-29 19:00:00,emergency,emergency room admit,home,medicare,engl,widowed,white,80
+62,40286,109698,2103-11-07 07:15:00,2103-11-12 13:18:00,elective,phys referral/normal deli,rehab/distinct part hosp,medicare,engl,divorced,white,83
+63,40304,174997,2102-12-06 18:34:00,2102-12-16 11:00:00,emergency,transfer from hosp/extram,snf,medicare,engl,married,white,76
+64,40310,186361,2103-07-22 15:02:00,2103-11-23 14:40:00,emergency,transfer from hosp/extram,rehab/distinct part hosp,private,engl,single,white,40
+65,40310,157609,2104-01-04 16:16:00,2104-01-11 16:40:00,emergency,transfer from hosp/extram,dead/expired,medicaid,engl,single,white,41
+66,40456,161765,2105-10-09 16:25:00,2105-10-12 13:30:00,emergency,emergency room admit,home,medicare,engl,widowed,white,87
+67,40503,168803,2102-07-27 19:59:00,2102-07-28 19:00:00,emergency,transfer from hosp/extram,dead/expired,medicare,engl,divorced,white,88
+68,40595,116518,2101-10-26 10:46:00,2101-11-04 09:00:00,emergency,transfer from hosp/extram,long term care hospital,medicare,engl,married,white,76
+69,40601,182879,2103-08-25 05:44:00,2103-08-31 15:30:00,emergency,emergency room admit,snf,private,engl,married,white,72
+70,40612,104697,2102-12-01 03:28:00,2102-12-06 14:15:00,emergency,emergency room admit,snf,medicare,span,single,hispanic or latino,86
+71,40655,126002,2101-07-29 19:32:00,2101-08-08 14:41:00,emergency,emergency room admit,snf,medicare,engl,widowed,white,299
+72,40687,129273,2104-03-20 02:35:00,2104-03-23 15:00:00,emergency,emergency room admit,dead/expired,medicare,engl,widowed,white,81
+73,41795,138132,2103-07-18 01:19:00,2103-07-31 19:15:00,emergency,emergency room admit,snf,medicare,engl,married,white,48
+74,41795,118192,2103-09-17 08:52:00,2103-09-20 16:25:00,emergency,emergency room admit,snf,medicare,engl,married,white,49
+75,41914,101361,2104-12-11 18:13:00,2104-12-28 17:45:00,emergency,transfer from hosp/extram,rehab/distinct part hosp,medicare,engl,married,white,55
+76,41976,125449,2102-11-22 06:54:00,2102-11-29 15:20:00,emergency,emergency room admit,snf,medicare,span,married,hispanic/latino - puerto rican,62
+77,41976,173269,2103-02-06 17:13:00,2103-02-09 15:23:00,emergency,emergency room admit,snf,medicare,span,married,hispanic/latino - puerto rican,62
+78,41976,176016,2103-02-24 22:26:00,2103-03-10 13:22:00,emergency,emergency room admit,snf,medicare,span,married,hispanic/latino - puerto rican,62
+79,41976,172082,2104-04-09 20:32:00,2104-04-20 17:00:00,emergency,emergency room admit,snf,medicare,span,married,hispanic/latino - puerto rican,63
+80,41976,152032,2104-07-02 16:14:00,2104-07-06 18:10:00,emergency,emergency room admit,snf,medicare,span,married,hispanic/latino - puerto rican,63
+81,41976,130681,2104-11-21 20:46:00,2104-11-26 18:45:00,emergency,clinic referral/premature,snf,medicare,span,married,hispanic/latino - puerto rican,64
+82,41976,180546,2105-06-04 10:49:00,2105-06-11 14:04:00,emergency,clinic referral/premature,icf,medicare,span,married,hispanic/latino - puerto rican,64
+83,41976,174863,2105-09-02 23:00:00,2105-09-05 16:55:00,emergency,clinic referral/premature,snf,medicare,span,married,hispanic/latino - puerto rican,65
+84,41976,125013,2105-10-21 16:47:00,2105-10-24 15:53:00,emergency,clinic referral/premature,long term care hospital,medicare,span,married,hispanic/latino - puerto rican,65
+85,41976,155297,2105-12-09 23:00:00,2105-12-12 16:30:00,emergency,clinic referral/premature,snf,medicare,span,married,hispanic/latino - puerto rican,65
+86,41983,107689,2105-09-23 17:04:00,2105-09-26 00:45:00,emergency,emergency room admit,dead/expired,medicare,engl,,white,299
+87,42033,154156,2103-08-02 17:13:00,2103-08-04 16:02:00,emergency,emergency room admit,dead/expired,medicare,engl,married,white,85
+88,42066,171628,2101-02-06 14:49:00,2101-02-13 12:00:00,emergency,transfer from hosp/extram,dead/expired,private,engl,single,white,50
+89,42075,151323,2104-02-28 17:57:00,2104-03-13 00:00:00,emergency,transfer from hosp/extram,dead/expired,medicare,engl,widowed,unable to obtain,80
+90,42135,102203,2105-07-28 15:21:00,2105-08-09 16:00:00,emergency,clinic referral/premature,home,medicaid,engl,married,american indian/alaska native federally recognized tribe,43
+91,42135,117105,2105-10-11 21:00:00,2105-11-02 12:50:00,emergency,emergency room admit,dead/expired,medicaid,engl,married,american indian/alaska native federally recognized tribe,44
+92,42199,178513,2103-03-25 12:55:00,2103-04-04 12:10:00,emergency,emergency room admit,snf,medicare,engl,married,white,72
+93,42231,171878,2105-08-28 07:15:00,2105-09-05 16:20:00,elective,phys referral/normal deli,home health care,medicare,engl,married,white,85
+94,42275,128293,2104-10-31 20:28:00,2104-11-03 17:22:00,emergency,emergency room admit,home,medicare,engl,married,white,77
+95,42281,195911,2103-10-21 05:58:00,2103-11-18 09:30:00,emergency,emergency room admit,dead/expired,medicare,engl,single,hispanic or latino,68
+96,42292,138503,2104-01-31 13:56:00,2104-02-03 13:45:00,emergency,emergency room admit,home,private,engl,single,white,63
+97,42302,167754,2105-05-18 14:10:00,2105-05-22 11:55:00,emergency,emergency room admit,snf,medicare,engl,single,white,85
+98,42321,114648,2105-12-11 20:49:00,2105-12-16 16:40:00,emergency,transfer from hosp/extram,snf,medicare,engl,widowed,other,80
+99,42346,180391,2103-12-31 13:47:00,2104-01-05 15:30:00,emergency,emergency room admit,snf,medicare,engl,single,white,88
+100,42346,175880,2104-01-10 11:45:00,2104-01-11 07:45:00,emergency,emergency room admit,dead/expired,medicare,engl,single,white,88
+101,42367,139932,2105-10-13 16:10:00,2105-11-14 19:30:00,emergency,emergency room admit,dead/expired,medicare,engl,married,white,87
+102,42412,114867,2105-01-03 12:19:00,2105-01-09 14:20:00,emergency,emergency room admit,snf,medicare,russ,married,white,86
+103,42430,100969,2104-12-05 21:20:00,2104-12-09 10:55:00,emergency,emergency room admit,dead/expired,medicare,engl,,white,80
+104,42458,159647,2105-07-31 14:45:00,2105-08-01 14:45:00,emergency,emergency room admit,home,medicare,engl,married,white,299
+105,43735,112662,2103-11-11 16:05:00,2103-11-16 12:00:00,emergency,emergency room admit,dead/expired,medicare,engl,married,white,82
+106,43746,167181,2105-12-30 18:03:00,,emergency,phys referral/normal deli,,medicare,russ,widowed,white,81
+107,43748,121860,2104-05-05 13:12:00,2104-05-11 12:55:00,emergency,emergency room admit,home health care,medicare,engl,married,white,79
+108,43779,186071,2105-12-14 21:56:00,2105-12-17 15:50:00,emergency,emergency room admit,home health care,medicare,engl,married,white,76
+109,43798,130870,2101-07-23 07:15:00,2101-08-31 23:59:00,elective,phys referral/normal deli,home health care,private,engl,married,white,61
+110,43827,149950,2105-08-01 13:24:00,2105-08-05 15:00:00,emergency,transfer from hosp/extram,home health care,medicare,engl,single,unknown/not specified,299
+111,43870,142633,2105-03-01 21:32:00,2105-03-04 00:07:00,emergency,transfer from hosp/extram,dead/expired,medicare,engl,married,white,88
+112,43879,158100,2105-08-30 15:43:00,2105-08-31 15:15:00,emergency,clinic referral/premature,home,medicare,engl,married,black/african american,55
+113,43881,172454,2100-09-25 17:31:00,2100-10-01 16:17:00,emergency,emergency room admit,home health care,private,engl,married,white,53
+114,43881,167021,2100-10-25 09:44:00,2100-11-02 11:59:00,emergency,emergency room admit,home,private,engl,married,white,53
+115,43909,167612,2105-10-21 19:05:00,2105-10-21 22:33:00,emergency,emergency room admit,dead/expired,medicare,russ,,white,78
+116,43927,110958,2105-10-19 12:30:00,2105-10-23 15:00:00,elective,phys referral/normal deli,snf,medicare,engl,widowed,white,71
+117,44083,125157,2105-05-06 08:00:00,2105-05-13 14:15:00,elective,phys referral/normal deli,home health care,private,engl,single,white,54
+118,44083,131048,2105-05-24 15:37:00,2105-05-27 13:30:00,emergency,emergency room admit,home health care,private,engl,single,white,54
+119,44083,198330,2105-05-30 15:45:00,2105-06-09 16:50:00,emergency,emergency room admit,home,private,engl,single,white,54
+120,44154,174245,2102-06-02 20:29:00,2102-06-03 09:45:00,emergency,emergency room admit,dead/expired,medicare,engl,married,white,299
+121,44212,163189,2105-11-28 14:14:00,,emergency,transfer from hosp/extram,,medicare,engl,single,black/african american,45
+122,44222,192189,2105-08-07 06:55:00,2105-08-08 13:00:00,emergency,emergency room admit,home,medicare,engl,single,white,73
+123,44228,103379,2105-12-31 03:14:00,,emergency,emergency room admit,,private,engl,single,white,58

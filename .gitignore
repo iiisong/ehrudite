@@ -1,2 +1,9 @@
 EHRSQL/gpt/OPENAI_API_KEY.json
+EHRSQL/dataset/ehrsql/mimic_iii/costs.csv
+EHRSQL/dataset/ehrsql/mimic_iii/PATIENTS.csv
+EHRSQL/dataset/ehrsql/mimic_iii/__pycache__/resetData.cpython-310.pyc
+EHRSQL/preprocess/__pycache__/preprocess_db_mimic_iii.cpython-310.pyc
+EHRSQL/dataset/ehrsql/mimic_iii/PATIENTS.csv
+EHRSQL/dataset/ehrsql/mimic_iii/PATIENTS.csv
+EHRSQL/dataset/ehrsql/mimic_iii/PATIENTS.csv
 .env
