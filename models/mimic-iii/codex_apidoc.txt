@@ -1,3 +1,10 @@
+# 
+#
+# hadm_id: hospital admission id
+# dose_val_rx: dosage size
+# dose_unit_rx: unit of dose
+# valueom: value units over minutes 
+#
 ### MySQL SQL tables, with their properties:
 #
 # patients(row_id, subject_id, gender, dob, dod)
