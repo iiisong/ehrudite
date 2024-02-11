@@ -1,4 +1,4 @@
-# no LIMIT allowed 
+# this sql database does not support LIMIT.
 #
 # hadm_id: hospital admission id
 # dose_val_rx: dosage size
