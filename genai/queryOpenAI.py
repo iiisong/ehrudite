@@ -9,7 +9,7 @@ load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OAI_KEY"))
 
-test_prompt = open('../../models/mimic-iii/codex_apidoc.txt').read()
+test_prompt = open('../models/mimic-iii/codex_apidoc.txt').read()
 
 def parse_args():
     args = argparse.ArgumentParser()

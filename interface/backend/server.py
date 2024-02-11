@@ -18,7 +18,7 @@ def process_data():
     return jsonify({'processed_text': processed_text})
 
 def process_text(text):
-    response_text = basic_wrap.run_engine(text)
+    response_text = queryOpenAI.run_engine(text)
     try:
         response = requests.post('http://localhost:4000/create-message', json={'prompt': text, 'response_text': response_text})
         response.raise_for_status()
