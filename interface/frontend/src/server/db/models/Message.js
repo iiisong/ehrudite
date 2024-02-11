@@ -5,6 +5,10 @@ const messageSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    query: {
+        type: String,
+        required: true
+    },
     response: {
         type: String,
         required: true
