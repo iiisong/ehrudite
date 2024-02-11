@@ -8,9 +8,9 @@ from sentence_transformers import SentenceTransformer, util
 # qqdict = json.load(f)
 # corpus_embedding = torch.tensor(pd.read_csv("../models/mimic-iii/corpus.csv").values).to(torch.float32)
 
-def SVS(question, k=10, corpus=None, model=None, corpus_path="../../models/mimic-iii/corpus.csv"):
-    if corpus_path != "../../models/mimic-iii/corpus.csv" and corpus == None:
-        corpus_embedding = torch.tensor(pd.read_csv("../../models/mimic-iii/corpus.csv").values).to(torch.float32)
+def SVS(question, k=10, corpus=None, model=None, corpus_path="../models/mimic-iii/corpus.csv"):
+    if corpus_path != "../models/mimic-iii/corpus.csv" and corpus == None:
+        corpus_embedding = torch.tensor(pd.read_csv("../models/mimic-iii/corpus.csv").values).to(torch.float32)
     
     if corpus != None:
         corpus_embedding = corpus
