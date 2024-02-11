@@ -19,18 +19,12 @@ def process_data():
 
 def process_text(text):
     response_text = basic_wrap.run_engine(text)
-    #is result valid query
-        #loop below if returned rerun or 5 trials
-            #call next function
-    #else
-        #return jsonify({'processed_text': need more info})
-    #RETURN FINAL RESULT BELOW
     try:
         response = requests.post('http://localhost:4000/create-message', json={'prompt': text, 'response_text': response_text})
         response.raise_for_status()
     except requests.RequestException as e:
         print('Error making POST request:', e)
-    response_text = query(response_text)
+    # response_text = query(response_text)
     return response_text
 
 def query(script):
