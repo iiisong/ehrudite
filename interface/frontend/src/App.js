@@ -7,6 +7,7 @@ function App() {
   const [processedText, setProcessedText] = useState('');
   const [messages, setMessages] = useState([]);
   const [query, setQuery] = useState([]);
+  const [relqs, setRelqs] = useState([]);
 
   const fetchMessages = async () => {
     try {
@@ -26,7 +27,7 @@ function App() {
     try {
       fetchMessages();
       const response = await axios.post('/data', { text });
-      setProcessedText(response.data.sim_questions);
+      setProcessedText(response.data.results);
       setText('');
     } catch (error) {
       console.error('Error:', error);
@@ -37,12 +38,18 @@ function App() {
     e.preventDefault();
     try {
       fetchMessages();
-      const response = await axios.post('/data', { text });
-      setProcessedText(response.data.sim_questions);
+      const response = await axios.post('/data-query', { text });
+      setProcessedText(response.data.results);
       setQuery('');
     } catch (error) {
       console.error('Error:', error);
     }
+  };
+
+  const handleDropdownClick = (index) => {
+    const updatedMessages = [...messages];
+    updatedMessages[index].isOpen = !updatedMessages[index].isOpen;
+    setMessages(updatedMessages);
   };
 
   return (
@@ -70,10 +77,28 @@ function App() {
       </form>
       <div id="output">{processedText && <p>{processedText}</p>}</div>
       <div>
-        <h2>Most Recent Responses:</h2>
+      <h2>Most Recent Responses:</h2>
         <ol>
           {messages.map((message, index) => (
-            <li key={index}>{message.question}: {message.query}</li>
+            <li key={index}>
+              <div onClick={() => handleDropdownClick(index)}>
+                <strong>{message.question}: {message.query}</strong>
+              </div>
+              {message.isOpen && <p>{message.response}</p>}
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div>
+      <h2>Relevant Responses:</h2>
+      <ol>
+          {relqs?.map((relq, index) => (
+            <li key={index}>
+              <div onClick={() => handleDropdownClick(index)}>
+                <strong>{relq.question}</strong>
+              </div>
+              {relq.isOpen && <p>{relq.query}</p>}
+            </li>
           ))}
         </ol>
       </div>

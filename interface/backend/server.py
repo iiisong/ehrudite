@@ -79,5 +79,20 @@ def handle_all():
 
     return make_response(jsonify({'sim_questions': sim_questions, 'query': query, 'results': results}),200)
 
+@app.route('/data-query', methods=['POST'])
+def handle_query():
+    data = request.get_json()
+    query = data['text']
+
+    max_iter = 3
+
+    results = conn.execute(sqltext(query)).fetchall()
+
+    # results = jsonify({'result': [dict(row) for row in results]})
+    results = str(results)
+    query = str(query)
+
+    return make_response(jsonify({'query': query, 'results': results}),200)
+
 if __name__ == '__main__':
     app.run(debug=True)
