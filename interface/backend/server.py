@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import sys
-sys.path.append('../..')
+sys.path.append('../../')
 from EHRSQL.gpt import codex
 
 app = Flask(__name__)
