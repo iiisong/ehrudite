@@ -26,7 +26,7 @@ function App() {
     try {
       fetchMessages();
       const response = await axios.post('/data', { text });
-      setProcessedText(response.data.query);
+      setProcessedText(response.data.sim_questions);
       setText('');
     } catch (error) {
       console.error('Error:', error);
@@ -38,7 +38,7 @@ function App() {
     try {
       fetchMessages();
       const response = await axios.post('/data', { text });
-      setProcessedText(response.data.processed_text);
+      setProcessedText(response.data.sim_questions);
       setQuery('');
     } catch (error) {
       console.error('Error:', error);

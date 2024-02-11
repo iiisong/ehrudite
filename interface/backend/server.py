@@ -77,7 +77,7 @@ def handle_all():
     except requests.RequestException as e:
         print('Error making POST request:', e)
 
-    return make_response(jsonify({'sim_questions': text, 'query': text, 'results': text}),200)
+    return make_response(jsonify({'sim_questions': sim_questions, 'query': query, 'results': results}),200)
 
 if __name__ == '__main__':
     app.run(debug=True)
