@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sys
 import requests
 sys.path.append('../../')
-from genai import basic_wrap
+from genai import queryOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 import os
@@ -25,7 +25,7 @@ def process_text(text):
     except requests.RequestException as e:
         print('Error making POST request:', e)
     # response_text = query(response_text)
-    return response_text
+    return {'response_text': response_text, 'response_text_repeated': response_text}
 
 def query(script):
     connection = mysql.connector.connect(
@@ -41,5 +41,19 @@ def query(script):
     except:
         return "Invalid query"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route('/data-query', methods=['POST'])
+def process_data_query():
+    data = request.get_json()
+    text = data['text']
+    processed_text = process_text(text)
+    return jsonify({'processed_text': processed_text})
+
+def process_text_query(text):
+    response_text = basic_wrap.run_engine(text)
+    try:
+        response = requests.post('http://localhost:4000/create-message', json={'prompt': text, 'response_text': response_text})
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print('Error making POST request:', e)
+    # response_text = query(response_text)
+    return {'response_text': response_text}

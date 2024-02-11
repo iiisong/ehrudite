@@ -7,7 +7,6 @@ import numpy as np
 from dotenv import load_dotenv
 load_dotenv()
 
-
 client = OpenAI(api_key=os.getenv("OAI_KEY"))
 
 test_prompt = open('../../models/mimic-iii/codex_apidoc.txt').read()
@@ -18,9 +17,10 @@ def parse_args():
     args.add_argument('--prompt_path', default='../models/mimic-iii/codex_apidoc.txt', type=str, help='path for prompt')
     return args.parse_args()
 
-def run_engine(prompt, prompt_template=test_prompt):
-    print(test_prompt)
-    decorated_prompt = prompt_template.replace('TEST_QUESTION', prompt)
+def run_engine(prompt, prompt_template=test_prompt, svs=""):
+    decorated_prompt = svs + prompt_template.replace('TEST_QUESTION', prompt)
+
+    print(decorated_prompt)
 
     client = OpenAI(api_key=os.getenv("OAI_KEY"))
     response = client.chat.completions.create(model="gpt-3.5-turbo-0125",
@@ -34,7 +34,7 @@ def run_engine(prompt, prompt_template=test_prompt):
 
     print()
     query = response.choices[0].message.content
-    query = f'select{query}'
+    query = f'select{query};'.upper()
     return query
 
 if __name__ == '__main__':
