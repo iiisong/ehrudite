@@ -41,7 +41,7 @@ def query(script):
         db= os.getenv("DB_NAME")
     )
     cursor = connection.cursor()
-    cursor.execute(script)
+    cursor.execute(script.upper())
     return cursor.fetchone()
 
 if __name__ == '__main__':
