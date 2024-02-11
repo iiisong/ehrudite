@@ -26,7 +26,7 @@ function App() {
     try {
       fetchMessages();
       const response = await axios.post('/data', { text });
-      setProcessedText(response.data.processed_text);
+      setProcessedText(response.data.query);
       setText('');
     } catch (error) {
       console.error('Error:', error);
