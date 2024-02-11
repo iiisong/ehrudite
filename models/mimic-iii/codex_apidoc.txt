@@ -18,5 +18,6 @@
 # icustays(row_id, subject_id, hadm_id, icustay_id, first_careunit, last_careunit, first_wardid, last_wardid, intime, outtime)
 # transfers(row_id, subject_id, hadm_id, icustay_id, eventtype, careunit, wardid, intime, outtime)
 # 
+# Fields: dob means date of birth, dod means date of death, admittime means admit time dischtime is discharge time.
 ### TEST_QUESTION
 select

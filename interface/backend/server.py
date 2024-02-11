@@ -23,7 +23,7 @@ def process_text(text):
     #RETURN FINAL RESULT BELOW
     try:
         response = requests.post('http://localhost:4000/create-message', json={'prompt': text, 'response_text': response_text})
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        response.raise_for_status()
     except requests.RequestException as e:
         print('Error making POST request:', e)
     return response_text
