@@ -78,7 +78,7 @@ startRow = {
 # Completed 
 # [x] generateData patients 
 # [x] generateData admissions
-# [x] generateData chartEvents
+# [ ] generateData chartEvents
 # [x] generateData cost
 # [ ] generateData d_icd_diag
 # [ ] generateData d_icd_proce
@@ -315,10 +315,13 @@ def generateData_admissions(subjId,
     print("successfully added admission ", numGenerate['admissions'])
 
 
+
+
+
     #insert calls for other table connections here
 
 
-    # perscriptions
+    # perscriptions =============================================
     drugsAndDoses = [
                 ['mirtazapine','15', 'mg','po/ng'],
                 ['0.9% sodium chloride','100', 'ml','iv drip'],
@@ -1571,16 +1574,88 @@ def generateData_admissions(subjId,
                                  drugChoice[3])
 
 
-    # Transfer
-    # chartevents
-    # Cost
-    # Procedures ICD
-    # Lab Events
-    # Input events
-    # output events
-    # ice stays
-    # microbiologyevents
-    # diagnosis icd
+    # TODO Items =====================================================
+        
+
+
+
+
+
+    ### these are all supposedly from items so items will call them
+    # TODO chartevents ===============================================
+    # TODO Input events ==============================================
+    # TODO output events =============================================
+    
+
+
+
+
+    # TODO Transfer ==================================================
+    # TODO Cost ======================================================
+    # TODO Procedures ICD ============================================
+    # TODO Lab Events ================================================
+    # TODO icu stays =================================================
+    # TODO microbiologyevents ========================================
+    # TODO diagnosis icd =============================================
+
+
+
+def generateData_D_Items(subjId,
+                            hadm_id,
+                            icustay_id,
+                            itemid,
+                            charttime,
+                            valuenum,
+                            valueuom) :
+    additionalData = {
+        'row_id': [startRow['d_items']],
+        'itemid': [subjId],
+        'label': [hadm_id],
+        'linksto': [icustay_id]
+    }
+    startRow['d_items'] += 1
+
+    df = pd.DataFrame(additionalData)
+    df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\D_ITEMS.csv', mode='a', header=False, index=False)
+    print("Sucessfully added row to D_ITEMS.csv")
+    numGenerate['d_items'] += 1
+
+    # split into the three cases of what can be called 
+
+
+
+
+
+def generateData_chartEvents(subjId,
+                            hadm_id,
+                            icustay_id,
+                            itemid,
+                            charttime,
+                            valuenum,
+                            valueuom) :
+    additionalData = {
+        'row_id': [startRow['chartEvents']],
+        'subject_id': [subjId],
+        'hadm_id': [hadm_id],
+        'icustay_id': [icustay_id],
+        'itemid': [itemid],
+        'charttime': [charttime],
+        'valuenum': [valuenum],
+        'valueuom': [valueuom]
+    }
+    startRow['chartEvents'] += 1
+
+    df = pd.DataFrame(additionalData)
+    df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv', mode='a', header=False, index=False)
+    print("Sucessfully added row to CHARTEVENTS.csv")
+    numGenerate['chartEvents'] += 1
+
+    # there are no additional cases to add
+
+
+
+
+
 
 def generateData_prescriptions(subjId, 
                              hadm_id, 
@@ -1604,8 +1679,8 @@ def generateData_prescriptions(subjId,
     startRow['chartEvents'] += 1
 
     df = pd.DataFrame(additionalData)
-    df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\CHARTEVENTS.csv', mode='a', header=False, index=False)
-    print("Sucessfully added row to CHARTEVENTS.csv")
+    df.to_csv('EHRSQL\dataset\ehrsql\mimic_iii\PRESCRIPTIONS.csv', mode='a', header=False, index=False)
+    print("Sucessfully added row to PRESCRIPTIONS.csv")
     numGenerate['prescriptions'] += 1
 
 
