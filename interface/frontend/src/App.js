@@ -73,7 +73,7 @@ function App() {
         <h2>Most Recent Responses:</h2>
         <ol>
           {messages.map((message, index) => (
-            <li key={index}>{message.question}: {message.response}</li>
+            <li key={index}>{message.question}: {message.query}</li>
           ))}
         </ol>
       </div>
