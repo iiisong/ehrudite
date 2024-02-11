@@ -1,0 +1,1782 @@
+row_id,subject_id,hadm_id,charttime,spec_type_desc,org_name
+0,10006,142345,2022-11-27 15:30:00,urine,proteus mirabilis
+1,10006,142345,2022-11-27 15:30:00,blood culture,nan
+2,10006,142345,2022-11-27 15:30:00,sputum,acinetobacter baumannii complex
+3,10006,142345,2022-11-27 15:30:00,blood culture,enterococcus faecalis
+4,10006,142345,2022-11-27 15:30:00,urine,proteus mirabilis
+5,10006,142345,2022-11-27 15:30:00,urine,klebsiella oxytoca
+6,10006,142345,2022-11-27 15:30:00,blood culture,nan
+7,10006,142345,2022-11-27 15:30:00,sputum,staph aureus coag +
+8,10006,142345,2022-11-27 17:30:00,blood culture,nan
+9,10006,142345,2022-11-27 17:40:00,urine,proteus mirabilis
+10,10006,142345,2022-11-28 13:00:00,sputum,escherichia coli
+11,10006,142345,2022-11-29 09:30:00,blood culture,nan
+12,10006,142345,2022-11-29 09:30:00,sputum,gram negative rod #2
+13,10006,142345,2022-12-01 13:00:00,blood culture ( myco/f lytic bottle),nan
+14,10006,142345,2022-12-02 09:00:00,blood culture,nan
+15,10006,142345,2022-12-02 09:30:00,urine,klebsiella pneumoniae
+16,10006,142345,2022-12-02 15:00:00,stool,nan
+17,10006,142345,2022-12-03 23:01:00,catheter tip-iv,nan
+18,10006,142345,2022-12-04 18:45:00,blood culture,nan
+19,10006,142345,2022-12-06 06:00:00,sputum,escherichia coli
+20,10011,105331,2020-09-09 05:15:00,sputum,pseudomonas aeruginosa
+21,10011,105331,2020-09-10 03:25:00,sputum,staph aureus coag +
+22,10011,105331,2020-09-10 03:25:00,urine,escherichia coli
+23,10011,105331,2020-09-12 11:30:00,sputum,morganella morganii
+24,10011,105331,2020-09-12 12:00:00,urine,nan
+25,10011,105331,2020-09-12 12:00:00,urine,nan
+26,10011,105331,2020-09-16 13:03:00,urine,nan
+27,10011,105331,2020-09-16 00:00:00,sputum,staph aureus coag +
+28,10011,105331,2020-09-20 16:30:00,mrsa screen,nan
+29,10011,105331,2020-09-21 21:09:00,mrsa screen,nan
+30,10011,105331,2020-09-21 21:09:00,urine,gram positive coccus(cocci)
+31,10011,105331,2020-09-22 00:40:00,blood culture,nan
+32,10011,105331,2020-09-22 11:09:00,mini-bal,staph aureus coag +
+33,10013,165520,2018-10-31 02:00:00,mrsa screen,positive for methicillin resistant staph aureus
+34,10013,165520,2018-10-31 02:00:00,sputum,staph aureus coag +
+35,10013,165520,2018-10-31 00:00:00,blood culture,nan
+36,10017,199207,2018-06-28 05:15:00,sputum,escherichia coli
+37,10017,199207,2018-07-01 04:59:00,urine,nan
+38,10019,177759,2023-06-17 21:52:00,sputum,klebsiella pneumoniae
+39,10019,177759,2023-06-17 21:52:00,immunology,nan
+40,10019,177759,2023-06-17 21:52:00,urine,escherichia coli
+41,10019,177759,2023-06-17 21:52:00,blood culture,klebsiella pneumoniae
+42,10019,177759,2023-06-17 21:52:00,blood culture,enterococcus faecium
+43,10019,177759,2023-06-17 21:52:00,urine,escherichia coli
+44,10019,177759,2023-06-17 21:52:00,sputum,proteus mirabilis
+45,10019,177759,2023-06-17 21:52:00,sputum,escherichia coli
+46,10019,177759,2023-06-17 21:52:00,sputum,pseudomonas aeruginosa
+47,10019,177759,2023-06-17 21:53:00,urine,klebsiella pneumoniae
+48,10019,177759,2023-06-17 21:53:00,blood culture,escherichia coli
+49,10019,177759,2023-06-17 21:53:00,blood culture,nan
+50,10019,177759,2023-06-17 21:53:00,blood culture,nan
+51,10026,103770,2023-06-28 09:12:00,sputum,pseudomonas aeruginosa
+52,10026,103770,2023-06-28 09:12:00,swab,escherichia coli
+53,10026,103770,2023-06-28 09:12:00,bile,escherichia coli
+54,10026,103770,2023-06-28 09:12:00,bronchoalveolar lavage,yeast
+55,10026,103770,2023-06-28 09:12:00,urine,nan
+56,10026,103770,2023-06-28 09:12:00,direct antigen test for varicella-zoster virus,nan
+57,10026,103770,2023-06-28 09:12:00,urine,proteus mirabilis
+58,10026,103770,2023-06-28 09:12:00,sputum,yeast
+59,10026,103770,2023-06-28 09:12:00,blood culture,streptococcus pneumoniae
+60,10026,103770,2023-06-28 09:12:00,blood culture,nan
+61,10026,103770,2023-06-28 09:12:00,catheter tip-iv,nan
+62,10026,103770,2023-06-28 09:12:00,urine,nan
+63,10026,103770,2023-06-28 09:12:00,blood culture,nan
+64,10026,103770,2023-06-28 09:12:00,catheter tip-iv,nan
+65,10026,103770,2023-06-28 09:12:00,sputum,acinetobacter baumannii complex
+66,10026,103770,2023-06-28 09:12:00,sputum,escherichia coli
+67,10026,103770,2023-06-28 09:12:00,urine,nan
+68,10026,103770,2023-06-28 09:12:00,sputum,nan
+69,10026,103770,2023-06-28 09:12:00,urine,escherichia coli
+70,10026,103770,2023-06-28 09:12:00,blood culture,escherichia coli
+71,10026,103770,2023-06-28 09:12:00,sputum,acinetobacter baumannii complex
+72,10026,103770,2023-06-28 09:12:00,swab,escherichia coli
+73,10026,103770,2023-06-28 09:12:00,urine,klebsiella pneumoniae
+74,10026,103770,2023-07-04 07:00:00,mrsa screen,nan
+75,10026,103770,2023-07-04 07:00:00,swab,escherichia coli
+76,10026,103770,2023-07-04 07:00:00,urine,enterobacteriaceae
+77,10026,103770,2023-07-04 07:00:00,urine,nan
+78,10026,103770,2023-07-04 07:00:00,urine,klebsiella pneumoniae
+79,10026,103770,2023-07-04 07:00:00,urine,staph aureus coag +
+80,10026,103770,2023-07-04 07:00:00,sputum,acinetobacter baumannii complex
+81,10026,103770,2023-07-04 07:00:00,urine,pseudomonas aeruginosa
+82,10026,103770,2023-07-04 07:00:00,urine,nan
+83,10026,103770,2023-07-04 07:00:00,swab,escherichia coli
+84,10026,103770,2023-07-04 07:00:00,urine,nan
+85,10026,103770,2023-07-04 07:00:00,sputum,acinetobacter baumannii complex
+86,10026,103770,2023-07-04 07:00:00,sputum,staph aureus coag +
+87,10026,103770,2023-07-04 07:00:00,blood culture,nan
+88,10026,103770,2023-07-04 07:00:00,influenza a/b by dfa,nan
+89,10029,132349,2023-10-20 11:10:00,blood culture,nan
+90,10029,132349,2023-10-20 11:10:00,swab,escherichia coli
+91,10029,132349,2023-10-20 11:10:00,sputum,staph aureus coag +
+92,10029,132349,2023-10-20 11:10:00,"fluid,other",nan
+93,10029,132349,2023-10-20 11:10:00,swab,enterococcus sp.
+94,10029,132349,2023-10-20 11:10:00,blood culture,nan
+95,10029,132349,2023-10-20 11:10:00,catheter tip-iv,nan
+96,10029,132349,2023-10-20 11:10:00,blood culture,nan
+97,10029,132349,2023-10-20 11:10:00,sputum,pseudomonas aeruginosa
+98,10029,132349,2023-10-20 11:10:00,sputum,staph aureus coag +
+99,10029,132349,2023-10-20 11:10:00,blood culture,enterococcus faecium
+100,10029,132349,2023-10-20 11:10:00,mrsa screen,nan
+101,10029,132349,2023-10-20 11:10:00,urine,klebsiella pneumoniae
+102,10029,132349,2023-10-20 11:10:00,sputum,acinetobacter baumannii complex
+103,10029,132349,2023-10-20 11:10:00,mrsa screen,positive for methicillin resistant staph aureus
+104,10029,132349,2023-10-20 11:10:00,sputum,gram negative rod(s)
+105,10029,132349,2023-10-20 11:10:00,sputum,staph aureus coag +
+106,10029,132349,2023-10-20 11:10:00,catheter tip-iv,nan
+107,10029,132349,2023-10-20 13:11:00,sputum,acinetobacter baumannii complex
+108,10029,132349,2023-10-20 13:11:00,swab,escherichia coli
+109,10029,132349,2023-10-20 13:11:00,stool,nan
+110,10029,132349,2023-10-20 13:11:00,blood culture,nan
+111,10029,132349,2023-10-20 13:11:00,mrsa screen,positive for methicillin resistant staph aureus
+112,10029,132349,2023-10-20 13:11:00,sputum,klebsiella pneumoniae
+113,10029,132349,2023-10-20 13:11:00,blood culture,"staphylococcus, coagulase negative"
+114,10029,132349,2023-10-20 13:11:00,blood culture,nan
+115,10029,132349,2023-10-20 13:11:00,sputum,proteus mirabilis
+116,10029,132349,2023-10-20 13:11:00,blood culture,klebsiella pneumoniae
+117,10029,132349,2023-10-20 13:11:00,sputum,nan
+118,10029,132349,2023-10-20 13:11:00,sputum,proteus mirabilis
+119,10029,132349,2023-10-20 13:11:00,sputum,serratia marcescens
+120,10029,132349,2023-10-20 13:11:00,catheter tip-iv,nan
+121,10029,132349,2023-10-20 13:11:00,urine,proteus mirabilis
+122,10029,132349,2023-10-20 13:11:00,swab,staph aureus coag +
+123,10029,132349,2023-10-20 13:11:00,mini-bal,serratia marcescens
+124,10029,132349,2023-10-20 13:11:00,catheter tip-iv,nan
+125,10029,132349,2023-10-20 13:11:00,sputum,staph aureus coag +
+126,10029,132349,2023-10-20 13:11:00,blood culture,nan
+127,10029,132349,2023-10-20 13:11:00,blood culture,nan
+128,10029,132349,2023-10-20 13:11:00,mrsa screen,nan
+129,10029,132349,2023-10-20 13:11:00,stool,nan
+130,10029,132349,2023-10-21 11:10:00,sputum,gram negative rod #3
+131,10029,132349,2023-10-21 11:10:00,blood culture,nan
+132,10029,132349,2023-10-21 20:00:00,blood culture,nan
+133,10029,132349,2023-10-23 08:55:00,sputum,pseudomonas aeruginosa
+134,10029,132349,2023-10-23 08:55:00,urine,nan
+135,10029,132349,2023-10-28 17:09:00,blood culture,nan
+136,10032,140372,2022-05-01 14:30:00,urine,klebsiella pneumoniae
+137,10032,140372,2022-05-06 10:15:00,sputum,staph aureus coag +
+138,10032,140372,2022-05-06 10:25:00,urine,klebsiella pneumoniae
+139,10035,110244,2023-03-29 00:00:00,urine,klebsiella pneumoniae
+140,10036,189483,2018-05-04 13:00:00,urine,providencia stuartii
+141,10036,189483,2018-05-04 13:55:00,urine,klebsiella pneumoniae
+142,10036,189483,2018-05-04 13:55:00,sputum,acinetobacter baumannii complex
+143,10038,111115,2023-03-10 13:50:00,swab,escherichia coli
+144,10038,111115,2023-03-10 14:00:00,sputum,proteus mirabilis
+145,10038,111115,2023-03-10 14:00:00,blood culture,nan
+146,10038,111115,2023-03-11 10:40:00,swab,escherichia coli
+147,10038,111115,2023-03-11 10:40:00,urine,nan
+148,10038,111115,2023-03-11 10:40:00,blood culture,nan
+149,10038,111115,2023-03-11 10:40:00,sputum,yeast
+150,10038,111115,2023-03-11 10:40:00,sputum,escherichia coli
+151,10038,111115,2023-03-11 17:25:00,sputum,escherichia coli
+152,10038,111115,2023-03-11 17:25:00,sputum,gram negative rod(s)
+153,10038,111115,2023-03-12 02:11:00,blood culture,nan
+154,10038,111115,2023-03-12 14:49:00,urine,nan
+155,10038,111115,2023-03-13 11:02:00,urine,escherichia coli
+156,10038,111115,2023-03-13 15:30:00,blood culture,staph aureus coag +
+157,10038,111115,2023-03-14 12:35:00,sputum,staph aureus coag +
+158,10038,111115,2023-03-15 02:30:00,immunology,nan
+159,10038,111115,2023-03-17 05:28:00,blood culture,"staphylococcus, coagulase negative"
+160,10038,111115,2023-03-18 05:48:00,urine,gram positive bacteria
+161,10038,111115,2023-03-19 05:40:00,blood culture,nan
+162,10038,111115,2023-03-21 05:40:00,blood culture,nan
+163,10040,157839,2018-03-27 05:52:00,sputum,klebsiella pneumoniae
+164,10040,157839,2018-03-27 05:52:00,blood culture,nan
+165,10040,157839,2018-03-27 05:52:00,blood culture,nan
+166,10040,157839,2018-03-27 05:52:00,swab,nan
+167,10040,157839,2018-03-27 05:52:00,swab,corynebacterium species (diphtheroids)
+168,10040,157839,2018-03-27 05:52:00,blood culture,streptococcus pneumoniae
+169,10040,157839,2018-03-27 05:52:00,mrsa screen,nan
+170,10040,157839,2018-03-27 07:01:00,blood culture,nan
+171,10040,157839,2018-03-27 07:39:00,urine,klebsiella pneumoniae
+172,10040,157839,2018-03-29 21:10:00,catheter tip-iv,nan
+173,10040,157839,2018-03-30 06:10:00,swab,escherichia coli
+174,10043,168674,2020-05-24 01:15:00,blood culture,nan
+175,10043,168674,2020-05-24 00:00:00,sputum,nan
+176,10043,168674,2020-05-25 20:59:00,urine,nan
+177,10043,168674,2020-05-26 18:44:00,blood culture ( myco/f lytic bottle),mycobacterium avium complex
+178,10043,168674,2020-06-02 01:12:00,urine,klebsiella oxytoca
+179,10044,124073,2023-11-03 13:15:00,blood culture,nan
+180,10044,124073,2023-11-03 00:00:00,urine,yeast
+181,10044,124073,2023-11-03 00:00:00,blood culture,nan
+182,10045,126949,2022-12-20 21:55:00,urine,escherichia coli
+183,10045,126949,2022-12-21 06:27:00,urine,enterococcus sp.
+184,10045,126949,2022-12-21 12:30:00,urine,serratia marcescens
+185,10045,126949,2022-12-21 12:30:00,urine,klebsiella pneumoniae
+186,10045,126949,2022-12-22 14:50:00,blood culture,nan
+187,10045,126949,2022-12-22 16:18:00,sputum,staph aureus coag +
+188,10045,126949,2022-12-24 11:23:00,sputum,staph aureus coag +
+189,10045,126949,2022-12-24 17:56:00,urine,klebsiella pneumoniae
+190,10045,126949,2022-12-24 17:56:00,swab,escherichia coli
+191,10045,126949,2022-12-25 16:26:00,blood culture,nan
+192,10056,100375,2021-05-28 00:21:00,urine,klebsiella pneumoniae
+193,10056,100375,2021-05-28 01:00:00,urine,gram positive bacteria
+194,10056,100375,2021-05-28 02:30:00,blood culture ( myco/f lytic bottle),nan
+195,10059,142582,2018-09-09 06:39:00,sputum,acinetobacter baumannii complex
+196,10059,142582,2018-09-14 10:11:00,urine,nan
+197,10059,122098,2018-09-24 00:00:00,sputum,morganella morganii
+198,10059,122098,2018-09-25 09:50:00,sputum,pseudomonas aeruginosa
+199,10059,122098,2018-09-25 09:55:00,mini-bal,pseudomonas aeruginosa
+200,10059,122098,2018-09-25 12:50:00,sputum,escherichia coli
+201,10061,145203,2019-02-06 12:50:00,sputum,nan
+202,10061,145203,2019-02-06 13:30:00,urine,klebsiella pneumoniae
+203,10061,145203,2019-02-06 13:40:00,sputum,nan
+204,10061,145203,2019-02-06 18:00:00,urine,nan
+205,10061,145203,2019-02-08 13:45:00,urine,enterobacteriaceae
+206,10061,145203,2019-02-08 13:50:00,mini-bal,pseudomonas aeruginosa
+207,10061,145203,2019-02-09 11:15:00,blood culture,nan
+208,10061,145203,2019-02-09 16:23:00,stool,nan
+209,10061,145203,2019-02-10 16:00:00,urine,proteus mirabilis
+210,10061,145203,2019-02-11 16:44:00,blood culture,"staphylococcus, coagulase negative"
+211,10061,145203,2019-02-11 16:44:00,blood culture,enterococcus faecalis
+212,10061,145203,2019-02-11 00:00:00,sputum,serratia marcescens
+213,10061,145203,2019-02-13 05:30:00,blood culture,escherichia coli
+214,10061,145203,2019-02-13 05:30:00,blood culture,escherichia coli
+215,10061,145203,2019-02-13 08:30:00,sputum,staph aureus coag +
+216,10061,145203,2019-02-14 00:00:00,urine,proteus mirabilis
+217,10061,145203,2019-02-15 08:15:00,mrsa screen,nan
+218,10061,145203,2019-02-15 12:15:00,blood culture,nan
+219,10061,145203,2019-02-15 00:00:00,bile,escherichia coli
+220,10061,145203,2019-02-15 00:00:00,sputum,escherichia coli
+221,10061,145203,2019-02-16 15:17:00,urine,enterobacteriaceae
+222,10061,145203,2019-02-19 02:00:00,sputum,morganella morganii
+223,10061,145203,2019-02-19 02:00:00,swab,nan
+224,10061,145203,2019-02-19 02:00:00,sputum,nan
+225,10061,145203,2019-02-19 02:00:00,urine,nan
+226,10061,145203,2019-02-19 02:00:00,blood culture,nan
+227,10061,145203,2019-02-19 02:00:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+228,10061,145203,2019-02-19 02:00:00,immunology (cmv),nan
+229,10061,145203,2019-02-19 02:00:00,sputum,staph aureus coag +
+230,10061,145203,2019-02-19 02:00:00,urine,pseudomonas aeruginosa
+231,10061,145203,2019-02-19 02:00:00,sputum,nan
+232,10061,145203,2019-02-19 02:00:00,sputum,nan
+233,10061,145203,2019-02-19 02:00:00,mrsa screen,positive for methicillin resistant staph aureus
+234,10061,145203,2019-02-19 02:00:00,urine,enterococcus sp.
+235,10061,145203,2019-02-19 02:00:00,blood culture,nan
+236,10061,145203,2019-02-19 02:00:00,urine,serratia marcescens
+237,10061,145203,2019-02-19 02:00:00,urine,nan
+238,10061,145203,2019-02-19 02:00:00,sputum,staph aureus coag +
+239,10061,145203,2019-02-19 02:00:00,blood culture,proteus mirabilis
+240,10061,145203,2019-02-19 02:00:00,urine,escherichia coli
+241,10061,145203,2019-02-19 02:00:00,sputum,klebsiella pneumoniae
+242,10061,145203,2019-02-19 02:00:00,csf;spinal fluid,nan
+243,10061,145203,2019-02-19 02:00:00,bronchoalveolar lavage,staph aureus coag +
+244,10061,145203,2019-02-19 02:00:00,urine,proteus mirabilis
+245,10061,145203,2019-02-19 02:00:00,sputum,klebsiella pneumoniae
+246,10061,145203,2019-02-19 02:00:00,mrsa screen,nan
+247,10061,145203,2019-02-19 02:00:00,sputum,escherichia coli
+248,10061,145203,2019-02-19 02:00:00,sputum,morganella morganii
+249,10061,145203,2019-02-19 02:00:00,blood culture,nan
+250,10061,145203,2019-02-19 02:00:00,sputum,acinetobacter baumannii complex
+251,10061,145203,2019-02-19 02:00:00,corneal eye scrapings,mycelia sterilia
+252,10061,145203,2019-02-19 02:00:00,urine,klebsiella pneumoniae
+253,10061,145203,2019-02-19 02:00:00,urine,klebsiella pneumoniae
+254,10061,145203,2019-02-19 02:00:00,sputum,pseudomonas aeruginosa
+255,10061,145203,2019-02-19 02:00:00,urine,"staphylococcus, coagulase negative"
+256,10061,145203,2019-02-19 02:00:00,swab,escherichia coli
+257,10061,145203,2019-02-19 02:00:00,blood culture,escherichia coli
+258,10061,145203,2019-02-19 02:00:00,urine,nan
+259,10061,145203,2019-02-19 02:00:00,urine,proteus mirabilis
+260,10061,145203,2019-02-19 02:00:00,urine,nan
+261,10061,145203,2019-02-19 02:00:00,sputum,staph aureus coag +
+262,10061,145203,2019-02-19 02:00:00,sputum,escherichia coli
+263,10061,145203,2019-02-19 02:00:00,bronchoalveolar lavage,stenotrophomonas (xanthomonas) maltophilia
+264,10061,145203,2019-02-19 02:00:00,sputum,klebsiella pneumoniae
+265,10061,145203,2019-02-19 02:00:00,sputum,proteus mirabilis
+266,10061,145203,2019-02-19 02:00:00,urine,escherichia coli
+267,10061,145203,2019-02-19 02:00:00,mrsa screen,nan
+268,10061,145203,2019-02-19 02:00:00,blood culture,proteus mirabilis
+269,10061,145203,2019-02-19 02:00:00,urine,providencia rettgeri
+270,10061,145203,2019-02-19 02:00:00,sputum,escherichia coli
+271,10061,145203,2019-02-19 02:00:00,urine,serratia marcescens
+272,10061,145203,2019-02-20 14:00:00,sputum,morganella morganii
+273,10061,145203,2019-02-21 04:00:00,urine,nan
+274,10061,145203,2019-02-21 04:00:00,sputum,escherichia coli
+275,10061,145203,2019-02-21 04:00:00,mini-bal,proteus mirabilis
+276,10061,145203,2019-02-21 11:45:00,blood culture,nan
+277,10061,145203,2019-02-21 17:40:00,urine,enterobacteriaceae
+278,10065,183314,2022-10-27 13:05:00,blood culture,enterococcus sp.
+279,10065,183314,2022-10-28 09:11:00,sputum,acinetobacter baumannii complex
+280,10065,183314,2022-10-30 15:01:00,blood culture,nan
+281,10069,146672,2021-03-23 00:00:00,blood culture,enterococcus faecalis
+282,10069,146672,2021-03-24 09:00:00,bronchoalveolar lavage,staph aureus coag +
+283,10069,146672,2021-03-24 14:30:00,blood culture,nan
+284,10069,146672,2021-03-24 00:00:00,urine,providencia rettgeri
+285,10069,146672,2021-03-25 17:30:00,blood culture ( myco/f lytic bottle),nan
+286,10069,146672,2021-03-25 17:30:00,urine,escherichia coli
+287,10069,146672,2021-03-25 17:30:00,sputum,pseudomonas aeruginosa
+288,10069,146672,2021-03-25 17:30:00,blood culture,nan
+289,10069,146672,2021-03-25 17:30:00,blood culture,nan
+290,10069,146672,2021-03-25 17:30:00,stool,clostridium difficile
+291,10069,146672,2021-03-25 17:30:00,sputum,klebsiella pneumoniae
+292,10069,146672,2021-03-25 17:30:00,catheter tip-iv,nan
+293,10069,146672,2021-03-25 17:30:00,urine,escherichia coli
+294,10069,146672,2021-03-25 17:30:00,blood culture,nan
+295,10069,146672,2021-03-25 18:00:00,sputum,pseudomonas aeruginosa
+296,10069,146672,2021-03-25 18:30:00,csf;spinal fluid,nan
+297,10069,146672,2021-03-25 20:30:00,urine,proteus mirabilis
+298,10069,146672,2021-03-26 00:00:00,sputum,morganella morganii
+299,10069,146672,2021-03-28 12:00:00,sputum,proteus mirabilis
+300,10069,146672,2021-03-28 22:30:00,urine,klebsiella pneumoniae
+301,10069,146672,2021-03-28 23:30:00,blood culture,"staphylococcus, coagulase negative"
+302,10069,146672,2021-03-29 00:00:00,swab,staph aureus coag +
+303,10069,146672,2021-03-29 00:00:00,bile,escherichia coli
+304,10069,146672,2021-03-29 00:00:00,mrsa screen,positive for methicillin resistant staph aureus
+305,10069,146672,2021-03-29 00:00:00,sputum,pseudomonas aeruginosa
+306,10069,146672,2021-03-29 00:00:00,blood culture,nan
+307,10069,146672,2021-03-29 00:00:00,urine,nan
+308,10069,146672,2021-03-29 00:00:00,sputum,staph aureus coag +
+309,10069,146672,2021-03-29 00:00:00,catheter tip-iv,nan
+310,10069,146672,2021-03-29 00:00:00,sputum,nan
+311,10069,146672,2021-03-29 00:00:00,stool,nan
+312,10069,146672,2021-03-29 00:00:00,urine,nan
+313,10069,146672,2021-03-30 15:30:00,swab,bacteroides fragilis group
+314,10069,146672,2021-03-31 11:00:00,blood culture,nan
+315,10069,146672,2021-03-31 13:00:00,blood culture,streptococcus pneumoniae
+316,10069,146672,2021-03-31 00:00:00,urine,yeast
+317,10069,146672,2021-03-31 00:00:00,swab,escherichia coli
+318,10069,146672,2021-04-02 05:00:00,sputum,proteus mirabilis
+319,10069,146672,2021-04-02 05:00:00,catheter tip-iv,nan
+320,10069,146672,2021-04-02 15:00:00,urine,proteus mirabilis
+321,10069,146672,2021-04-02 15:00:00,mini-bal,serratia marcescens
+322,10069,146672,2021-04-03 00:00:00,mrsa screen,positive for methicillin resistant staph aureus
+323,10069,146672,2021-04-04 00:00:00,blood culture,nan
+324,10069,146672,2021-04-04 00:00:00,urine,"candida albicans, presumptive identification"
+325,10069,146672,2021-04-04 00:00:00,swab,escherichia coli
+326,10069,146672,2021-04-04 00:00:00,sputum,proteus mirabilis
+327,10069,146672,2021-04-05 00:00:00,blood culture,nan
+328,10069,146672,2021-04-05 00:00:00,bronchoalveolar lavage,nan
+329,10074,170119,2023-03-22 10:42:00,blood culture,"staphylococcus, coagulase negative"
+330,10074,170119,2023-03-23 09:40:00,blood culture,nan
+331,10076,198503,2023-04-10 17:50:00,urine,nan
+332,10076,198503,2023-04-10 17:50:00,stool,nan
+333,10076,198503,2023-04-10 18:00:00,urine,proteus mirabilis
+334,10076,198503,2023-04-11 10:40:00,sputum,pseudomonas aeruginosa
+335,10076,198503,2023-04-11 12:00:00,sputum,pseudomonas aeruginosa
+336,10076,198503,2023-04-11 15:42:00,swab,escherichia coli
+337,10076,198503,2023-04-11 15:42:00,blood culture,nan
+338,10076,198503,2023-04-12 05:41:00,sputum,staph aureus coag +
+339,10076,198503,2023-04-12 06:45:00,blood culture,nan
+340,10076,198503,2023-04-12 09:54:00,swab,escherichia coli
+341,10076,198503,2023-04-12 09:54:00,sputum,klebsiella pneumoniae
+342,10076,198503,2023-04-12 10:50:00,blood culture,nan
+343,10076,198503,2023-04-13 05:25:00,tissue,proteus species
+344,10076,198503,2023-04-13 12:54:00,blood culture,escherichia coli
+345,10076,198503,2023-04-13 15:13:00,urine,klebsiella pneumoniae
+346,10076,198503,2023-04-13 23:44:00,urine,serratia marcescens
+347,10076,198503,2023-04-13 23:44:00,stool,nan
+348,10076,198503,2023-04-13 23:44:00,sputum,nan
+349,10076,198503,2023-04-14 07:45:00,urine,escherichia coli
+350,10076,198503,2023-04-14 11:12:00,urine,pseudomonas aeruginosa
+351,10076,198503,2023-04-16 04:30:00,urine,proteus mirabilis
+352,10076,198503,2023-04-19 11:29:00,urine,nan
+353,10076,198503,2023-04-19 11:30:00,sputum,nan
+354,10076,198503,2023-04-19 14:34:00,urine,nan
+355,10076,198503,2023-04-19 15:15:00,mrsa screen,nan
+356,10083,134993,2023-01-01 04:30:00,mrsa screen,nan
+357,10083,134993,2023-01-04 12:00:00,blood culture,gram positive coccus(cocci)
+358,10083,134993,2023-01-04 15:15:00,sputum,acinetobacter baumannii complex
+359,10083,134993,2023-01-07 11:07:00,swab,enterococcus sp.
+360,10083,134993,2023-01-07 13:00:00,stool,nan
+361,10083,134993,2023-01-08 06:25:00,blood culture,nan
+362,10083,134993,2023-01-09 04:42:00,sputum,escherichia coli
+363,10083,134993,2023-01-09 04:42:00,sputum,acinetobacter baumannii complex
+364,10083,134993,2023-01-09 04:42:00,urine,nan
+365,10083,134993,2023-01-09 04:42:00,blood culture,nan
+366,10083,134993,2023-01-09 04:42:00,blood culture,nan
+367,10083,134993,2023-01-09 04:42:00,stool,nan
+368,10083,134993,2023-01-09 04:42:00,blood culture,staph aureus coag +
+369,10083,134993,2023-01-09 04:42:00,urine,nan
+370,10083,134993,2023-01-09 04:42:00,sputum,proteus mirabilis
+371,10083,134993,2023-01-09 06:30:00,sputum,stenotrophomonas (xanthomonas) maltophilia
+372,10083,134993,2023-01-10 08:29:00,urine,pseudomonas aeruginosa
+373,10083,134993,2023-01-10 12:57:00,urine,nan
+374,10083,134993,2023-01-10 12:57:00,swab,escherichia coli
+375,10083,134993,2023-01-10 13:10:00,blood culture,staph aureus coag +
+376,10083,134993,2023-01-11 06:43:00,urine,nan
+377,10083,134993,2023-01-11 09:15:00,sputum,pseudomonas aeruginosa
+378,10083,134993,2023-01-12 10:16:00,blood culture,nan
+379,10083,134993,2023-01-12 11:00:00,urine,yeast
+380,10083,134993,2023-01-13 06:43:00,urine,providencia rettgeri
+381,10083,134993,2023-01-13 09:15:00,sputum,yeast
+382,10083,134993,2023-01-14 15:07:00,sputum,klebsiella pneumoniae
+383,10083,134993,2023-01-14 15:07:00,blood culture,nan
+384,10083,134993,2023-01-14 15:07:00,bile,escherichia coli
+385,10083,134993,2023-01-14 15:07:00,urine,escherichia coli
+386,10083,134993,2023-01-14 15:38:00,catheter tip-iv,nan
+387,10083,134993,2023-01-15 05:22:00,sputum,staph aureus coag +
+388,10083,134993,2023-01-15 05:22:00,urine,nan
+389,10083,134993,2023-01-15 05:22:00,sputum,escherichia coli
+390,10083,134993,2023-01-15 05:22:00,blood culture,nan
+391,10083,134993,2023-01-15 05:22:00,urine,escherichia coli
+392,10083,134993,2023-01-15 07:35:00,blood culture ( myco/f lytic bottle),nan
+393,10083,134993,2023-01-15 17:04:00,urine,escherichia coli
+394,10083,134993,2023-01-17 06:14:00,blood culture,klebsiella pneumoniae
+395,10083,134993,2023-01-17 07:40:00,mini-bal,pseudomonas aeruginosa
+396,10088,169938,2022-01-24 22:38:00,swab,escherichia coli
+397,10088,169938,2022-01-24 22:40:00,sputum,acinetobacter baumannii complex
+398,10088,169938,2022-01-24 22:42:00,blood culture,"staphylococcus, coagulase negative"
+399,10088,169938,2022-01-25 10:38:00,urine,klebsiella pneumoniae
+400,10088,169938,2022-01-25 10:38:00,sputum,staph aureus coag +
+401,10088,169938,2022-01-25 10:45:00,blood (ebv),nan
+402,10088,169938,2022-01-30 10:18:00,blood culture,nan
+403,10088,169938,2022-01-30 17:59:00,blood culture,nan
+404,10088,169938,2022-01-31 01:47:00,blood culture,klebsiella pneumoniae
+405,10088,168233,2022-02-18 04:00:00,urine,escherichia coli
+406,10088,168233,2022-02-18 04:00:00,sputum,klebsiella pneumoniae
+407,10088,168233,2022-02-18 04:00:00,blood culture ( myco/f lytic bottle),nan
+408,10088,168233,2022-02-18 11:20:00,blood culture,nan
+409,10088,168233,2022-02-18 11:20:00,blood culture,streptococcus pneumoniae
+410,10088,168233,2022-02-18 11:20:00,blood culture,nan
+411,10088,168233,2022-02-18 11:20:00,sputum,staph aureus coag +
+412,10088,168233,2022-02-18 11:20:00,sputum,acinetobacter baumannii complex
+413,10088,168233,2022-02-18 11:20:00,blood culture,nan
+414,10088,168233,2022-02-18 11:20:00,urine,enterococcus sp.
+415,10088,168233,2022-02-18 11:20:00,urine,enterococcus sp.
+416,10088,168233,2022-02-18 11:20:00,blood culture,nan
+417,10088,168233,2022-02-18 11:20:00,urine,staph aureus coag +
+418,10088,168233,2022-02-26 12:22:00,blood culture,nan
+419,10088,149044,2022-06-02 06:11:00,blood culture,escherichia coli
+420,10088,149044,2022-06-02 17:31:00,blood culture,streptococcus pneumoniae
+421,10088,149044,2022-06-02 17:31:00,blood culture,corynebacterium striatum
+422,10088,149044,2022-06-05 11:44:00,urine,escherichia coli
+423,10089,190301,2022-09-01 20:20:00,blood culture,escherichia coli
+424,10089,190301,2022-09-01 20:20:00,blood culture,"staphylococcus, coagulase negative"
+425,10089,190301,2022-09-01 20:20:00,blood culture,nan
+426,10089,190301,2022-09-02 19:44:00,urine,pseudomonas aeruginosa
+427,10090,176805,2021-02-06 17:16:00,urine,gram positive coccus(cocci)
+428,10090,176805,2021-02-06 17:35:00,blood culture,nan
+429,10093,165393,2019-02-24 08:50:00,urine,nan
+430,10093,165393,2019-02-24 13:44:00,mini-bal,pseudomonas aeruginosa
+431,10093,165393,2019-02-24 13:44:00,blood culture,nan
+432,10093,165393,2019-02-24 13:44:00,urine,escherichia coli
+433,10093,165393,2019-02-24 13:44:00,sputum,pseudomonas aeruginosa
+434,10093,165393,2019-02-24 13:44:00,blood culture,nan
+435,10093,165393,2019-02-24 13:44:00,blood culture,nan
+436,10093,165393,2019-02-24 13:44:00,mrsa screen,nan
+437,10093,165393,2019-02-24 13:44:00,sputum,pseudomonas aeruginosa
+438,10093,165393,2019-02-24 13:44:00,blood culture,nan
+439,10093,165393,2019-02-24 13:44:00,catheter tip-iv,nan
+440,10093,165393,2019-02-24 13:44:00,stool,nan
+441,10093,165393,2019-02-24 13:44:00,blood culture,nan
+442,10093,165393,2019-02-24 13:44:00,sputum,yeast
+443,10093,165393,2019-02-24 13:44:00,sputum,staph aureus coag +
+444,10094,168074,2023-04-08 18:24:00,blood culture,nan
+445,10094,168074,2023-04-08 18:37:00,blood culture,nan
+446,10094,168074,2023-04-09 05:06:00,blood culture,nan
+447,10094,168074,2023-04-09 05:06:00,swab,escherichia coli
+448,10094,168074,2023-04-11 07:53:00,mrsa screen,nan
+449,10094,168074,2023-04-11 11:45:00,urine,nan
+450,10094,168074,2023-04-11 11:49:00,sputum,nan
+451,10094,168074,2023-04-16 21:39:00,blood culture,nan
+452,10094,168074,2023-04-17 03:13:00,stool,nan
+453,10094,122928,2023-04-23 19:40:00,urine,proteus mirabilis
+454,10094,122928,2023-04-23 22:10:00,mrsa screen,positive for methicillin resistant staph aureus
+455,10094,122928,2023-04-23 00:00:00,blood culture,escherichia coli
+456,10094,122928,2023-04-23 00:00:00,sputum,pseudomonas aeruginosa
+457,10094,122928,2023-04-24 17:03:00,blood (cmv ab),nan
+458,10094,122928,2023-04-26 00:00:00,urine,nan
+459,10094,122928,2023-04-26 00:00:00,sputum,pseudomonas aeruginosa
+460,10094,122928,2023-04-27 09:51:00,blood culture ( myco/f lytic bottle),mycobacterium avium complex
+461,10101,142539,2021-04-17 11:50:00,catheter tip-iv,nan
+462,10101,142539,2021-04-17 12:15:00,urine,nan
+463,10101,142539,2021-04-17 12:55:00,blood culture,beta streptococcus group b
+464,10102,164869,2022-06-18 23:07:00,swab,escherichia coli
+465,10102,164869,2022-06-18 00:00:00,urine,enterococcus sp.
+466,10102,164869,2022-06-19 07:30:00,urine,proteus mirabilis
+467,10102,164869,2022-06-19 07:30:00,pleural fluid,nan
+468,10102,164869,2022-06-19 16:19:00,swab,escherichia coli
+469,10102,164869,2022-06-27 16:18:00,blood culture,nan
+470,10102,164869,2022-06-27 17:00:00,blood culture,nan
+471,10102,164869,2022-06-28 16:11:00,immunology (cmv),nan
+472,10102,164869,2022-06-28 16:11:00,sputum,escherichia coli
+473,10102,164869,2022-06-28 17:10:00,urine,proteus mirabilis
+474,10104,177678,2023-09-18 02:50:00,blood culture,nan
+475,10104,177678,2023-09-18 05:54:00,sputum,proteus mirabilis
+476,10104,177678,2023-09-18 05:54:00,blood culture,nan
+477,10104,177678,2023-09-18 05:54:00,mrsa screen,positive for methicillin resistant staph aureus
+478,10104,177678,2023-09-18 05:54:00,urine,nan
+479,10104,177678,2023-09-18 05:54:00,blood culture,nan
+480,10104,177678,2023-09-18 05:54:00,blood culture,nan
+481,10104,177678,2023-09-18 05:54:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+482,10104,177678,2023-09-18 05:54:00,urine,proteus mirabilis
+483,10104,177678,2023-09-18 05:54:00,urine,nan
+484,10104,177678,2023-09-18 05:54:00,swab,proteus species
+485,10104,177678,2023-09-18 05:54:00,blood culture,nan
+486,10104,177678,2023-09-18 05:54:00,sputum,klebsiella pneumoniae
+487,10104,177678,2023-09-18 05:54:00,blood culture,nan
+488,10104,177678,2023-09-18 05:54:00,catheter tip-iv,nan
+489,10104,177678,2023-09-18 05:54:00,stool,nan
+490,10104,177678,2023-09-18 05:54:00,urine,proteus mirabilis
+491,10104,177678,2023-09-18 05:54:00,sputum,serratia marcescens
+492,10106,133283,2023-10-18 10:40:00,blood culture,"staphylococcus, coagulase negative"
+493,10106,133283,2023-10-18 15:05:00,sputum,proteus mirabilis
+494,10106,133283,2023-10-18 21:30:00,sputum,morganella morganii
+495,10111,174739,2021-03-04 11:00:00,urine,klebsiella pneumoniae
+496,10111,174739,2021-03-04 11:00:00,blood culture,nan
+497,10111,174739,2021-03-04 11:10:00,bronchoalveolar lavage,staph aureus coag +
+498,10111,174739,2021-03-05 16:00:00,urine,nan
+499,10111,174739,2021-03-06 16:11:00,blood culture,klebsiella pneumoniae
+500,10111,174739,2021-03-06 16:13:00,blood culture,nan
+501,10112,188574,2022-02-12 23:04:00,blood culture,nan
+502,10112,188574,2022-02-13 10:30:00,blood culture,nan
+503,10112,188574,2022-02-13 10:30:00,urine,providencia stuartii
+504,10112,188574,2022-02-13 00:00:00,sputum,acinetobacter baumannii complex
+505,10112,188574,2022-02-15 13:33:00,swab,escherichia coli
+506,10112,188574,2022-02-15 14:00:00,blood culture,nan
+507,10112,188574,2022-02-15 00:00:00,blood culture,nan
+508,10112,188574,2022-02-16 04:00:00,"fluid,other",nan
+509,10112,188574,2022-02-16 04:00:00,urine,enterobacteriaceae
+510,10112,188574,2022-02-16 04:00:00,sputum,stenotrophomonas (xanthomonas) maltophilia
+511,10114,167957,2021-12-05 23:30:00,urine,nan
+512,10114,167957,2021-12-05 23:30:00,urine,escherichia coli
+513,10114,167957,2021-12-11 06:00:00,sputum,gram negative rod(s)
+514,10117,187023,2022-07-03 00:00:00,mrsa screen,nan
+515,10117,187023,2022-07-03 00:00:00,blood culture,nan
+516,10117,187023,2022-07-03 00:00:00,urine,klebsiella pneumoniae
+517,10117,187023,2022-07-03 00:00:00,sputum,acinetobacter baumannii complex
+518,10117,187023,2022-07-03 00:00:00,sputum,escherichia coli
+519,10117,187023,2022-07-03 00:00:00,sputum,staph aureus coag +
+520,10117,187023,2022-07-03 00:00:00,sputum,proteus mirabilis
+521,10117,187023,2022-07-03 00:00:00,blood culture,nan
+522,10117,187023,2022-07-03 00:00:00,urine,serratia marcescens
+523,10117,187023,2022-07-03 00:00:00,blood culture,nan
+524,10117,187023,2022-07-03 00:00:00,urine,klebsiella pneumoniae
+525,10117,187023,2022-07-03 00:00:00,sputum,nan
+526,10117,187023,2022-07-04 00:00:00,sputum,pseudomonas aeruginosa
+527,10117,187023,2022-07-04 00:00:00,urine,pseudomonas aeruginosa
+528,10117,187023,2022-07-05 19:00:00,blood culture,nan
+529,10117,187023,2022-07-06 06:00:00,sputum,staph aureus coag +
+530,10117,105150,2022-12-07 16:00:00,sputum,staph aureus coag +
+531,10117,105150,2022-12-07 16:40:00,blood culture,klebsiella pneumoniae
+532,10117,105150,2022-12-08 06:30:00,swab,escherichia coli
+533,10117,105150,2022-12-08 06:30:00,blood culture,nan
+534,10117,105150,2022-12-08 08:30:00,urine,nan
+535,10117,105150,2022-12-08 00:00:00,blood culture,nan
+536,10117,105150,2022-12-10 14:14:00,sputum,proteus species
+537,10119,157466,2021-08-28 13:50:00,blood culture,nan
+538,10119,157466,2021-08-28 14:15:00,stool,nan
+539,10119,157466,2021-08-28 16:00:00,urine,nan
+540,10119,157466,2021-08-28 20:40:00,sputum,yeast
+541,10119,157466,2021-08-28 20:40:00,sputum,proteus mirabilis
+542,10119,157466,2021-08-28 20:40:00,urine,klebsiella oxytoca
+543,10119,157466,2021-08-28 20:40:00,urine,klebsiella pneumoniae
+544,10119,157466,2021-08-28 20:40:00,urine,escherichia coli
+545,10119,157466,2021-08-28 20:40:00,peritoneal fluid,nan
+546,10119,157466,2021-08-28 20:40:00,blood culture,nan
+547,10119,157466,2021-08-28 20:40:00,stool,nan
+548,10119,157466,2021-08-28 20:40:00,blood culture,nan
+549,10119,157466,2021-08-28 20:40:00,sputum,morganella morganii
+550,10119,157466,2021-08-28 20:40:00,blood culture,enterococcus faecalis
+551,10119,157466,2021-08-28 20:40:00,sputum,staph aureus coag +
+552,10119,157466,2021-08-28 20:40:00,sputum,staph aureus coag +
+553,10119,157466,2021-08-28 20:40:00,urine,klebsiella pneumoniae
+554,10119,157466,2021-08-28 20:40:00,fluid received in blood culture bottles,nan
+555,10119,157466,2021-08-28 20:40:00,mrsa screen,nan
+556,10119,157466,2021-08-28 20:40:00,blood culture,nan
+557,10119,157466,2021-08-28 20:40:00,stool,nan
+558,10119,157466,2021-08-28 20:40:00,blood culture,nan
+559,10119,157466,2021-08-28 20:40:00,sputum,nan
+560,10119,157466,2021-08-28 20:40:00,mrsa screen,nan
+561,10119,157466,2021-08-28 20:40:00,sputum,acinetobacter baumannii complex
+562,10119,157466,2021-08-28 20:40:00,urine,escherichia coli
+563,10119,157466,2021-08-28 20:40:00,sputum,staph aureus coag +
+564,10119,157466,2021-08-28 20:40:00,sputum,yeast
+565,10119,157466,2021-08-28 20:40:00,catheter tip-iv,nan
+566,10119,157466,2021-08-28 20:40:00,urine,nan
+567,10119,157466,2021-08-28 20:40:00,sputum,staph aureus coag +
+568,10119,157466,2021-08-28 20:40:00,blood culture,nan
+569,10119,157466,2021-08-28 20:40:00,sputum,nan
+570,10119,157466,2021-08-28 20:40:00,corneal eye scrapings,"staphylococcus, coagulase negative"
+571,10119,157466,2021-08-28 20:40:00,mrsa screen,nan
+572,10119,157466,2021-08-28 20:40:00,sputum,staph aureus coag +
+573,10119,157466,2021-08-28 20:40:00,sputum,proteus mirabilis
+574,10119,157466,2021-08-28 20:40:00,bile,escherichia coli
+575,10119,157466,2021-08-28 20:40:00,urine,nan
+576,10119,157466,2021-08-28 20:40:00,blood culture,escherichia coli
+577,10119,157466,2021-08-28 20:40:00,sputum,nan
+578,10119,157466,2021-08-28 20:40:00,urine,nan
+579,10119,157466,2021-08-28 20:40:00,urine,nan
+580,10119,157466,2021-08-28 20:40:00,sputum,escherichia coli
+581,10119,157466,2021-08-28 20:40:00,blood culture,streptococcus pneumoniae
+582,10119,157466,2021-08-28 20:40:00,urine,klebsiella pneumoniae
+583,10119,157466,2021-08-28 20:40:00,blood culture,nan
+584,10119,157466,2021-08-28 20:40:00,urine,klebsiella oxytoca
+585,10119,157466,2021-08-28 20:40:00,urine,nan
+586,10119,157466,2021-08-28 20:40:00,urine,providencia stuartii
+587,10119,157466,2021-08-28 20:40:00,blood culture,nan
+588,10119,157466,2021-08-28 20:40:00,sputum,staph aureus coag +
+589,10119,157466,2021-08-28 20:40:00,blood culture,nan
+590,10119,157466,2021-08-28 20:40:00,aspirate,nan
+591,10119,157466,2021-08-28 20:40:00,blood culture,nan
+592,10119,157466,2021-08-28 20:40:00,urine,klebsiella pneumoniae
+593,10119,157466,2021-08-28 20:40:00,sputum,pseudomonas aeruginosa
+594,10119,157466,2021-08-29 04:00:00,blood culture,nan
+595,10119,157466,2021-08-29 08:13:00,blood culture,nan
+596,10119,157466,2021-09-01 10:16:00,sputum,nan
+597,10119,157466,2021-09-01 10:16:00,sputum,acinetobacter baumannii complex
+598,10119,157466,2021-09-01 10:16:00,urine,nan
+599,10119,157466,2021-09-04 16:54:00,blood culture,proteus mirabilis
+600,10119,157466,2021-09-04 17:29:00,sputum,escherichia coli
+601,10119,157466,2021-09-09 01:08:00,urine,enterococcus sp.
+602,10119,165436,2021-09-14 02:40:00,sputum,proteus mirabilis
+603,10120,193924,2021-06-03 15:08:00,blood culture,nan
+604,10120,193924,2021-06-03 15:08:00,sputum,pseudomonas aeruginosa
+605,10120,193924,2021-06-03 17:44:00,urine,nan
+606,10120,193924,2021-06-03 17:45:00,blood culture,nan
+607,10120,193924,2021-06-03 18:49:00,swab,escherichia coli
+608,10120,193924,2021-06-03 18:49:00,blood culture,nan
+609,10120,193924,2021-06-03 18:49:00,urine,pseudomonas aeruginosa
+610,10120,193924,2021-06-03 18:49:00,sputum,escherichia coli
+611,10120,193924,2021-06-03 18:49:00,mrsa screen,positive for methicillin resistant staph aureus
+612,10120,193924,2021-06-03 18:49:00,blood culture ( myco/f lytic bottle),nan
+613,10120,193924,2021-06-03 18:49:00,urine,nan
+614,10120,193924,2021-06-04 07:30:00,sputum,acinetobacter baumannii complex
+615,10120,193924,2021-06-04 07:30:00,mini-bal,staph aureus coag +
+616,10120,193924,2021-06-04 07:30:00,sputum,serratia marcescens
+617,10120,193924,2021-06-04 16:48:00,urine,nan
+618,10120,193924,2021-06-04 16:48:00,swab,escherichia coli
+619,10120,193924,2021-06-04 16:48:00,mrsa screen,nan
+620,10120,193924,2021-06-04 16:48:00,urine,pseudomonas aeruginosa
+621,10120,193924,2021-06-04 16:48:00,urine,serratia marcescens
+622,10120,193924,2021-06-05 03:18:00,blood culture,nan
+623,10124,182664,2023-05-07 11:30:00,swab,escherichia coli
+624,10124,182664,2023-05-07 11:30:00,urine,nan
+625,10124,182664,2023-05-07 11:30:00,blood culture,proteus mirabilis
+626,10124,182664,2023-05-07 11:30:00,urine,staph aureus coag +
+627,10124,182664,2023-05-07 11:30:00,mrsa screen,nan
+628,10124,182664,2023-05-07 11:30:00,blood culture,escherichia coli
+629,10124,182664,2023-05-07 11:30:00,sputum,pseudomonas aeruginosa
+630,10124,182664,2023-05-07 11:30:00,mini-bal,pseudomonas aeruginosa
+631,10124,182664,2023-05-07 11:30:00,urine,enterobacteriaceae
+632,10124,182664,2023-05-07 11:30:00,urine,nan
+633,10124,182664,2023-05-07 11:30:00,blood culture,nan
+634,10124,182664,2023-05-07 11:30:00,urine,escherichia coli
+635,10124,182664,2023-05-07 11:30:00,blood culture,nan
+636,10124,182664,2023-05-07 11:30:00,sputum,acinetobacter baumannii complex
+637,10124,182664,2023-05-10 12:39:00,pleural fluid,nan
+638,10124,182664,2023-05-10 12:39:00,blood culture,escherichia coli
+639,10124,182664,2023-05-11 02:38:00,urine,klebsiella pneumoniae
+640,10124,182664,2023-05-13 17:49:00,blood culture,nan
+641,10124,182664,2023-05-13 18:30:00,sputum,escherichia coli
+642,10124,182664,2023-05-13 18:31:00,sputum,serratia marcescens
+643,10124,170883,2023-05-28 12:15:00,urine,nan
+644,10124,170883,2023-05-28 12:50:00,sputum,pseudomonas aeruginosa
+645,10124,170883,2023-05-28 16:20:00,stool,nan
+646,10124,170883,2023-06-01 10:55:00,blood culture,nan
+647,10124,170883,2023-06-01 14:40:00,sputum,staph aureus coag +
+648,10124,170883,2023-06-01 14:40:00,urine,klebsiella pneumoniae
+649,10124,170883,2023-06-01 14:40:00,urine,nan
+650,10124,170883,2023-06-01 14:40:00,sputum,acinetobacter baumannii complex
+651,10124,170883,2023-06-01 14:40:00,sputum,nan
+652,10124,170883,2023-06-01 14:40:00,sputum,staph aureus coag +
+653,10124,170883,2023-06-01 15:15:00,blood culture,"staphylococcus, coagulase negative"
+654,10124,170883,2023-06-01 15:15:00,serology/blood,nan
+655,10124,170883,2023-06-01 15:15:00,urine,nan
+656,10124,170883,2023-06-01 15:15:00,urine,escherichia coli
+657,10124,170883,2023-06-01 15:15:00,blood culture,nan
+658,10124,170883,2023-06-01 15:15:00,blood culture,nan
+659,10124,170883,2023-06-01 15:15:00,urine,proteus mirabilis
+660,10124,170883,2023-06-01 15:15:00,urine,nan
+661,10124,170883,2023-06-01 15:15:00,blood culture,nan
+662,10124,170883,2023-06-01 15:15:00,sputum,proteus mirabilis
+663,10124,170883,2023-06-02 13:30:00,urine,providencia stuartii
+664,10124,170883,2023-06-02 15:20:00,urine,proteus mirabilis
+665,10124,170883,2023-06-03 10:10:00,blood culture,staph aureus coag +
+666,10124,170883,2023-06-04 15:15:00,sputum,gram negative rod #2
+667,10124,170883,2023-06-06 06:13:00,urine,klebsiella oxytoca
+668,10124,170883,2023-06-09 06:55:00,urine,nan
+669,10124,170883,2023-06-09 09:20:00,blood culture,nan
+670,10124,170883,2023-06-11 18:09:00,urine,klebsiella pneumoniae
+671,10124,170883,2023-06-12 13:20:00,sputum,proteus mirabilis
+672,10124,170883,2023-06-12 16:22:00,blood culture,proteus mirabilis
+673,10124,170883,2023-06-13 14:52:00,bile,escherichia coli
+674,10124,170883,2023-06-17 07:35:00,serology/blood,nan
+675,10124,170883,2023-06-17 07:41:00,sputum,gram negative rod #2
+676,10124,170883,2023-06-17 07:55:00,sputum,nan
+677,10124,170883,2023-06-17 13:59:00,blood culture ( myco/f lytic bottle),nan
+678,10124,170883,2023-06-18 12:20:00,sputum,nan
+679,10124,170883,2023-06-18 12:20:00,stool,nan
+680,10126,160445,2020-08-17 07:48:00,sputum,escherichia coli
+681,10126,160445,2020-08-19 08:59:00,urine,escherichia coli
+682,10126,160445,2020-08-20 22:23:00,mrsa screen,nan
+683,10126,160445,2020-08-20 22:23:00,urine,klebsiella pneumoniae
+684,10126,160445,2020-08-20 22:23:00,blood culture,nan
+685,10126,160445,2020-08-25 12:04:00,blood culture,nan
+686,10126,160445,2020-08-25 12:04:00,swab,nan
+687,10126,160445,2020-08-25 12:04:00,blood culture,nan
+688,10126,160445,2020-08-25 12:06:00,swab,escherichia coli
+689,10126,160445,2020-08-25 12:08:00,serology/blood,nan
+690,10126,160445,2020-08-26 04:35:00,sputum,morganella morganii
+691,10126,160445,2020-08-26 04:35:00,blood culture,enterococcus sp.
+692,10126,160445,2020-08-26 04:35:00,sputum,yeast
+693,10126,160445,2020-08-26 04:35:00,blood culture,nan
+694,10126,160445,2020-08-26 04:35:00,sputum,nan
+695,10126,160445,2020-08-26 04:35:00,urine,nan
+696,10126,160445,2020-08-26 04:35:00,mrsa screen,nan
+697,10126,160445,2020-08-26 04:35:00,stool,nan
+698,10126,160445,2020-08-26 04:35:00,blood culture,nan
+699,10126,160445,2020-08-26 04:35:00,catheter tip-iv,nan
+700,10126,160445,2020-08-26 04:35:00,urine,pseudomonas aeruginosa
+701,10126,160445,2020-08-26 04:35:00,sputum,staph aureus coag +
+702,10126,160445,2020-08-26 04:35:00,sputum,staph aureus coag +
+703,10126,160445,2020-08-26 04:35:00,urine,nan
+704,10126,160445,2020-08-26 04:35:00,blood culture,nan
+705,10126,160445,2020-08-26 04:35:00,sputum,proteus mirabilis
+706,10126,160445,2020-08-26 04:35:00,sputum,escherichia coli
+707,10126,160445,2020-08-26 04:35:00,blood culture,nan
+708,10126,160445,2020-08-26 04:35:00,mrsa screen,nan
+709,10126,160445,2020-08-26 04:36:00,sputum,staph aureus coag +
+710,10126,160445,2020-08-26 17:42:00,sputum,acinetobacter baumannii complex
+711,10126,160445,2020-08-27 03:37:00,blood culture,staph aureus coag +
+712,10126,160445,2020-08-27 03:38:00,stool,nan
+713,10126,160445,2020-08-27 03:40:00,blood culture,nan
+714,10126,160445,2020-08-27 03:41:00,immunology,nan
+715,10126,160445,2020-08-27 03:51:00,sputum,pseudomonas aeruginosa
+716,10126,160445,2020-08-27 10:01:00,fluid received in blood culture bottles,nan
+717,10126,160445,2020-08-27 10:01:00,blood culture,staph aureus coag +
+718,10126,160445,2020-08-27 10:02:00,sputum,gram negative rod #3
+719,10126,160445,2020-08-27 13:32:00,urine,pseudomonas aeruginosa
+720,10126,160445,2020-08-27 17:33:00,urine,nan
+721,10126,160445,2020-08-27 17:33:00,urine,escherichia coli
+722,10126,160445,2020-08-27 17:33:00,urine,klebsiella pneumoniae
+723,10126,160445,2020-08-27 23:30:00,sputum,staph aureus coag +
+724,10126,160445,2020-09-01 02:23:00,sputum,pseudomonas aeruginosa
+725,10126,160445,2020-09-01 12:17:00,blood culture,streptococcus pneumoniae
+726,10126,160445,2020-09-01 12:27:00,serology/blood,nan
+727,10126,160445,2020-09-01 12:27:00,stool,clostridium difficile
+728,10126,160445,2020-09-01 12:27:00,urine,serratia marcescens
+729,10126,160445,2020-09-01 22:25:00,urine,proteus mirabilis
+730,10126,160445,2020-09-02 05:43:00,sputum,staph aureus coag +
+731,10126,160445,2020-09-02 05:43:00,sputum,pseudomonas aeruginosa
+732,10126,160445,2020-09-02 05:43:00,urine,serratia marcescens
+733,10126,160445,2020-09-02 05:43:00,urine,escherichia coli
+734,10126,160445,2020-09-02 06:10:00,mrsa screen,positive for methicillin resistant staph aureus
+735,10126,160445,2020-09-03 12:10:00,catheter tip-iv,nan
+736,10126,160445,2020-09-03 12:10:00,sputum,acinetobacter baumannii complex
+737,10126,160445,2020-09-03 12:10:00,urine,providencia rettgeri
+738,10126,160445,2020-09-04 11:33:00,urine,enterococcus sp.
+739,10126,160445,2020-09-07 21:15:00,sputum,pseudomonas aeruginosa
+740,10126,160445,2020-09-10 00:58:00,urine,enterobacteriaceae
+741,10126,160445,2020-09-10 00:59:00,urine,escherichia coli
+742,10126,160445,2020-09-10 00:59:00,blood culture,nan
+743,10126,160445,2020-09-10 14:30:00,blood culture,nan
+744,10126,160445,2020-09-10 14:30:00,sputum,gram negative rod(s)
+745,10126,160445,2020-09-10 14:30:00,blood culture,nan
+746,10126,160445,2020-09-12 19:08:00,urine,escherichia coli
+747,10126,160445,2020-09-14 13:43:00,sputum,serratia marcescens
+748,10126,160445,2020-09-14 15:53:00,sputum,nan
+749,10126,160445,2020-09-17 11:36:00,urine,serratia marcescens
+750,10126,160445,2020-09-17 15:18:00,urine,escherichia coli
+751,10126,160445,2020-09-17 15:18:00,sputum,pseudomonas aeruginosa
+752,10126,160445,2020-09-19 02:04:00,urine,escherichia coli
+753,10126,160445,2020-09-19 02:04:00,sputum,staph aureus coag +
+754,10126,160445,2020-09-19 02:12:00,blood culture,nan
+755,10126,160445,2020-09-19 03:22:00,urine,escherichia coli
+756,10126,160445,2020-09-19 04:06:00,sputum,klebsiella pneumoniae
+757,10126,160445,2020-09-19 14:34:00,urine,"candida albicans, presumptive identification"
+758,10126,160445,2020-09-19 14:35:00,sputum,pseudomonas aeruginosa
+759,10127,182839,2022-08-14 16:41:00,sputum,acinetobacter baumannii complex
+760,10127,182839,2022-08-15 10:05:00,swab,nan
+761,10127,182839,2022-08-15 10:06:00,corneal eye scrapings,"staphylococcus, coagulase negative"
+762,10127,182839,2022-08-15 13:05:00,stool,clostridium difficile
+763,10127,182839,2022-08-15 13:09:00,blood culture,nan
+764,10127,182839,2022-08-15 13:09:00,blood culture,staph aureus coag +
+765,10127,182839,2022-08-15 13:09:00,sputum,staph aureus coag +
+766,10127,182839,2022-08-15 13:09:00,sputum,acinetobacter baumannii
+767,10127,182839,2022-08-15 13:09:00,sputum,pseudomonas aeruginosa
+768,10127,182839,2022-08-15 13:09:00,sputum,yeast
+769,10127,182839,2022-08-15 13:09:00,bronchoalveolar lavage,"candida albicans, presumptive identification"
+770,10127,182839,2022-08-15 13:09:00,blood culture,nan
+771,10127,182839,2022-08-18 06:17:00,blood culture,nan
+772,10127,182839,2022-08-18 06:17:00,tissue,nan
+773,10127,182839,2022-08-18 06:17:00,urine,escherichia coli
+774,10127,182839,2022-08-18 06:18:00,sputum,staph aureus coag +
+775,10127,182839,2022-08-18 06:18:00,blood culture,nan
+776,10127,182839,2022-08-21 19:39:00,urine,staph aureus coag +
+777,10127,182839,2022-08-21 19:40:00,sputum,pseudomonas aeruginosa
+778,10127,182839,2022-08-21 19:45:00,csf;spinal fluid,nan
+779,10127,182839,2022-08-21 19:45:00,blood culture,"staphylococcus, coagulase negative"
+780,10127,182839,2022-08-22 02:55:00,urine,klebsiella pneumoniae
+781,10127,182839,2022-08-22 02:55:00,urine,klebsiella pneumoniae
+782,10127,182839,2022-08-24 17:18:00,blood culture,escherichia coli
+783,10127,182839,2022-08-25 09:25:00,blood culture,staph aureus coag +
+784,10127,182839,2022-08-26 02:23:00,blood culture,nan
+785,10127,182839,2022-08-26 04:34:00,blood culture,nan
+786,10127,182839,2022-08-26 04:34:00,blood culture,nan
+787,10127,182839,2022-08-26 04:34:00,sputum,staph aureus coag +
+788,10127,182839,2022-08-26 04:34:00,urine,escherichia coli
+789,10127,182839,2022-08-26 04:34:00,sputum,pseudomonas aeruginosa
+790,10127,182839,2022-08-26 04:34:00,blood culture,nan
+791,10127,182839,2022-08-26 04:34:00,blood culture,proteus mirabilis
+792,10127,182839,2022-08-26 04:34:00,sputum,staph aureus coag +
+793,10127,182839,2022-08-26 04:34:00,blood culture,nan
+794,10127,182839,2022-08-26 04:34:00,blood culture,nan
+795,10127,182839,2022-08-26 11:35:00,urine,providencia stuartii
+796,10127,182839,2022-08-26 11:35:00,urine,proteus mirabilis
+797,10127,182839,2022-08-26 11:35:00,sputum,acinetobacter baumannii complex
+798,10127,182839,2022-08-26 14:04:00,blood culture,nan
+799,10127,182839,2022-08-28 06:30:00,blood culture,nan
+800,10127,182839,2022-08-28 06:30:00,urine,escherichia coli
+801,10127,182839,2022-08-28 06:32:00,blood culture,nan
+802,10127,182839,2022-08-28 06:32:00,sputum,staph aureus coag +
+803,10127,182839,2022-08-29 10:17:00,blood culture,nan
+804,10127,182839,2022-08-29 21:55:00,blood culture,nan
+805,10127,182839,2022-08-29 21:55:00,blood culture,nan
+806,10127,182839,2022-08-30 16:33:00,sputum,staph aureus coag +
+807,10130,156668,2019-03-06 00:00:00,mrsa screen,positive for methicillin resistant staph aureus
+808,10130,156668,2019-03-06 00:00:00,sputum,pseudomonas aeruginosa
+809,10130,156668,2019-03-06 00:00:00,bronchoalveolar lavage,staph aureus coag +
+810,10130,156668,2019-03-06 00:00:00,blood culture,nan
+811,10130,156668,2019-03-06 00:00:00,sputum,acinetobacter baumannii complex
+812,10130,156668,2019-03-06 00:00:00,sputum,escherichia coli
+813,10130,156668,2019-03-06 00:00:00,blood culture,nan
+814,10130,156668,2019-03-06 00:00:00,sputum,pseudomonas aeruginosa
+815,10130,156668,2019-03-06 00:00:00,blood culture,nan
+816,10130,156668,2019-03-06 00:00:00,blood culture,nan
+817,10130,156668,2019-03-12 00:30:00,sputum,staph aureus coag +
+818,10130,156668,2019-03-16 00:00:00,blood culture,nan
+819,10130,156668,2019-03-18 14:16:00,sputum,escherichia coli
+820,10130,156668,2019-03-18 14:16:00,urine,nan
+821,10130,156668,2019-03-18 14:16:00,sputum,klebsiella pneumoniae
+822,10130,156668,2019-03-18 14:16:00,swab,escherichia coli
+823,10130,156668,2019-03-18 14:16:00,blood culture,"staphylococcus, coagulase negative"
+824,10130,156668,2019-03-18 14:16:00,urine,yeast
+825,10130,156668,2019-03-18 14:16:00,blood culture,nan
+826,10130,156668,2019-03-18 14:16:00,sputum,acinetobacter baumannii complex
+827,10130,156668,2019-03-18 14:16:00,mini-bal,serratia marcescens
+828,10130,156668,2019-03-18 14:16:00,swab,beta streptococcus group b
+829,10130,156668,2019-03-18 14:16:00,sputum,pseudomonas aeruginosa
+830,10130,156668,2019-03-18 14:16:00,urine,yeast
+831,10130,156668,2019-03-18 14:16:00,sputum,klebsiella pneumoniae
+832,10132,197611,2023-09-16 12:30:00,blood culture,nan
+833,10132,197611,2023-09-16 12:45:00,blood culture,nan
+834,10132,197611,2023-09-18 21:54:00,csf;spinal fluid,nan
+835,10132,197611,2023-09-18 22:00:00,blood culture,"staphylococcus, coagulase negative"
+836,10132,197611,2023-09-18 22:00:00,blood culture,proteus mirabilis
+837,10132,197611,2023-09-19 22:18:00,urine,escherichia coli
+838,10132,197611,2023-09-20 00:17:00,blood culture,nan
+839,10132,197611,2023-09-20 00:42:00,sputum,pseudomonas aeruginosa
+840,10132,197611,2023-09-20 08:49:00,sputum,gram negative rod #3
+841,10132,197611,2023-09-20 15:00:00,swab,staph aureus coag +
+842,10132,197611,2023-09-20 19:30:00,blood culture,nan
+843,10132,197611,2023-09-20 19:40:00,urine,enterobacteriaceae
+844,10132,197611,2023-09-22 08:48:00,urine,staph aureus coag +
+845,10132,197611,2023-09-23 11:59:00,catheter tip-iv,nan
+846,10132,197611,2023-09-23 11:59:00,urine,nan
+847,10132,197611,2023-09-24 22:15:00,mrsa screen,positive for methicillin resistant staph aureus
+848,10132,197611,2023-09-24 22:35:00,blood culture,nan
+849,10132,197611,2023-09-25 06:19:00,urine,proteus mirabilis
+850,10132,197611,2023-09-26 21:18:00,sputum,klebsiella pneumoniae
+851,10132,197611,2023-09-27 12:52:00,swab,pseudomonas aeruginosa
+852,10132,197611,2023-09-28 09:05:00,bile,escherichia coli
+853,10132,197611,2023-09-28 09:06:00,stool,nan
+854,10132,197611,2023-09-28 13:23:00,mini-bal,staph aureus coag +
+855,10132,197611,2023-09-30 23:51:00,blood culture,nan
+856,10132,197611,2023-10-01 01:33:00,stool,nan
+857,10132,197611,2023-10-01 14:35:00,blood culture,nan
+858,10132,197611,2023-10-01 14:56:00,sputum,staph aureus coag +
+859,10132,197611,2023-10-03 01:40:00,sputum,proteus mirabilis
+860,10132,197611,2023-10-03 01:40:00,blood culture,"staphylococcus, coagulase negative"
+861,10132,197611,2023-10-03 09:11:00,swab,escherichia coli
+862,10132,197611,2023-10-11 06:50:00,urine,providencia stuartii
+863,40124,126179,2023-03-02 00:35:00,blood culture,nan
+864,40124,126179,2023-03-03 05:57:00,sputum,klebsiella pneumoniae
+865,40124,126179,2023-03-03 11:15:00,urine,proteus mirabilis
+866,40124,126179,2023-03-06 08:45:00,blood culture,nan
+867,40124,126179,2023-03-06 12:45:00,blood culture,nan
+868,40124,126179,2023-03-07 19:00:00,mrsa screen,nan
+869,40124,146893,2023-09-07 04:45:00,blood culture,nan
+870,40124,146893,2023-09-07 04:53:00,blood culture,nan
+871,40124,146893,2023-09-07 12:36:00,urine,nan
+872,40124,146893,2023-09-07 22:20:00,urine,staph aureus coag +
+873,40124,146893,2023-09-08 12:57:00,blood culture,nan
+874,40124,146893,2023-09-08 20:20:00,urine,pseudomonas aeruginosa
+875,40124,146893,2023-09-08 20:43:00,blood culture,corynebacterium striatum
+876,40124,146893,2023-09-08 20:45:00,blood culture,nan
+877,40124,146893,2023-09-09 00:34:00,blood culture,nan
+878,40124,146893,2023-09-09 15:00:00,pleural fluid,nan
+879,40124,146893,2023-09-12 14:20:00,stool,nan
+880,40177,198480,2020-06-11 23:45:00,urine,proteus mirabilis
+881,40177,198480,2020-06-11 23:45:00,urine,proteus mirabilis
+882,40177,198480,2020-06-12 03:50:00,blood culture,nan
+883,40177,198480,2020-06-12 04:42:00,urine,proteus mirabilis
+884,40177,198480,2020-06-12 04:42:00,mini-bal,pseudomonas aeruginosa
+885,40177,198480,2020-06-12 12:52:00,urine,staph aureus coag +
+886,40177,198480,2020-06-12 12:52:00,urine,escherichia coli
+887,40177,198480,2020-06-12 13:50:00,blood culture,nan
+888,40177,198480,2020-06-12 17:49:00,urine,nan
+889,40177,198480,2020-06-12 17:49:00,blood culture,nan
+890,40177,198480,2020-06-12 17:49:00,fluid received in blood culture bottles,nan
+891,40177,198480,2020-06-12 17:49:00,urine,yeast
+892,40177,198480,2020-06-12 17:49:00,sputum,pseudomonas aeruginosa
+893,40177,198480,2020-06-12 17:49:00,blood culture,"staphylococcus, coagulase negative"
+894,40177,198480,2020-06-12 17:49:00,catheter tip-iv,nan
+895,40177,198480,2020-06-12 17:49:00,urine,nan
+896,40177,198480,2020-06-12 17:49:00,urine,nan
+897,40177,198480,2020-06-12 17:49:00,blood culture,nan
+898,40177,198480,2020-06-12 17:49:00,urine,nan
+899,40177,198480,2020-06-12 17:49:00,urine,nan
+900,40177,198480,2020-06-12 17:49:00,urine,escherichia coli
+901,40177,198480,2020-06-12 17:49:00,swab,escherichia coli
+902,40177,198480,2020-06-12 17:49:00,sputum,proteus mirabilis
+903,40177,198480,2020-06-15 14:47:00,stool,nan
+904,40177,198480,2020-06-16 21:08:00,mini-bal,staph aureus coag +
+905,40177,198480,2020-06-16 00:00:00,sputum,nan
+906,40277,127703,2019-09-14 11:07:00,stool,nan
+907,40277,127703,2019-09-14 16:54:00,sputum,morganella morganii
+908,40277,127703,2019-09-18 14:29:00,csf;spinal fluid,nan
+909,40286,109698,2021-11-27 02:00:00,fluid received in blood culture bottles,nan
+910,40304,174997,2020-12-25 19:32:00,urine,nan
+911,40304,174997,2020-12-27 18:30:00,sputum,escherichia coli
+912,40304,174997,2020-12-27 19:10:00,sputum,escherichia coli
+913,40304,174997,2020-12-28 08:13:00,sputum,stenotrophomonas (xanthomonas) maltophilia
+914,40304,174997,2020-12-29 15:37:00,sputum,staph aureus coag +
+915,40310,186361,2021-08-10 17:57:00,urine,proteus mirabilis
+916,40310,186361,2021-08-11 08:00:00,blood culture,nan
+917,40310,186361,2021-08-11 08:00:00,mrsa screen,nan
+918,40310,186361,2021-08-11 15:33:00,urine,nan
+919,40310,186361,2021-08-11 15:33:00,blood culture,nan
+920,40310,186361,2021-08-11 16:55:00,urine,klebsiella oxytoca
+921,40310,186361,2021-08-11 17:00:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+922,40310,186361,2021-08-11 20:58:00,blood culture,nan
+923,40310,186361,2021-08-11 00:00:00,mrsa screen,nan
+924,40310,186361,2021-08-12 05:46:00,blood culture,nan
+925,40310,186361,2021-08-12 12:27:00,blood culture,streptococcus pneumoniae
+926,40310,186361,2021-08-12 14:33:00,sputum,morganella morganii
+927,40310,186361,2021-08-12 19:15:00,sputum,staph aureus coag +
+928,40310,186361,2021-08-12 20:10:00,blood culture,nan
+929,40310,186361,2021-08-13 09:20:00,urine,klebsiella oxytoca
+930,40310,186361,2021-08-13 09:47:00,sputum,yeast
+931,40310,186361,2021-08-13 15:14:00,urine,providencia rettgeri
+932,40310,186361,2021-08-13 23:50:00,sputum,nan
+933,40310,186361,2021-08-14 04:46:00,urine,klebsiella pneumoniae
+934,40310,186361,2021-08-15 11:06:00,swab,nan
+935,40310,186361,2021-08-15 11:06:00,swab,staph aureus coag +
+936,40310,186361,2021-08-17 11:00:00,sputum,pseudomonas aeruginosa
+937,40310,186361,2021-08-17 14:19:00,urine,nan
+938,40310,186361,2021-08-17 16:54:00,blood culture,nan
+939,40310,186361,2021-08-18 12:02:00,urine,nan
+940,40310,186361,2021-08-18 12:02:00,urine,providencia stuartii
+941,40310,186361,2021-08-20 21:33:00,swab,nan
+942,40310,186361,2021-08-21 23:00:00,blood culture,nan
+943,40310,186361,2021-08-22 02:07:00,swab,escherichia coli
+944,40310,186361,2021-08-22 02:07:00,blood culture,nan
+945,40310,186361,2021-08-22 02:07:00,sputum,yeast
+946,40310,186361,2021-08-22 02:07:00,urine,nan
+947,40310,186361,2021-08-22 02:07:00,urine,pseudomonas aeruginosa
+948,40310,186361,2021-08-22 02:07:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+949,40310,186361,2021-08-22 02:07:00,blood culture,nan
+950,40310,186361,2021-08-22 02:07:00,sputum,staph aureus coag +
+951,40310,186361,2021-08-22 02:07:00,urine,escherichia coli
+952,40310,186361,2021-08-22 02:07:00,stool,nan
+953,40310,186361,2021-08-22 17:32:00,blood culture,nan
+954,40310,186361,2021-08-22 17:32:00,mini-bal,pseudomonas aeruginosa
+955,40310,186361,2021-08-22 17:32:00,urine,nan
+956,40310,186361,2021-08-23 17:30:00,mrsa screen,positive for methicillin resistant staph aureus
+957,40310,186361,2021-08-23 17:36:00,blood culture,nan
+958,40310,186361,2021-08-24 10:50:00,sputum,staph aureus coag +
+959,40310,186361,2021-08-24 10:50:00,urine,enterobacteriaceae
+960,40310,186361,2021-08-24 10:50:00,mrsa screen,nan
+961,40310,186361,2021-08-24 11:15:00,blood culture,"staphylococcus, coagulase negative"
+962,40310,186361,2021-08-24 20:50:00,swab,"staphylococcus, coagulase negative"
+963,40310,186361,2021-08-25 11:13:00,blood culture,escherichia coli
+964,40310,186361,2021-08-25 17:15:00,blood culture,nan
+965,40310,186361,2021-08-26 09:26:00,peritoneal fluid,nan
+966,40310,186361,2021-08-26 12:05:00,urine,enterobacteriaceae
+967,40310,186361,2021-08-26 12:14:00,swab,escherichia coli
+968,40310,186361,2021-08-26 12:40:00,blood culture,nan
+969,40310,186361,2021-08-26 12:41:00,blood culture,nan
+970,40310,186361,2021-08-26 19:34:00,urine,nan
+971,40310,186361,2021-08-27 22:01:00,mrsa screen,nan
+972,40310,186361,2021-09-12 16:15:00,blood culture,klebsiella pneumoniae
+973,40310,186361,2021-09-12 16:16:00,sputum,yeast
+974,40310,186361,2021-09-12 17:30:00,urine,enterobacteriaceae
+975,40310,186361,2021-09-20 11:00:00,stool,nan
+976,40310,186361,2021-09-22 23:48:00,blood culture,nan
+977,40310,186361,2021-09-23 00:30:00,bronchoalveolar lavage,staph aureus coag +
+978,40310,186361,2021-09-24 08:21:00,mrsa screen,nan
+979,40310,186361,2021-09-24 09:40:00,sputum,pseudomonas aeruginosa
+980,40310,186361,2021-09-26 16:20:00,mini-bal,pseudomonas aeruginosa
+981,40310,186361,2021-10-04 14:06:00,urine,nan
+982,40310,186361,2021-10-04 15:15:00,urine,enterococcus sp.
+983,40310,186361,2021-10-04 20:34:00,sputum,nan
+984,40310,186361,2021-10-25 15:30:00,urine,escherichia coli
+985,40310,186361,2021-10-25 15:30:00,sputum,staph aureus coag +
+986,40310,186361,2021-10-25 15:30:00,mrsa screen,nan
+987,40310,186361,2021-10-25 15:30:00,bile,escherichia coli
+988,40310,186361,2021-10-25 15:30:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+989,40310,186361,2021-10-25 15:30:00,blood culture,proteus mirabilis
+990,40310,186361,2021-10-25 15:30:00,mrsa screen,nan
+991,40310,186361,2021-10-25 15:30:00,blood culture,nan
+992,40310,186361,2021-11-14 17:00:00,blood culture,nan
+993,40310,186361,2021-11-17 14:00:00,urine,nan
+994,40310,186361,2021-11-18 01:15:00,blood culture,nan
+995,40310,186361,2021-11-18 01:40:00,blood culture,nan
+996,40310,186361,2021-11-18 01:55:00,blood culture,nan
+997,40310,186361,2021-11-27 14:03:00,blood culture,nan
+998,40310,157609,2022-01-23 23:11:00,blood culture,corynebacterium species (diphtheroids)
+999,40310,157609,2022-01-23 23:25:00,stool,nan
+1000,40310,157609,2022-01-24 08:45:00,sputum,nan
+1001,40310,157609,2022-01-24 08:45:00,swab,escherichia coli
+1002,40310,157609,2022-01-24 08:45:00,urine,klebsiella oxytoca
+1003,40310,157609,2022-01-24 08:45:00,blood culture,nan
+1004,40310,157609,2022-01-24 08:45:00,swab,escherichia coli
+1005,40310,157609,2022-01-24 08:45:00,blood culture,nan
+1006,40310,157609,2022-01-24 08:45:00,urine,proteus mirabilis
+1007,40310,157609,2022-01-24 08:45:00,sputum,staph aureus coag +
+1008,40310,157609,2022-01-24 17:15:00,blood culture,nan
+1009,40310,157609,2022-01-24 17:15:00,urine,escherichia coli
+1010,40310,157609,2022-01-26 02:24:00,sputum,serratia marcescens
+1011,40310,157609,2022-01-26 02:31:00,blood culture,nan
+1012,40310,157609,2022-01-26 02:31:00,blood culture,nan
+1013,40310,157609,2022-01-27 12:16:00,corneal eye scrapings,"staphylococcus, coagulase negative"
+1014,40456,161765,2023-10-29 14:20:00,urine,enterobacteriaceae
+1015,40456,161765,2023-10-29 14:35:00,sputum,staph aureus coag +
+1016,40456,161765,2023-10-30 15:37:00,sputum,yeast
+1017,40456,161765,2023-10-30 15:37:00,urine,nan
+1018,40456,161765,2023-10-30 17:34:00,swab,escherichia coli
+1019,40503,168803,2020-08-15 20:48:00,sputum,klebsiella pneumoniae
+1020,40595,116518,2019-11-15 14:15:00,urine,escherichia coli
+1021,40595,116518,2019-11-15 14:15:00,urine,nan
+1022,40595,116518,2019-11-15 14:15:00,urine,escherichia coli
+1023,40595,116518,2019-11-15 14:15:00,blood culture ( myco/f lytic bottle),nan
+1024,40595,116518,2019-11-15 14:15:00,sputum,yeast
+1025,40595,116518,2019-11-15 14:15:00,sputum,acinetobacter baumannii complex
+1026,40595,116518,2019-11-15 14:15:00,urine,escherichia coli
+1027,40595,116518,2019-11-15 14:15:00,swab,escherichia coli
+1028,40595,116518,2019-11-15 14:15:00,urine,escherichia coli
+1029,40595,116518,2019-11-15 14:15:00,urine,yeast
+1030,40595,116518,2019-11-17 10:30:00,direct antigen test for herpes simplex virus types 1 & 2,nan
+1031,40595,116518,2019-11-18 08:57:00,swab,staph aureus coag +
+1032,40595,116518,2019-11-19 08:48:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+1033,40595,116518,2019-11-23 02:42:00,urine,klebsiella pneumoniae
+1034,40601,182879,2021-09-13 02:55:00,sputum,proteus mirabilis
+1035,40601,182879,2021-09-13 03:40:00,urine,klebsiella pneumoniae
+1036,40601,182879,2021-09-13 04:00:00,blood culture,nan
+1037,40601,182879,2021-09-13 09:00:00,bile,escherichia coli
+1038,40612,104697,2020-12-20 00:20:00,urine,nan
+1039,40612,104697,2020-12-20 00:45:00,"fluid,other",nan
+1040,40612,104697,2020-12-20 01:15:00,sputum,staph aureus coag +
+1041,40612,104697,2020-12-20 04:46:00,sputum,pseudomonas aeruginosa
+1042,40612,104697,2020-12-20 10:17:00,blood culture,nan
+1043,40612,104697,2020-12-21 01:22:00,sputum,staph aureus coag +
+1044,40612,104697,2020-12-21 06:18:00,urine,enterococcus sp.
+1045,40655,126002,2019-08-18 18:10:00,blood culture,nan
+1046,40655,126002,2019-08-18 18:13:00,corneal eye scrapings,"staphylococcus, coagulase negative"
+1047,40655,126002,2019-08-18 18:13:00,sputum,yeast
+1048,40655,126002,2019-08-18 18:13:00,sputum,acinetobacter baumannii complex
+1049,40655,126002,2019-08-18 18:13:00,blood culture ( myco/f lytic bottle),nan
+1050,40655,126002,2019-08-18 21:30:00,urine,nan
+1051,40655,126002,2019-08-19 03:38:00,bronchoalveolar lavage,gram negative rod(s)
+1052,40655,126002,2019-08-19 21:00:00,sputum,yeast
+1053,40655,126002,2019-08-20 06:05:00,blood culture,nan
+1054,40655,126002,2019-08-20 06:05:00,blood culture,escherichia coli
+1055,40655,126002,2019-08-20 16:09:00,blood culture,enterococcus sp.
+1056,40655,126002,2019-08-20 16:09:00,blood culture,corynebacterium species (diphtheroids)
+1057,40687,129273,2022-04-09 07:20:00,blood culture,"staphylococcus, coagulase negative"
+1058,40687,129273,2022-04-09 10:30:00,swab,nan
+1059,40687,129273,2022-04-09 11:00:00,sputum,klebsiella pneumoniae
+1060,40687,129273,2022-04-10 18:19:00,sputum,klebsiella pneumoniae
+1061,40687,129273,2022-04-11 06:30:00,sputum,staph aureus coag +
+1062,40687,129273,2022-04-12 02:00:00,sputum,acinetobacter baumannii complex
+1063,41795,138132,2021-08-06 03:47:00,stool,nan
+1064,41795,138132,2021-08-06 03:57:00,blood culture,nan
+1065,41795,138132,2021-08-06 04:25:00,urine,klebsiella oxytoca
+1066,41795,138132,2021-08-06 05:00:00,urine,proteus mirabilis
+1067,41795,138132,2021-08-06 07:53:00,blood culture,enterococcus faecalis
+1068,41795,138132,2021-08-09 07:15:00,mrsa screen,nan
+1069,41795,138132,2021-08-09 07:30:00,urine,nan
+1070,41795,138132,2021-08-09 10:54:00,urine,nan
+1071,41795,138132,2021-08-11 17:29:00,csf;spinal fluid,nan
+1072,41795,118192,2021-10-06 07:50:00,blood culture,nan
+1073,41795,118192,2021-10-06 07:50:00,blood culture,anaerobic gram positive rod(s)
+1074,41795,118192,2021-10-06 08:30:00,sputum,staph aureus coag +
+1075,41795,118192,2021-10-06 00:00:00,urine,escherichia coli
+1076,41914,101361,2022-12-31 19:10:00,urine,nan
+1077,41914,101361,2022-12-31 19:44:00,blood culture,"staphylococcus, coagulase negative"
+1078,41914,101361,2022-12-31 22:24:00,sputum,pseudomonas aeruginosa
+1079,41914,101361,2023-01-01 00:52:00,urine,klebsiella pneumoniae
+1080,41914,101361,2023-01-01 00:52:00,mrsa screen,nan
+1081,41914,101361,2023-01-01 00:52:00,blood culture,nan
+1082,41914,101361,2023-01-01 00:52:00,swab,escherichia coli
+1083,41914,101361,2023-01-01 00:52:00,urine,nan
+1084,41914,101361,2023-01-01 00:52:00,blood culture,nan
+1085,41914,101361,2023-01-01 00:52:00,swab,escherichia coli
+1086,41914,101361,2023-01-01 00:52:00,catheter tip-iv,nan
+1087,41914,101361,2023-01-01 00:52:00,urine,escherichia coli
+1088,41914,101361,2023-01-01 00:52:00,sputum,pseudomonas aeruginosa
+1089,41914,101361,2023-01-01 00:52:00,swab,staph aureus coag +
+1090,41914,101361,2023-01-01 00:52:00,sputum,acinetobacter baumannii complex
+1091,41914,101361,2023-01-01 00:52:00,sputum,proteus mirabilis
+1092,41914,101361,2023-01-01 00:52:00,urine,yeast
+1093,41914,101361,2023-01-01 00:52:00,rapid respiratory viral screen & culture,nan
+1094,41914,101361,2023-01-01 00:52:00,urine,nan
+1095,41914,101361,2023-01-01 00:52:00,sputum,pseudomonas aeruginosa
+1096,41914,101361,2023-01-01 00:52:00,blood culture,nan
+1097,41914,101361,2023-01-01 00:52:00,sputum,staph aureus coag +
+1098,41914,101361,2023-01-01 00:52:00,peritoneal fluid,nan
+1099,41914,101361,2023-01-01 03:46:00,blood culture,"staphylococcus, coagulase negative"
+1100,41914,101361,2023-01-01 10:34:00,sputum,pseudomonas aeruginosa
+1101,41914,101361,2023-01-01 11:20:00,urine,klebsiella pneumoniae
+1102,41914,101361,2023-01-01 11:20:00,sputum,staph aureus coag +
+1103,41914,101361,2023-01-02 03:31:00,sputum,escherichia coli
+1104,41914,101361,2023-01-02 11:16:00,sputum,pseudomonas aeruginosa
+1105,41914,101361,2023-01-02 11:16:00,blood (ebv),nan
+1106,41914,101361,2023-01-03 11:24:00,sputum,pseudomonas aeruginosa
+1107,41914,101361,2023-01-03 11:30:00,blood culture,nan
+1108,41914,101361,2023-01-03 13:34:00,mrsa screen,nan
+1109,41914,101361,2023-01-03 13:34:00,sputum,staph aureus coag +
+1110,41914,101361,2023-01-03 13:34:00,mrsa screen,nan
+1111,41914,101361,2023-01-03 16:44:00,blood culture,nan
+1112,41914,101361,2023-01-04 04:50:00,urine,pseudomonas aeruginosa
+1113,41914,101361,2023-01-04 11:21:00,serology/blood,nan
+1114,41914,101361,2023-01-04 16:20:00,blood culture,escherichia coli
+1115,41914,101361,2023-01-05 04:35:00,bronchoalveolar lavage,staph aureus coag +
+1116,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1117,41914,101361,2023-01-05 16:00:00,sputum,staph aureus coag +
+1118,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1119,41914,101361,2023-01-05 16:00:00,swab,corynebacterium species (diphtheroids)
+1120,41914,101361,2023-01-05 16:00:00,blood culture,"staphylococcus, coagulase negative"
+1121,41914,101361,2023-01-05 16:00:00,stool,nan
+1122,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1123,41914,101361,2023-01-05 16:00:00,sputum,escherichia coli
+1124,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1125,41914,101361,2023-01-05 16:00:00,urine,nan
+1126,41914,101361,2023-01-05 16:00:00,blood culture,enterococcus faecium
+1127,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1128,41914,101361,2023-01-05 16:00:00,swab,staph aureus coag +
+1129,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1130,41914,101361,2023-01-05 16:00:00,mrsa screen,nan
+1131,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1132,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1133,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1134,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1135,41914,101361,2023-01-05 16:00:00,catheter tip-iv,nan
+1136,41914,101361,2023-01-05 16:00:00,sputum,proteus mirabilis
+1137,41914,101361,2023-01-05 16:00:00,urine,escherichia coli
+1138,41914,101361,2023-01-05 16:00:00,urine,nan
+1139,41914,101361,2023-01-05 16:00:00,urine,proteus mirabilis
+1140,41914,101361,2023-01-05 16:00:00,swab,nan
+1141,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1142,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1143,41914,101361,2023-01-05 16:00:00,sputum,staph aureus coag +
+1144,41914,101361,2023-01-05 16:00:00,catheter tip-iv,nan
+1145,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1146,41914,101361,2023-01-05 16:00:00,sputum,staph aureus coag +
+1147,41914,101361,2023-01-05 16:00:00,blood culture,enterococcus faecalis
+1148,41914,101361,2023-01-05 16:00:00,swab,staph aureus coag +
+1149,41914,101361,2023-01-05 16:00:00,sputum,yeast
+1150,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1151,41914,101361,2023-01-05 16:00:00,urine,nan
+1152,41914,101361,2023-01-05 16:00:00,blood culture ( myco/f lytic bottle),nan
+1153,41914,101361,2023-01-05 16:00:00,stool,nan
+1154,41914,101361,2023-01-05 16:00:00,sputum,pseudomonas aeruginosa
+1155,41914,101361,2023-01-05 16:00:00,urine,nan
+1156,41914,101361,2023-01-05 16:00:00,bronchoalveolar lavage,staph aureus coag +
+1157,41914,101361,2023-01-05 16:00:00,blood culture,beta streptococcus group b
+1158,41914,101361,2023-01-05 16:00:00,urine,proteus mirabilis
+1159,41914,101361,2023-01-05 16:00:00,sputum,staph aureus coag +
+1160,41914,101361,2023-01-05 16:00:00,mrsa screen,nan
+1161,41914,101361,2023-01-05 16:00:00,urine,enterococcus sp.
+1162,41914,101361,2023-01-05 16:00:00,blood culture,nan
+1163,41914,101361,2023-01-05 16:00:00,blood culture,"staphylococcus, coagulase negative"
+1164,41914,101361,2023-01-05 16:00:00,urine,yeast
+1165,41914,101361,2023-01-05 16:00:00,sputum,nan
+1166,41914,101361,2023-01-05 16:00:00,urine,enterococcus sp.
+1167,41914,101361,2023-01-06 06:05:00,sputum,acinetobacter baumannii complex
+1168,41914,101361,2023-01-06 16:25:00,sputum,staph aureus coag +
+1169,41914,101361,2023-01-08 04:01:00,stool,nan
+1170,41914,101361,2023-01-08 04:01:00,sputum,staph aureus coag +
+1171,41914,101361,2023-01-08 04:20:00,sputum,nan
+1172,41914,101361,2023-01-08 06:18:00,sputum,proteus mirabilis
+1173,41914,101361,2023-01-09 01:55:00,sputum,gram negative rod(s)
+1174,41914,101361,2023-01-09 01:55:00,blood (toxo),nan
+1175,41914,101361,2023-01-09 01:55:00,blood culture ( myco/f lytic bottle),nan
+1176,41914,101361,2023-01-09 01:55:00,urine,proteus mirabilis
+1177,41914,101361,2023-01-09 01:55:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+1178,41914,101361,2023-01-09 01:55:00,sputum,nan
+1179,41914,101361,2023-01-09 01:55:00,urine,klebsiella pneumoniae
+1180,41914,101361,2023-01-09 01:55:00,bronchoalveolar lavage,staph aureus coag +
+1181,41914,101361,2023-01-09 01:55:00,urine,klebsiella oxytoca
+1182,41914,101361,2023-01-09 01:55:00,sputum,serratia marcescens
+1183,41914,101361,2023-01-09 01:55:00,mrsa screen,positive for methicillin resistant staph aureus
+1184,41914,101361,2023-01-09 01:55:00,blood culture,proteus mirabilis
+1185,41914,101361,2023-01-09 01:55:00,sputum,proteus mirabilis
+1186,41914,101361,2023-01-09 01:55:00,blood culture,nan
+1187,41914,101361,2023-01-09 01:55:00,sputum,klebsiella pneumoniae
+1188,41914,101361,2023-01-09 01:55:00,urine,serratia marcescens
+1189,41914,101361,2023-01-09 01:55:00,sputum,yeast
+1190,41914,101361,2023-01-09 01:55:00,sputum,gram negative rod #4
+1191,41914,101361,2023-01-09 01:55:00,urine,nan
+1192,41914,101361,2023-01-09 17:21:00,sputum,nan
+1193,41914,101361,2023-01-10 00:04:00,urine,escherichia coli
+1194,41914,101361,2023-01-10 00:04:00,mini-bal,pseudomonas aeruginosa
+1195,41914,101361,2023-01-10 00:04:00,sputum,staph aureus coag +
+1196,41914,101361,2023-01-10 00:54:00,urine,nan
+1197,41914,101361,2023-01-13 07:00:00,swab,yeast
+1198,41976,125449,2020-12-11 04:40:00,rapid respiratory viral screen & culture,nan
+1199,41976,125449,2020-12-11 05:30:00,blood culture,nan
+1200,41976,125449,2020-12-11 07:30:00,blood culture,nan
+1201,41976,125449,2020-12-11 07:30:00,bronchoalveolar lavage,stenotrophomonas (xanthomonas) maltophilia
+1202,41976,125449,2020-12-11 12:58:00,blood culture,nan
+1203,41976,125449,2020-12-11 14:18:00,urine,nan
+1204,41976,125449,2020-12-13 02:45:00,sputum,nan
+1205,41976,125449,2020-12-17 21:08:00,urine,nan
+1206,41976,173269,2021-02-25 15:10:00,bronchoalveolar lavage,nan
+1207,41976,173269,2021-02-25 15:40:00,mrsa screen,nan
+1208,41976,173269,2021-02-25 15:40:00,swab,escherichia coli
+1209,41976,173269,2021-02-25 15:40:00,mrsa screen,positive for methicillin resistant staph aureus
+1210,41976,173269,2021-02-25 15:40:00,sputum,acinetobacter baumannii complex
+1211,41976,173269,2021-02-25 15:40:00,swab,escherichia coli
+1212,41976,173269,2021-02-25 15:40:00,blood culture,nan
+1213,41976,173269,2021-02-25 15:40:00,blood culture,klebsiella pneumoniae
+1214,41976,173269,2021-02-25 15:40:00,sputum,acinetobacter baumannii complex
+1215,41976,173269,2021-02-25 15:40:00,stool,nan
+1216,41976,173269,2021-02-25 15:40:00,blood culture,nan
+1217,41976,173269,2021-02-25 15:40:00,sputum,nan
+1218,41976,173269,2021-02-25 15:40:00,urine,klebsiella pneumoniae
+1219,41976,173269,2021-02-25 15:40:00,urine,nan
+1220,41976,173269,2021-02-25 15:40:00,blood culture,nan
+1221,41976,173269,2021-02-25 15:40:00,urine,pseudomonas aeruginosa
+1222,41976,173269,2021-02-25 15:40:00,fluid received in blood culture bottles,nan
+1223,41976,173269,2021-02-25 15:50:00,mini-bal,serratia marcescens
+1224,41976,173269,2021-02-25 23:15:00,sputum,staph aureus coag +
+1225,41976,173269,2021-02-25 23:15:00,catheter tip-iv,nan
+1226,41976,173269,2021-02-25 23:15:00,blood culture,nan
+1227,41976,173269,2021-02-26 02:27:00,urine,nan
+1228,41976,173269,2021-02-27 07:48:00,blood culture,nan
+1229,41976,173269,2021-02-27 07:48:00,stool,nan
+1230,41976,176016,2021-03-15 00:00:00,mini-bal,serratia marcescens
+1231,41976,176016,2021-03-15 00:00:00,swab,escherichia coli
+1232,41976,176016,2021-03-15 00:00:00,urine,klebsiella pneumoniae
+1233,41976,176016,2021-03-16 02:40:00,blood culture,nan
+1234,41976,176016,2021-03-16 02:47:00,blood culture,nan
+1235,41976,176016,2021-03-25 07:28:00,sputum,escherichia coli
+1236,41976,176016,2021-03-26 12:01:00,sputum,staph aureus coag +
+1237,41976,172082,2022-04-29 19:15:00,blood culture,"staphylococcus, coagulase negative"
+1238,41976,172082,2022-04-29 19:15:00,swab,staph aureus coag +
+1239,41976,172082,2022-04-29 20:30:00,sputum,staph aureus coag +
+1240,41976,172082,2022-04-29 23:00:00,swab,nan
+1241,41976,172082,2022-04-30 01:46:00,sputum,nan
+1242,41976,172082,2022-04-30 13:23:00,mrsa screen,nan
+1243,41976,172082,2022-04-30 20:58:00,blood culture,nan
+1244,41976,172082,2022-05-01 03:23:00,mini-bal,serratia marcescens
+1245,41976,172082,2022-05-04 21:54:00,mrsa screen,nan
+1246,41976,172082,2022-05-05 16:56:00,blood culture,nan
+1247,41976,172082,2022-05-05 16:56:00,sputum,nan
+1248,41976,172082,2022-05-05 16:56:00,sputum,staph aureus coag +
+1249,41976,172082,2022-05-05 16:56:00,blood culture,streptococcus pneumoniae
+1250,41976,172082,2022-05-05 16:56:00,blood culture,nan
+1251,41976,172082,2022-05-05 16:56:00,urine,yeast
+1252,41976,172082,2022-05-05 16:56:00,sputum,staph aureus coag +
+1253,41976,172082,2022-05-05 17:00:00,peritoneal fluid,nan
+1254,41976,172082,2022-05-05 17:04:00,urine,nan
+1255,41976,172082,2022-05-05 17:15:00,blood culture,nan
+1256,41976,172082,2022-05-06 05:36:00,influenza a/b by dfa,nan
+1257,41976,172082,2022-05-07 03:40:00,blood culture,nan
+1258,41976,172082,2022-05-07 21:46:00,mrsa screen,nan
+1259,41976,152032,2022-07-22 14:48:00,sputum,acinetobacter baumannii complex
+1260,41976,152032,2022-07-22 16:20:00,blood culture,proteus mirabilis
+1261,41976,152032,2022-07-22 16:20:00,sputum,staph aureus coag +
+1262,41976,152032,2022-07-22 16:20:00,blood culture,nan
+1263,41976,152032,2022-07-22 16:20:00,blood culture,nan
+1264,41976,152032,2022-07-22 16:20:00,urine,escherichia coli
+1265,41976,152032,2022-07-22 16:20:00,swab,staph aureus coag +
+1266,41976,152032,2022-07-22 16:20:00,urine,nan
+1267,41976,152032,2022-07-22 16:20:00,urine,yeast
+1268,41976,152032,2022-07-22 16:20:00,swab,escherichia coli
+1269,41976,152032,2022-07-22 16:20:00,catheter tip-iv,nan
+1270,41976,152032,2022-07-22 16:20:00,blood culture,nan
+1271,41976,152032,2022-07-22 18:03:00,blood culture,nan
+1272,41976,152032,2022-07-22 00:00:00,blood culture,nan
+1273,41976,152032,2022-07-23 04:39:00,sputum,acinetobacter baumannii complex
+1274,41976,152032,2022-07-24 12:15:00,stool,nan
+1275,41976,152032,2022-07-24 12:15:00,sputum,acinetobacter baumannii
+1276,41976,130681,2022-12-11 17:50:00,sputum,escherichia coli
+1277,41976,130681,2022-12-11 18:10:00,urine,proteus mirabilis
+1278,41976,130681,2022-12-11 18:30:00,blood culture,nan
+1279,41976,130681,2022-12-11 20:40:00,sputum,acinetobacter baumannii complex
+1280,41976,130681,2022-12-11 20:40:00,mrsa screen,nan
+1281,41976,130681,2022-12-11 20:40:00,blood culture,enterococcus sp.
+1282,41976,130681,2022-12-11 20:40:00,urine,enterobacteriaceae
+1283,41976,130681,2022-12-11 20:40:00,sputum,staph aureus coag +
+1284,41976,130681,2022-12-11 20:40:00,blood culture ( myco/f lytic bottle),nan
+1285,41976,130681,2022-12-11 20:40:00,sputum,nan
+1286,41976,130681,2022-12-11 20:40:00,urine,klebsiella pneumoniae
+1287,41976,130681,2022-12-11 21:13:00,blood culture,beta streptococcus group b
+1288,41976,130681,2022-12-12 00:57:00,mrsa screen,nan
+1289,41976,130681,2022-12-12 01:03:00,sputum,acinetobacter baumannii complex
+1290,41976,130681,2022-12-12 09:16:00,sputum,klebsiella pneumoniae
+1291,41976,130681,2022-12-12 13:46:00,urine,escherichia coli
+1292,41976,130681,2022-12-13 20:27:00,sputum,pseudomonas aeruginosa
+1293,41976,130681,2022-12-14 18:29:00,blood culture,escherichia coli
+1294,41976,180546,2023-06-24 09:15:00,bile,escherichia coli
+1295,41976,180546,2023-06-24 09:15:00,blood culture,nan
+1296,41976,180546,2023-06-24 09:15:00,serology/blood,nan
+1297,41976,180546,2023-06-24 09:15:00,urine,escherichia coli
+1298,41976,180546,2023-06-24 09:15:00,sputum,staph aureus coag +
+1299,41976,180546,2023-06-24 09:15:00,swab,escherichia coli
+1300,41976,180546,2023-06-24 09:15:00,sputum,staph aureus coag +
+1301,41976,180546,2023-06-24 09:15:00,sputum,morganella morganii
+1302,41976,180546,2023-06-24 09:15:00,urine,escherichia coli
+1303,41976,180546,2023-06-24 09:15:00,urine,nan
+1304,41976,180546,2023-06-24 09:15:00,sputum,nan
+1305,41976,180546,2023-06-24 09:15:00,blood culture,nan
+1306,41976,180546,2023-06-24 09:20:00,swab,nan
+1307,41976,180546,2023-06-24 09:50:00,blood culture,nan
+1308,41976,180546,2023-06-24 14:11:00,stool,clostridium difficile
+1309,41976,180546,2023-06-24 16:53:00,sputum,serratia marcescens
+1310,41976,180546,2023-06-24 16:53:00,blood (cmv ab),nan
+1311,41976,180546,2023-06-24 16:53:00,blood culture,nan
+1312,41976,180546,2023-06-24 16:53:00,sputum,staph aureus coag +
+1313,41976,180546,2023-06-24 16:53:00,urine,enterococcus sp.
+1314,41976,180546,2023-06-24 16:53:00,peritoneal fluid,nan
+1315,41976,180546,2023-06-24 16:53:00,sputum,pseudomonas aeruginosa
+1316,41976,180546,2023-06-24 16:53:00,blood culture,nan
+1317,41976,180546,2023-06-24 16:53:00,sputum,escherichia coli
+1318,41976,180546,2023-06-24 16:53:00,urine,enterobacteriaceae
+1319,41976,180546,2023-06-24 16:53:00,swab,nan
+1320,41976,180546,2023-06-24 16:53:00,sputum,morganella morganii
+1321,41976,180546,2023-06-24 16:53:00,blood culture ( myco/f lytic bottle),nan
+1322,41976,180546,2023-06-24 16:53:00,urine,proteus mirabilis
+1323,41976,180546,2023-06-24 16:53:00,blood culture,nan
+1324,41976,180546,2023-06-24 16:53:00,blood culture,nan
+1325,41976,180546,2023-06-24 16:53:00,blood culture,nan
+1326,41976,180546,2023-06-25 05:27:00,urine,klebsiella pneumoniae
+1327,41976,180546,2023-06-25 05:27:00,sputum,nan
+1328,41976,180546,2023-06-25 05:27:00,stool,nan
+1329,41976,180546,2023-06-25 05:27:00,blood culture,nan
+1330,41976,180546,2023-06-25 05:27:00,mrsa screen,nan
+1331,41976,180546,2023-06-25 05:27:00,sputum,gram negative rod(s)
+1332,41976,180546,2023-06-25 05:27:00,blood culture,streptococcus pneumoniae
+1333,41976,180546,2023-06-25 05:27:00,urine,proteus mirabilis
+1334,41976,180546,2023-06-25 05:27:00,urine,enterococcus sp.
+1335,41976,180546,2023-06-25 05:27:00,stool,nan
+1336,41976,180546,2023-06-25 05:27:00,urine,proteus mirabilis
+1337,41976,180546,2023-06-25 05:27:00,bone marrow - cytogenetics,nan
+1338,41976,180546,2023-06-25 05:27:00,mrsa screen,nan
+1339,41976,180546,2023-06-25 05:27:00,urine,klebsiella pneumoniae
+1340,41976,180546,2023-06-25 05:27:00,urine,enterobacteriaceae
+1341,41976,180546,2023-06-25 05:27:00,sputum,proteus mirabilis
+1342,41976,180546,2023-06-25 05:27:00,blood culture,escherichia coli
+1343,41976,180546,2023-06-25 05:27:00,mrsa screen,nan
+1344,41976,180546,2023-06-25 05:27:00,urine,nan
+1345,41976,180546,2023-06-25 05:27:00,urine,nan
+1346,41976,180546,2023-06-25 05:27:00,urine,presumptive streptococcus bovis
+1347,41976,180546,2023-06-25 05:27:00,blood culture,nan
+1348,41976,180546,2023-06-25 05:27:00,blood culture,nan
+1349,41976,180546,2023-06-25 05:27:00,urine,proteus mirabilis
+1350,41976,180546,2023-06-25 05:27:00,urine,escherichia coli
+1351,41976,174863,2023-09-22 17:30:00,blood culture,nan
+1352,41976,174863,2023-09-22 17:40:00,mrsa screen,staph aureus coag +
+1353,41976,174863,2023-09-22 20:47:00,blood culture ( myco/f lytic bottle),"staphylococcus, coagulase negative"
+1354,41976,174863,2023-09-23 11:18:00,urine,escherichia coli
+1355,41976,174863,2023-09-23 11:18:00,blood culture,escherichia coli
+1356,41976,174863,2023-09-23 11:18:00,blood culture,nan
+1357,41976,174863,2023-09-23 11:18:00,joint fluid,nan
+1358,41976,174863,2023-09-23 11:18:00,mrsa screen,positive for methicillin resistant staph aureus
+1359,41976,174863,2023-09-23 11:18:00,blood culture,nan
+1360,41976,174863,2023-09-23 11:18:00,sputum,staph aureus coag +
+1361,41976,174863,2023-09-23 11:18:00,stool,nan
+1362,41976,174863,2023-09-23 11:18:00,mrsa screen,nan
+1363,41976,174863,2023-09-23 11:18:00,fluid received in blood culture bottles,nan
+1364,41976,174863,2023-09-23 11:18:00,blood culture,"staphylococcus, coagulase negative"
+1365,41976,174863,2023-09-23 11:18:00,stool,nan
+1366,41976,174863,2023-09-23 11:18:00,urine,klebsiella pneumoniae
+1367,41976,174863,2023-09-23 11:18:00,urine,escherichia coli
+1368,41976,174863,2023-09-23 11:18:00,blood culture,nan
+1369,41976,174863,2023-09-23 11:18:00,tissue,alpha streptococci
+1370,41976,174863,2023-09-23 11:18:00,sputum,acinetobacter baumannii complex
+1371,41976,174863,2023-09-23 11:18:00,blood culture,escherichia coli
+1372,41976,174863,2023-09-23 11:18:00,blood culture,nan
+1373,41976,174863,2023-09-23 11:18:00,mrsa screen,nan
+1374,41976,174863,2023-09-23 11:18:00,blood culture,nan
+1375,41976,174863,2023-09-23 11:18:00,urine,yeast
+1376,41976,174863,2023-09-23 11:18:00,swab,gram negative rod(s)
+1377,41976,174863,2023-09-23 11:18:00,sputum,morganella morganii
+1378,41976,174863,2023-09-23 11:18:00,urine,escherichia coli
+1379,41976,174863,2023-09-25 04:19:00,pleural fluid,nan
+1380,41976,174863,2023-09-25 04:19:00,blood culture,nan
+1381,41976,125013,2023-11-10 15:09:00,urine,nan
+1382,41976,125013,2023-11-10 15:09:00,sputum,acinetobacter baumannii complex
+1383,41976,125013,2023-11-10 15:09:00,catheter tip-iv,nan
+1384,41976,125013,2023-11-10 15:09:00,sputum,acinetobacter baumannii complex
+1385,41976,125013,2023-11-10 15:09:00,urine,escherichia coli
+1386,41976,125013,2023-11-10 15:09:00,urine,nan
+1387,41976,125013,2023-11-10 15:09:00,urine,klebsiella pneumoniae
+1388,41976,125013,2023-11-10 15:09:00,tissue,presumptive streptococcus bovis
+1389,41976,125013,2023-11-10 15:09:00,skin scrapings,nan
+1390,41976,125013,2023-11-10 15:09:00,fluid received in blood culture bottles,nan
+1391,41976,125013,2023-11-10 15:09:00,bronchoalveolar lavage,staph aureus coag +
+1392,41976,125013,2023-11-10 15:09:00,urine,proteus mirabilis
+1393,41976,125013,2023-11-10 15:15:00,blood culture,nan
+1394,41976,125013,2023-11-10 19:43:00,urine,klebsiella pneumoniae
+1395,41976,125013,2023-11-10 19:43:00,blood culture,nan
+1396,41976,125013,2023-11-10 19:43:00,sputum,"aspergillus sp. not fumigatus, flavus or niger"
+1397,41976,125013,2023-11-10 19:43:00,blood culture,nan
+1398,41976,125013,2023-11-10 19:43:00,urine,pseudomonas aeruginosa
+1399,41976,125013,2023-11-10 19:43:00,urine,klebsiella pneumoniae
+1400,41976,125013,2023-11-10 19:43:00,blood culture,nan
+1401,41976,125013,2023-11-10 19:43:00,urine,escherichia coli
+1402,41976,125013,2023-11-10 19:43:00,blood culture,staph aureus coag +
+1403,41976,125013,2023-11-10 19:43:00,sputum,nan
+1404,41976,125013,2023-11-10 19:43:00,bronchoalveolar lavage,nan
+1405,41976,125013,2023-11-10 19:47:00,sputum,escherichia coli
+1406,41976,125013,2023-11-10 22:39:00,urine,proteus mirabilis
+1407,41976,125013,2023-11-10 00:00:00,throat culture,yeast
+1408,41976,125013,2023-11-11 10:42:00,blood culture,beta streptococcus group b
+1409,41976,125013,2023-11-11 16:32:00,sputum,klebsiella pneumoniae
+1410,41976,155297,2023-12-29 19:45:00,urine,yeast
+1411,41976,155297,2023-12-29 20:25:00,blood culture,streptococcus species
+1412,41976,155297,2023-12-29 20:25:00,blood culture,nan
+1413,41976,155297,2023-12-29 20:25:00,sputum,klebsiella pneumoniae
+1414,41976,155297,2023-12-29 22:10:00,sputum,acinetobacter baumannii complex
+1415,41976,155297,2023-12-29 22:10:00,blood culture,proteus mirabilis
+1416,41976,155297,2023-12-29 22:10:00,urine,nan
+1417,41976,155297,2023-12-29 22:10:00,sputum,staph aureus coag +
+1418,41976,155297,2023-12-29 22:10:00,urine,escherichia coli
+1419,41976,155297,2023-12-29 22:10:00,sputum,acinetobacter baumannii complex
+1420,41976,155297,2023-12-29 22:10:00,sputum,staph aureus coag +
+1421,41976,155297,2023-12-29 22:10:00,mini-bal,serratia marcescens
+1422,41976,155297,2023-12-29 22:10:00,sputum,stenotrophomonas (xanthomonas) maltophilia
+1423,41976,155297,2023-12-29 22:10:00,blood culture,nan
+1424,41976,155297,2023-12-29 22:10:00,blood culture,nan
+1425,41976,155297,2023-12-29 22:10:00,stool,nan
+1426,41976,155297,2023-12-29 22:10:00,stool,nan
+1427,41976,155297,2023-12-29 22:10:00,blood culture,nan
+1428,41976,155297,2023-12-29 22:10:00,urine,nan
+1429,41976,155297,2023-12-29 22:10:00,urine,escherichia coli
+1430,41976,155297,2023-12-29 22:10:00,mini-bal,staph aureus coag +
+1431,41976,155297,2023-12-29 22:10:00,urine,escherichia coli
+1432,41976,155297,2023-12-30 15:52:00,bile,escherichia coli
+1433,42033,154156,2021-08-21 17:00:00,urine,klebsiella pneumoniae
+1434,42033,154156,2021-08-23 05:46:00,urine,escherichia coli
+1435,42066,171628,2019-02-27 05:20:00,serology/blood,nan
+1436,42066,171628,2019-02-27 05:20:00,blood culture,nan
+1437,42066,171628,2019-02-27 05:20:00,blood culture,nan
+1438,42066,171628,2019-02-27 05:20:00,blood culture,nan
+1439,42066,171628,2019-02-27 05:20:00,urine,serratia marcescens
+1440,42066,171628,2019-02-27 05:20:00,blood culture,nan
+1441,42066,171628,2019-02-27 05:20:00,blood culture,nan
+1442,42066,171628,2019-02-27 05:20:00,rapid respiratory viral screen & culture,nan
+1443,42066,171628,2019-02-27 05:20:00,influenza a/b by dfa,nan
+1444,42066,171628,2019-02-27 05:20:00,mrsa screen,nan
+1445,42066,171628,2019-02-27 05:20:00,urine,klebsiella pneumoniae
+1446,42066,171628,2019-02-27 05:20:00,sputum,staph aureus coag +
+1447,42066,171628,2019-02-27 05:20:00,pleural fluid,nan
+1448,42066,171628,2019-02-27 05:20:00,urine,nan
+1449,42066,171628,2019-02-27 05:20:00,mrsa screen,nan
+1450,42066,171628,2019-02-27 05:20:00,blood culture,nan
+1451,42075,151323,2022-03-20 01:15:00,sputum,staph aureus coag +
+1452,42075,151323,2022-03-20 01:27:00,urine,nan
+1453,42075,151323,2022-03-20 01:28:00,blood culture,nan
+1454,42075,151323,2022-03-20 15:20:00,urine,nan
+1455,42075,151323,2022-03-21 08:42:00,blood culture,nan
+1456,42075,151323,2022-03-21 21:45:00,blood culture,nan
+1457,42075,151323,2022-03-21 21:45:00,blood culture ( myco/f lytic bottle),nan
+1458,42075,151323,2022-03-21 21:45:00,urine,nan
+1459,42075,151323,2022-03-21 21:45:00,blood culture,nan
+1460,42075,151323,2022-03-21 21:45:00,sputum,staph aureus coag +
+1461,42075,151323,2022-03-21 21:45:00,sputum,staph aureus coag +
+1462,42075,151323,2022-03-21 21:45:00,urine,providencia stuartii
+1463,42075,151323,2022-03-21 21:45:00,stool,nan
+1464,42075,151323,2022-03-22 07:47:00,blood culture,nan
+1465,42075,151323,2022-03-22 21:18:00,blood culture,nan
+1466,42075,151323,2022-03-22 21:18:00,urine,escherichia coli
+1467,42075,151323,2022-03-23 00:03:00,sputum,acinetobacter baumannii complex
+1468,42075,151323,2022-03-24 04:17:00,fluid received in blood culture bottles,nan
+1469,42075,151323,2022-03-24 17:03:00,urine,nan
+1470,42075,151323,2022-03-25 04:51:00,blood culture,nan
+1471,42075,151323,2022-03-26 11:20:00,blood culture,nan
+1472,42075,151323,2022-03-26 11:20:00,urine,klebsiella pneumoniae
+1473,42075,151323,2022-03-28 14:56:00,swab,"staphylococcus, coagulase negative"
+1474,42075,151323,2022-03-28 14:56:00,mini-bal,pseudomonas aeruginosa
+1475,42075,151323,2022-03-28 14:56:00,urine,enterococcus sp.
+1476,42075,151323,2022-03-28 14:56:00,urine,proteus mirabilis
+1477,42075,151323,2022-03-28 14:56:00,urine,providencia rettgeri
+1478,42075,151323,2022-03-28 14:56:00,urine,staph aureus coag +
+1479,42075,151323,2022-03-28 14:56:00,csf;spinal fluid,nan
+1480,42075,151323,2022-03-28 14:56:00,sputum,morganella morganii
+1481,42075,151323,2022-03-28 14:56:00,swab,escherichia coli
+1482,42075,151323,2022-03-28 14:56:00,sputum,staph aureus coag +
+1483,42075,151323,2022-03-28 14:56:00,urine,pseudomonas aeruginosa
+1484,42075,151323,2022-03-29 04:48:00,peritoneal fluid,nan
+1485,42075,151323,2022-03-29 05:06:00,blood culture,"staphylococcus, coagulase negative"
+1486,42075,151323,2022-03-29 05:07:00,blood culture,nan
+1487,42075,151323,2022-03-29 13:35:00,urine,klebsiella pneumoniae
+1488,42075,151323,2022-03-30 07:06:00,blood culture,nan
+1489,42075,151323,2022-03-30 07:06:00,blood culture ( myco/f lytic bottle),nan
+1490,42075,151323,2022-03-30 07:06:00,urine,proteus mirabilis
+1491,42075,151323,2022-03-30 07:06:00,urine,klebsiella pneumoniae
+1492,42075,151323,2022-03-30 07:06:00,sputum,proteus mirabilis
+1493,42075,151323,2022-03-30 07:06:00,blood culture,escherichia coli
+1494,42075,151323,2022-03-30 07:06:00,mrsa screen,nan
+1495,42075,151323,2022-03-30 07:06:00,sputum,staph aureus coag +
+1496,42075,151323,2022-03-30 07:06:00,urine,providencia rettgeri
+1497,42075,151323,2022-03-30 12:40:00,blood culture,nan
+1498,42075,151323,2022-03-30 14:07:00,urine,escherichia coli
+1499,42075,151323,2022-03-31 05:31:00,catheter tip-iv,nan
+1500,42075,151323,2022-03-31 05:31:00,stool,nan
+1501,42075,151323,2022-03-31 05:31:00,blood culture,nan
+1502,42075,151323,2022-03-31 05:31:00,sputum,pseudomonas aeruginosa
+1503,42075,151323,2022-03-31 05:31:00,blood culture,nan
+1504,42075,151323,2022-03-31 05:31:00,stool,nan
+1505,42075,151323,2022-03-31 05:31:00,swab,enterococcus sp.
+1506,42075,151323,2022-03-31 05:31:00,sputum,pseudomonas aeruginosa
+1507,42075,151323,2022-03-31 05:31:00,mini-bal,pseudomonas aeruginosa
+1508,42075,151323,2022-04-01 05:42:00,blood culture,nan
+1509,42135,102203,2023-08-17 11:52:00,sputum,gram negative rod #2
+1510,42135,102203,2023-08-17 14:00:00,tissue,beta streptococcus group b
+1511,42135,102203,2023-08-18 08:26:00,urine,proteus mirabilis
+1512,42135,102203,2023-08-23 04:00:00,bile,escherichia coli
+1513,42135,102203,2023-08-23 05:56:00,stool,nan
+1514,42135,102203,2023-08-23 05:56:00,urine,nan
+1515,42135,102203,2023-08-23 08:54:00,blood culture,nan
+1516,42135,102203,2023-08-23 08:55:00,blood culture,streptococcus pneumoniae
+1517,42135,102203,2023-08-23 08:55:00,sputum,pseudomonas aeruginosa
+1518,42135,102203,2023-08-23 08:55:00,blood culture,corynebacterium striatum
+1519,42135,102203,2023-08-23 08:55:00,swab,escherichia coli
+1520,42135,102203,2023-08-23 08:55:00,blood culture,nan
+1521,42135,102203,2023-08-23 08:55:00,blood culture,nan
+1522,42135,102203,2023-08-23 08:55:00,blood culture,klebsiella pneumoniae
+1523,42135,102203,2023-08-23 08:55:00,blood culture,nan
+1524,42135,102203,2023-08-23 09:17:00,blood culture,nan
+1525,42135,102203,2023-08-23 11:17:00,sputum,pseudomonas aeruginosa
+1526,42135,102203,2023-08-23 15:04:00,bile,escherichia coli
+1527,42135,102203,2023-08-27 14:01:00,urine,klebsiella pneumoniae
+1528,42135,102203,2023-08-28 10:30:00,blood culture,escherichia coli
+1529,42135,102203,2023-08-28 12:19:00,blood culture,nan
+1530,42135,102203,2023-08-28 12:35:00,sputum,gram negative rod #2
+1531,42135,102203,2023-08-28 12:35:00,urine,escherichia coli
+1532,42135,102203,2023-08-28 15:10:00,blood culture,nan
+1533,42135,117105,2023-10-31 19:44:00,blood culture,proteus mirabilis
+1534,42135,117105,2023-10-31 19:50:00,mrsa screen,nan
+1535,42135,117105,2023-10-31 20:45:00,blood culture,corynebacterium striatum
+1536,42135,117105,2023-11-02 10:16:00,sputum,proteus mirabilis
+1537,42135,117105,2023-11-02 10:16:00,blood culture,nan
+1538,42135,117105,2023-11-02 15:42:00,swab,escherichia coli
+1539,42135,117105,2023-11-03 03:52:00,sputum,staph aureus coag +
+1540,42135,117105,2023-11-03 03:52:00,blood culture,nan
+1541,42135,117105,2023-11-03 03:52:00,urine,escherichia coli
+1542,42135,117105,2023-11-03 03:52:00,mini-bal,staph aureus coag +
+1543,42135,117105,2023-11-03 03:52:00,stool,nan
+1544,42135,117105,2023-11-03 03:52:00,blood culture,nan
+1545,42135,117105,2023-11-03 03:52:00,urine,yeast
+1546,42135,117105,2023-11-03 03:52:00,blood culture,enterococcus faecalis
+1547,42135,117105,2023-11-03 03:52:00,sputum,staph aureus coag +
+1548,42135,117105,2023-11-03 03:52:00,urine,escherichia coli
+1549,42135,117105,2023-11-03 03:52:00,urine,klebsiella oxytoca
+1550,42135,117105,2023-11-03 03:52:00,blood culture,nan
+1551,42135,117105,2023-11-03 03:52:00,urine,nan
+1552,42135,117105,2023-11-03 03:52:00,urine,klebsiella pneumoniae
+1553,42135,117105,2023-11-03 03:52:00,blood culture,nan
+1554,42135,117105,2023-11-03 03:52:00,mini-bal,staph aureus coag +
+1555,42135,117105,2023-11-03 03:52:00,blood culture,staph aureus coag +
+1556,42135,117105,2023-11-03 03:52:00,blood culture,nan
+1557,42135,117105,2023-11-03 03:52:00,mini-bal,pseudomonas aeruginosa
+1558,42135,117105,2023-11-03 03:52:00,blood culture,nan
+1559,42135,117105,2023-11-04 10:21:00,blood culture,nan
+1560,42135,117105,2023-11-04 10:21:00,sputum,staph aureus coag +
+1561,42135,117105,2023-11-04 10:21:00,mrsa screen,positive for methicillin resistant staph aureus
+1562,42135,117105,2023-11-04 10:21:00,urine,klebsiella pneumoniae
+1563,42135,117105,2023-11-04 12:11:00,urine,nan
+1564,42135,117105,2023-11-06 18:32:00,blood culture,nan
+1565,42135,117105,2023-11-10 03:23:00,stool,nan
+1566,42135,117105,2023-11-11 12:27:00,urine,nan
+1567,42135,117105,2023-11-11 17:40:00,urine,yeast
+1568,42135,117105,2023-11-11 17:40:00,blood culture,streptococcus pneumoniae
+1569,42135,117105,2023-11-11 17:40:00,sputum,pseudomonas aeruginosa
+1570,42135,117105,2023-11-11 17:40:00,blood culture,nan
+1571,42135,117105,2023-11-11 17:40:00,blood culture,nan
+1572,42135,117105,2023-11-11 17:40:00,urine,nan
+1573,42135,117105,2023-11-11 17:40:00,sputum,escherichia coli
+1574,42135,117105,2023-11-11 17:40:00,blood culture,nan
+1575,42135,117105,2023-11-11 17:40:00,urine,enterobacteriaceae
+1576,42199,178513,2021-04-15 14:54:00,urine,nan
+1577,42199,178513,2021-04-16 13:04:00,stool,nan
+1578,42199,178513,2021-04-20 14:33:00,blood culture,nan
+1579,42199,178513,2021-04-20 15:14:00,urine,pseudomonas aeruginosa
+1580,42199,178513,2021-04-20 15:38:00,blood culture,klebsiella pneumoniae
+1581,42199,178513,2021-04-20 15:38:00,blood culture,streptococcus pneumoniae
+1582,42199,178513,2021-04-20 15:38:00,swab,nan
+1583,42199,178513,2021-04-20 15:38:00,bronchoalveolar lavage,staph aureus coag +
+1584,42199,178513,2021-04-20 15:38:00,urine,escherichia coli
+1585,42199,178513,2021-04-20 15:38:00,blood culture,nan
+1586,42199,178513,2021-04-20 15:38:00,mrsa screen,nan
+1587,42199,178513,2021-04-20 15:38:00,urine,klebsiella pneumoniae
+1588,42199,178513,2021-04-20 15:38:00,mrsa screen,positive for methicillin resistant staph aureus
+1589,42199,178513,2021-04-20 15:38:00,blood culture,nan
+1590,42199,178513,2021-04-20 15:38:00,swab,escherichia coli
+1591,42199,178513,2021-04-20 15:38:00,sputum,staph aureus coag +
+1592,42231,171878,2023-09-19 22:12:00,sputum,klebsiella pneumoniae
+1593,42231,171878,2023-09-20 05:16:00,blood culture,escherichia coli
+1594,42231,171878,2023-09-24 19:00:00,urine,nan
+1595,42275,128293,2022-11-21 00:36:00,serology/blood,nan
+1596,42275,128293,2022-11-21 00:40:00,bile,escherichia coli
+1597,42275,128293,2022-11-21 03:54:00,urine,nan
+1598,42281,195911,2021-11-09 05:15:00,sputum,acinetobacter baumannii complex
+1599,42281,195911,2021-11-09 12:34:00,catheter tip-iv,nan
+1600,42281,195911,2021-11-11 00:00:00,swab,nan
+1601,42281,195911,2021-11-12 10:40:00,blood culture,"staphylococcus, coagulase negative"
+1602,42281,195911,2021-11-14 16:48:00,urine,proteus mirabilis
+1603,42281,195911,2021-11-14 17:10:00,sputum,pseudomonas aeruginosa
+1604,42281,195911,2021-11-14 17:30:00,sputum,klebsiella pneumoniae
+1605,42281,195911,2021-11-14 17:30:00,sputum,pseudomonas aeruginosa
+1606,42281,195911,2021-11-14 17:30:00,serology/blood,nan
+1607,42281,195911,2021-11-14 17:30:00,sputum,pseudomonas aeruginosa
+1608,42281,195911,2021-11-14 17:30:00,blood culture,nan
+1609,42281,195911,2021-11-14 17:30:00,urine,proteus mirabilis
+1610,42281,195911,2021-11-14 17:30:00,urine,yeast
+1611,42281,195911,2021-11-14 17:30:00,urine,nan
+1612,42281,195911,2021-11-14 17:30:00,blood culture,nan
+1613,42281,195911,2021-11-14 17:30:00,swab,"staphylococcus, coagulase negative"
+1614,42281,195911,2021-11-14 17:30:00,urine,providencia rettgeri
+1615,42281,195911,2021-11-14 17:30:00,swab,probable enterococcus
+1616,42281,195911,2021-11-14 17:30:00,urine,proteus mirabilis
+1617,42281,195911,2021-11-14 17:30:00,sputum,morganella morganii
+1618,42281,195911,2021-11-17 09:05:00,urine,escherichia coli
+1619,42281,195911,2021-11-19 09:05:00,urine,klebsiella oxytoca
+1620,42281,195911,2021-11-19 09:30:00,sputum,acinetobacter baumannii complex
+1621,42281,195911,2021-11-22 17:44:00,urine,nan
+1622,42281,195911,2021-11-22 20:51:00,direct antigen test for herpes simplex virus types 1 & 2,nan
+1623,42281,195911,2021-11-23 06:54:00,sputum,staph aureus coag +
+1624,42281,195911,2021-11-23 12:00:00,urine,nan
+1625,42281,195911,2021-11-23 14:57:00,blood culture,beta streptococcus group b
+1626,42281,195911,2021-11-23 16:49:00,sputum,staph aureus coag +
+1627,42281,195911,2021-11-30 04:10:00,urine,nan
+1628,42292,138503,2022-02-19 01:35:00,stool,nan
+1629,42292,138503,2022-02-19 13:15:00,urine,proteus mirabilis
+1630,42302,167754,2023-06-07 18:14:00,urine,nan
+1631,42302,167754,2023-06-07 20:51:00,urine,pseudomonas aeruginosa
+1632,42321,114648,2023-12-31 23:00:00,sputum,staph aureus coag +
+1633,42321,114648,2023-12-31 23:00:00,blood culture,"staphylococcus, coagulase negative"
+1634,42346,180391,2022-01-19 12:00:00,sputum,staph aureus coag +
+1635,42346,180391,2022-01-19 12:15:00,mrsa screen,nan
+1636,42346,180391,2022-01-19 14:25:00,mrsa screen,positive for methicillin resistant staph aureus
+1637,42346,180391,2022-01-19 14:25:00,blood culture,nan
+1638,42346,180391,2022-01-19 14:25:00,blood culture,nan
+1639,42346,180391,2022-01-19 14:25:00,blood culture,enterococcus faecalis
+1640,42346,180391,2022-01-19 14:25:00,sputum,acinetobacter baumannii complex
+1641,42346,180391,2022-01-19 14:25:00,urine,klebsiella pneumoniae
+1642,42346,180391,2022-01-19 14:25:00,sputum,staph aureus coag +
+1643,42346,180391,2022-01-19 14:25:00,urine,proteus mirabilis
+1644,42346,180391,2022-01-19 14:25:00,mrsa screen,nan
+1645,42346,180391,2022-01-19 14:25:00,stool,nan
+1646,42346,180391,2022-01-19 14:25:00,blood culture,nan
+1647,42346,180391,2022-01-19 14:25:00,blood culture,nan
+1648,42346,180391,2022-01-19 14:25:00,mini-bal,staph aureus coag +
+1649,42346,180391,2022-01-19 14:25:00,urine,nan
+1650,42346,180391,2022-01-19 14:25:00,urine,nan
+1651,42346,180391,2022-01-19 16:01:00,blood culture,nan
+1652,42346,180391,2022-01-19 16:38:00,urine,nan
+1653,42346,180391,2022-01-21 11:00:00,sputum,yeast
+1654,42346,175880,2022-01-29 09:45:00,urine,klebsiella pneumoniae
+1655,42346,175880,2022-01-29 09:45:00,swab,escherichia coli
+1656,42346,175880,2022-01-29 10:00:00,urine,gram positive bacteria
+1657,42346,175880,2022-01-29 14:14:00,sputum,proteus mirabilis
+1658,42367,139932,2023-11-05 17:21:00,blood culture,escherichia coli
+1659,42367,139932,2023-11-08 08:30:00,blood culture,nan
+1660,42367,139932,2023-11-15 05:30:00,sputum,proteus mirabilis
+1661,42367,139932,2023-11-15 05:30:00,urine,klebsiella pneumoniae
+1662,42367,139932,2023-11-15 05:30:00,sputum,escherichia coli
+1663,42367,139932,2023-11-15 05:30:00,blood culture,nan
+1664,42367,139932,2023-11-15 05:30:00,tissue,gram negative rod #2
+1665,42367,139932,2023-11-15 05:30:00,urine,proteus mirabilis
+1666,42367,139932,2023-11-15 05:30:00,"fluid,other",beta streptococcus group b
+1667,42367,139932,2023-11-15 05:30:00,blood culture,streptococcus pneumoniae
+1668,42367,139932,2023-11-15 05:30:00,swab,staph aureus coag +
+1669,42367,139932,2023-11-15 05:30:00,urine,proteus mirabilis
+1670,42367,139932,2023-11-15 05:30:00,urine,klebsiella pneumoniae
+1671,42367,139932,2023-11-15 05:30:00,swab,escherichia coli
+1672,42367,139932,2023-11-15 05:30:00,blood culture,escherichia coli
+1673,42367,139932,2023-11-15 10:15:00,blood culture,klebsiella pneumoniae
+1674,42367,139932,2023-11-15 13:55:00,blood culture,nan
+1675,42367,139932,2023-11-27 17:09:00,urine,escherichia coli
+1676,42367,139932,2023-11-29 10:12:00,sputum,acinetobacter baumannii complex
+1677,42412,114867,2023-01-23 10:50:00,urine,pseudomonas aeruginosa
+1678,42412,114867,2023-01-23 10:50:00,sputum,staph aureus coag +
+1679,42412,114867,2023-01-23 12:40:00,urine,klebsiella oxytoca
+1680,42458,159647,2023-08-20 13:00:00,sputum,escherichia coli
+1681,42458,159647,2023-08-20 14:00:00,mrsa screen,nan
+1682,42458,159647,2023-08-20 14:50:00,blood culture,nan
+1683,42458,159647,2023-08-20 19:42:00,blood culture,nan
+1684,43735,112662,2021-11-30 15:05:00,stool,nan
+1685,43735,112662,2021-11-30 21:36:00,urine,yeast
+1686,43735,112662,2021-12-05 09:39:00,blood culture,nan
+1687,43735,112662,2021-12-05 09:40:00,stool,nan
+1688,43748,121860,2022-05-25 13:20:00,stool,nan
+1689,43748,121860,2022-05-25 16:30:00,blood culture,staph aureus coag +
+1690,43748,121860,2022-05-27 15:35:00,blood culture,nan
+1691,43748,121860,2022-05-28 07:45:00,sputum,acinetobacter baumannii complex
+1692,43798,130870,2019-08-15 04:02:00,blood culture,gram positive rods
+1693,43798,130870,2019-08-16 02:17:00,throat culture,nan
+1694,43827,149950,2023-08-21 23:12:00,blood culture,gram positive coccus(cocci)
+1695,43827,149950,2023-08-22 05:48:00,blood culture,nan
+1696,43870,142633,2023-03-21 18:30:00,urine,pseudomonas aeruginosa
+1697,43870,142633,2023-03-21 18:47:00,sputum,staph aureus coag +
+1698,43870,142633,2023-03-21 18:47:00,blood culture,nan
+1699,43870,142633,2023-03-21 18:47:00,sputum,proteus mirabilis
+1700,43870,142633,2023-03-21 18:47:00,urine,nan
+1701,43870,142633,2023-03-21 18:47:00,urine,gram negative rod(s)
+1702,43870,142633,2023-03-21 18:47:00,blood culture,nan
+1703,43870,142633,2023-03-21 18:47:00,blood culture,"staphylococcus, coagulase negative"
+1704,43870,142633,2023-03-21 18:47:00,urine,nan
+1705,43870,142633,2023-03-21 18:47:00,stool,nan
+1706,43870,142633,2023-03-21 18:47:00,swab,staph aureus coag +
+1707,43870,142633,2023-03-21 18:47:00,urine,yeast
+1708,43870,142633,2023-03-21 18:47:00,sputum,proteus mirabilis
+1709,43870,142633,2023-03-21 18:47:00,blood culture,nan
+1710,43870,142633,2023-03-21 18:47:00,blood culture,nan
+1711,43870,142633,2023-03-21 18:47:00,urine,escherichia coli
+1712,43870,142633,2023-03-21 18:47:00,blood culture,nan
+1713,43870,142633,2023-03-21 18:47:00,mini-bal,serratia marcescens
+1714,43870,142633,2023-03-22 01:32:00,sputum,staph aureus coag +
+1715,43870,142633,2023-03-23 05:32:00,blood culture,"staphylococcus, coagulase negative"
+1716,43870,142633,2023-03-23 09:09:00,swab,escherichia coli
+1717,43870,142633,2023-03-23 10:40:00,sputum,escherichia coli
+1718,43879,158100,2023-09-19 00:00:00,blood culture ( myco/f lytic bottle),nan
+1719,43881,172454,2018-10-15 12:30:00,urine,escherichia coli
+1720,43881,172454,2018-10-15 15:30:00,urine,nan
+1721,43881,172454,2018-10-16 05:00:00,blood culture,nan
+1722,43881,172454,2018-10-17 06:40:00,bronchoalveolar lavage,nan
+1723,43881,172454,2018-10-18 07:15:00,sputum,staph aureus coag +
+1724,43881,172454,2018-10-18 07:15:00,blood culture,nan
+1725,43881,167021,2018-11-14 12:19:00,urine,proteus mirabilis
+1726,43881,167021,2018-11-14 20:20:00,blood culture,nan
+1727,43881,167021,2018-11-14 22:08:00,mrsa screen,nan
+1728,43881,167021,2018-11-15 01:51:00,blood culture,nan
+1729,43909,167612,2023-11-10 17:45:00,sputum,acinetobacter baumannii complex
+1730,43909,167612,2023-11-10 17:45:00,blood culture,nan
+1731,43927,110958,2023-11-08 14:27:00,mrsa screen,positive for methicillin resistant staph aureus
+1732,44083,125157,2023-05-26 21:40:00,blood culture,nan
+1733,44083,125157,2023-05-31 11:55:00,sputum,staph aureus coag +
+1734,44083,131048,2023-06-13 11:57:00,urine,escherichia coli
+1735,44083,131048,2023-06-14 10:40:00,mini-bal,serratia marcescens
+1736,44083,131048,2023-06-14 10:40:00,urine,nan
+1737,44083,131048,2023-06-14 23:37:00,sputum,escherichia coli
+1738,44083,198330,2023-06-19 13:30:00,urine,proteus mirabilis
+1739,44083,198330,2023-06-20 11:00:00,sputum,nan
+1740,44083,198330,2023-06-20 11:00:00,blood culture,nan
+1741,44083,198330,2023-06-20 11:00:00,bronchoalveolar lavage,staph aureus coag +
+1742,44083,198330,2023-06-20 15:30:00,swab,escherichia coli
+1743,44083,198330,2023-06-20 15:30:00,sputum,gram negative rod(s)
+1744,44083,198330,2023-06-20 16:16:00,blood culture,nan
+1745,44083,198330,2023-06-20 16:16:00,sputum,nan
+1746,44083,198330,2023-06-20 16:16:00,blood culture,nan
+1747,44083,198330,2023-06-20 16:16:00,swab,nan
+1748,44083,198330,2023-06-20 16:16:00,urine,nan
+1749,44083,198330,2023-06-20 16:16:00,corneal eye scrapings,"staphylococcus, coagulase negative"
+1750,44083,198330,2023-06-20 16:16:00,sputum,staph aureus coag +
+1751,44083,198330,2023-06-21 17:10:00,csf;spinal fluid,nan
+1752,44154,174245,2020-06-21 17:45:00,mrsa screen,positive for methicillin resistant staph aureus
+1753,44154,174245,2020-06-21 18:00:00,blood culture,bacteroides fragilis group
+1754,44154,174245,2020-06-22 02:41:00,corneal eye scrapings,"staphylococcus, coagulase negative"
+1755,44212,163189,2023-12-18 14:40:00,blood culture,"staphylococcus, coagulase negative"
+1756,44212,163189,2023-12-18 14:40:00,sputum,staph aureus coag +
+1757,44212,163189,2023-12-18 14:40:00,blood culture,nan
+1758,44212,163189,2023-12-18 14:41:00,blood culture,nan
+1759,44212,163189,2023-12-18 14:41:00,swab,enterococcus sp.
+1760,44212,163189,2023-12-19 00:03:00,blood culture ( myco/f lytic bottle),nan
+1761,44212,163189,2023-12-19 01:24:00,urine,escherichia coli
+1762,44212,163189,2023-12-19 05:25:00,sputum,escherichia coli
+1763,44212,163189,2023-12-19 12:16:00,sputum,acinetobacter baumannii complex
+1764,44212,163189,2023-12-20 04:31:00,sputum,staph aureus coag +
+1765,44212,163189,2023-12-20 10:07:00,blood culture,nan
+1766,44212,163189,2023-12-22 14:18:00,blood culture,nan
+1767,44212,163189,2023-12-25 08:40:00,blood culture,nan
+1768,44212,163189,2023-12-25 10:23:00,sputum,yeast
+1769,44212,163189,2023-12-26 04:15:00,sputum,gram negative rod(s)
+1770,44212,163189,2023-12-26 22:23:00,blood culture,nan
+1771,44212,163189,2023-12-27 01:17:00,sputum,escherichia coli
+1772,44212,163189,2023-12-27 04:49:00,sputum,staph aureus coag +
+1773,44212,163189,2023-12-27 13:30:00,urine,enterococcus sp.
+1774,44212,163189,2023-12-27 17:19:00,urine,proteus mirabilis
+1775,44212,163189,2023-12-27 21:47:00,urine,escherichia coli
+1776,44212,163189,2023-12-30 04:48:00,blood culture,nan
+1777,44212,163189,2023-12-30 05:03:00,blood culture,nan
+1778,44212,163189,2023-12-30 15:20:00,stool,nan
+1779,44212,163189,2023-12-31 03:12:00,blood culture,nan
+1780,44222,192189,2023-08-27 09:00:00,blood culture,streptococcus pneumoniae
