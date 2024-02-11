@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sys
 import requests
 sys.path.append('../../')
-from genai import basic_wrap
+from genai import queryOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 import os
@@ -18,11 +18,11 @@ def process_data():
     return jsonify({'processed_text': processed_text})
 
 def process_text(text):
-    response_text = basic_wrap.run_engine(text)
+    response_text = queryOpenAI.run_engine(text)
     response_text = query(response_text)
     counter = 0
     while(response_text == "Invalid query" and counter < 3):
-        response_text = basic_wrap.run_engine("That query was invalid, " + text)
+        response_text = queryOpenAI.run_engine("That query was invalid, " + text)
         response_text = query(response_text)
         counter += 1
     try:
