@@ -5,8 +5,8 @@ require('dotenv').config();
 async function createMessage(messageData, res) {
   await connectDB();
   try {
-    const { prompt, response_text } = messageData.body;
-    const message = new Message({ question:prompt, response:response_text });
+    const { prompt, query, response_text } = messageData.body;
+    const message = new Message({ question:prompt, query:query, response:response_text });
     await message.save();
     return res.status(200).send("Success");
   } catch (e) {

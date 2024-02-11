@@ -6,7 +6,7 @@ function App() {
   const [text, setText] = useState('');
   const [processedText, setProcessedText] = useState('');
   const [messages, setMessages] = useState([]);
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState([]);
 
   const fetchMessages = async () => {
     try {
@@ -26,9 +26,8 @@ function App() {
     try {
       fetchMessages();
       const response = await axios.post('/data', { text });
-      setProcessedText(response.data.processed_text.response_text);
+      setProcessedText(response.data.processed_text);
       setText('');
-      setQuery(response.data.processed_text.response_text_repeated);
     } catch (error) {
       console.error('Error:', error);
     }
@@ -38,59 +37,48 @@ function App() {
     e.preventDefault();
     try {
       fetchMessages();
-      const response = await axios.post('/data-query', { text });
-      setProcessedText(response.data.processed_text.response_text);
-      setText('');
+      const response = await axios.post('/data', { text });
+      setProcessedText(response.data.processed_text);
       setQuery('');
     } catch (error) {
       console.error('Error:', error);
     }
   };
-    return (
-      <div id='outer'>
-        <h1>What health information do you need?</h1>
-        <form id="question-form" onSubmit={handleSubmitText}>
-          <input
-            type="text"
-            id="textInput"
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            placeholder="Enter question"
-          />
-          <input type="submit" value="Submit" />
-        </form>
-        <form id="query-form" onSubmit={handleSubmitQuery}>
-          <input
-            type="text"
-            id="textInput"
-            value={query}
-            onChange={(f) => setQuery(f.target.value)}
-            placeholder="Enter query"
-          />
-          <input type="submit" value="Submit" />
-        </form>
-        <div id="output">{processedText && <p>{processedText}</p>}</div>
-        <div id='most-recent'>
-          <h2>Most Recent Responses:</h2>
+
+  return (
+    <div>
+      <h1>What health information do you need?</h1>
+      <form id="form1" onSubmit={handleSubmitText}>
+        <input
+          type="text"
+          id="textInput"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          placeholder="Enter text"
+        />
+        <input type="submit" value="Submit" />
+      </form>
+      <form id="form2" onSubmit={handleSubmitQuery}>
+        <input
+          type="text"
+          id="textInput"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Enter query"
+        />
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="output">{processedText && <p>{processedText}</p>}</div>
+      <div>
+        <h2>Most Recent Responses:</h2>
+        <ol>
           {messages.map((message, index) => (
-            <div key={index} style={{ marginBottom: '20px' }}>
-              <table>
-                <tbody>
-                  <tr>
-                    <td><strong>Question:</strong></td>
-                    <td>{message.question}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Response:</strong></td>
-                    <td>{message.response}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <li key={index}>{message.question}: {message.response}</li>
           ))}
-        </div>
+        </ol>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default App;
