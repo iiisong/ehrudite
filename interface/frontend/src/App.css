@@ -1,4 +1,7 @@
 /* App.css */
+div {
+  margin: 10px;
+}
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -42,4 +45,19 @@ input[type="submit"]:hover {
 #output p {
   font-size: 18px;
   color: #333;
+}
+
+#most-recent {
+  border: black;
+  padding: 10px;
+  border-style: solid;
+}
+
+#outer {
+  flex: content;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
 }
