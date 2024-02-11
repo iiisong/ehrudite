@@ -1,16 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'
 
 function App() {
   const [text, setText] = useState('');
   const [processedText, setProcessedText] = useState('');
+  const [messages, setMessages] = useState([]);
+
+  const fetchMessages = async () => {
+    try {
+      const response = await axios.get('http://localhost:4000/read-message');
+      setMessages(response.data);
+    } catch (error) {
+      console.error('Error fetching messages:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchMessages();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      fetchMessages();
       const response = await axios.post('/data', { text });
       setProcessedText(response.data.processed_text);
+      setText('');
     } catch (error) {
       console.error('Error:', error);
     }
@@ -30,6 +46,14 @@ function App() {
         <input type="submit" value="Submit" />
       </form>
       <div id="output">{processedText && <p>{processedText}</p>}</div>
+      <div>
+        <h2>Most Recent Responses:</h2>
+        <ol>
+          {messages.map((message, index) => (
+            <li key={index}>{message.question}: {message.response}</li>
+          ))}
+        </ol>
+      </div>
     </div>
   );
 }

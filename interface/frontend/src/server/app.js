@@ -9,6 +9,7 @@ app.use(express.json());
 
 const connectDB = require('./db/connect');
 const createMessage = require('./db/actions/createMessage');
+const readMessage = require('./db/actions/readMessage');
 
 app.post('/create-message', async (req, res) => {
   try {
@@ -16,6 +17,16 @@ app.post('/create-message', async (req, res) => {
     return true;
   } catch {
     return false;
+  }
+});
+
+app.get('/read-message', async (req, res) => {
+  try {
+    const result = await readMessage(req, res);
+    return result;
+  } catch (error) {
+    console.error('Error reading message:', error);
+    return error;
   }
 });
 
