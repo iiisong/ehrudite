@@ -41,8 +41,11 @@ def query(script):
         db= os.getenv("DB_NAME")
     )
     cursor = connection.cursor()
-    cursor.execute(script.upper())
-    return cursor.fetchone()
+    try:
+        cursor.execute(script.upper())
+        return cursor.fetchone()
+    except:
+        return "Invalid query"
 
 if __name__ == '__main__':
     app.run(debug=True)
