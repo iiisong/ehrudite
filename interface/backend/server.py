@@ -84,8 +84,6 @@ def handle_query():
     data = request.get_json()
     query = data['text']
 
-    max_iter = 3
-
     results = conn.execute(sqltext(query)).fetchall()
 
     # results = jsonify({'result': [dict(row) for row in results]})

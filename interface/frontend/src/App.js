@@ -8,6 +8,7 @@ function App() {
   const [messages, setMessages] = useState([]);
   const [query, setQuery] = useState([]);
   const [relqs, setRelqs] = useState([]);
+  const [headers, setHeaders] = useState([]);
 
   const fetchMessages = async () => {
     try {
@@ -28,7 +29,9 @@ function App() {
       fetchMessages();
       const response = await axios.post('/data', { text });
       setProcessedText(response.data.results);
+      setHeaders(response.data.results[0] ? response.data.results[0].map((_, index) => `Column ${index + 1}`) : [])
       setText('');
+      setRelqs(response.data.sim_questions)
     } catch (error) {
       console.error('Error:', error);
     }
@@ -75,7 +78,31 @@ function App() {
         />
         <input type="submit" value="Submit" />
       </form>
-      <div id="output">{processedText && <p>{processedText}</p>}</div>
+      {processedText}
+      {/* {processedText.length > 0 && headers.length > 0 && (
+        <table>
+        <thead>
+          <tr>
+            {headers.map((header, index) => (
+              <th key={index}>{header}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {processedText.map((row, rowIndex) => (
+            <tr key={rowIndex}>
+              {row.map((cell, cellIndex) => {
+                let displayValue = cell;
+                if (typeof cell === 'string' && cell.includes('-')) {
+                  displayValue = new Date(cell).toLocaleDateString();
+                }
+                return <td key={cellIndex}>{displayValue}</td>;
+              })}
+            </tr>
+          ))}
+        </tbody>
+        </table>
+      )} */}
       <div>
       <h2>Most Recent Responses:</h2>
         <ol>
@@ -95,9 +122,9 @@ function App() {
           {relqs?.map((relq, index) => (
             <li key={index}>
               <div onClick={() => handleDropdownClick(index)}>
-                <strong>{relq.question}</strong>
+                <strong>{relq}</strong>
               </div>
-              {relq.isOpen && <p>{relq.query}</p>}
+              {relq.isOpen && <p>{relq}</p>}
             </li>
           ))}
         </ol>
