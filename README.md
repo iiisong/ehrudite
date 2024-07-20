@@ -32,7 +32,7 @@ Our system incorporated a 3-part process to generate the most accurate result po
 
 <table border="0">
  <tr>
-    <td valign="top">
+    <td valign="top" style="width:50%">
         <h3>1. Sentence Transformers Precomputation Curration</h3> 
         Sentence transformers are used to identify the 10-20 most similar English statements from the EHR-SQL dataset. This helps us currate a selection of relevant precomputed question queries that we can pass alongside our primary query to achieve drastically improved accuracy and consistency.
         </br>
@@ -47,7 +47,7 @@ Our system incorporated a 3-part process to generate the most accurate result po
         </br>
         - Perfect for limited scopes such as EHRs
     </td>
-    <td><img src="assets/pipline process.png?raw=true" alt="EHRudite RAG process pipline developed by students at Georgia Tech for a 36 hour hackathon" width="2200"></td>
+    <td style="width:50%"><img src="assets/pipline process.png?raw=true" alt="EHRudite RAG process pipline developed by students at Georgia Tech for a 36 hour hackathon"></td>
  </tr>
 </table>
 
