@@ -47,7 +47,7 @@ Our system incorporated a 3-part process to generate the most accurate result po
         </br>
         - Perfect for limited scopes such as EHRs
     </td>
-    <td valign="top"><img src="assets/pipline process.png?raw=true" alt="EHRudite RAG process pipline developed by students at Georgia Tech for a 36 hour hackathon" width="1700"></td>
+    <td><img src="assets/pipline process.png?raw=true" alt="EHRudite RAG process pipline developed by students at Georgia Tech for a 36 hour hackathon" width="2200"></td>
  </tr>
 </table>
 
